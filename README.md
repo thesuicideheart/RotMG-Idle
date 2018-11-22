@@ -1,0 +1,2 @@
+# something-with-lootboxes
+Yes
