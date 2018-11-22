@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace MysteryBox.Core
 {
-    public static class GameData
+    public class GameData
     {
+
+        public static Dictionary<string, Item> ItemsInGame = new Dictionary<string, Item>();
+
+        public static void Init()
+        {
+
+        }
+        
+
 
     }
 }

@@ -4,319 +4,319 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T0 Iron Mail.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T1 Chainmail.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T10 Vengeance Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T11 Abyssal Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T12 Acropolis Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T12 Almandine Armor of Anger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T13 Dominion Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T13 Fire Dragon Battle Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T14 Annihilation Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T2 Blue Steel Mail.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T3 Silver Chainmail.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T4 Golden Chainmail.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T5 Plate Mail.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T6 Mithril Chainmail.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T7 Mithril Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T8 Dragonscale Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T9 Desolation Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T0 Wolfskin Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T1 Leather Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T10 Hippogriff Hide Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T11 Griffon Hide Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T12 Hydra Skin Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T13 Leaf Dragon Hide Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T13 Wyrmhide Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T14 Leviathan Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T2 Basilisk Hide Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T3 Minotaur Hide Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T4 Bearskin Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T5 Chimera Hide Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T6 Wyvern Skin Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T7 Studded Leather Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T8 Drake Hide Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Leather/T9 Roc Leather Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T0 Robe of the Neophyte.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T1 Robe of the Apprentice.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T10 Robe of the Moon Wizard.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T11 Robe of the Elder Warlock.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T12 Robe of the Grand Sorcerer.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T12 Robe of the Summer Solstice.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T13 Robe of the Star Mother.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T13 Water Dragon Silk Robe.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T14 Robe of the Ancient Intellect.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T2 Robe of the Acolyte.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T3 Robe of the Student.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T4 Robe of the Conjurer.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T5 Robe of the Adept.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T6 Robe of the Invoker.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T7 Robe of the Illusionist.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T8 Robe of the Master.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Robe/T9 Robe of the Shadow Magus.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Admin Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Admin Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Admin Katana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Admin Staff.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Admin Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Admin Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Almandine Ring of Wrath.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/America Ring.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Amulet of Drakefyre.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Amulet of Resurrection.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ancient Spell Pierce.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ancient Stone Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Annoying Firecracker Katana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Apocalypse Feather.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Arbiters Wrath.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Barely Attuned Magic Thingy.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Bone Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Book of Geb.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Bow of the Morning Star.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Bracer of the Gaurdian.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Bronze Medal.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Candy Ring.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Candy-Coated Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Captain's Ring.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Celestial Blade.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Chasuble of Holy Light.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Cheater Heavy Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Cheater Light Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Cheater Robe.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Chicken Leg of Doom.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Cloak of the Planewalker.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Clover Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Conducting Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Coral Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Coral Ring.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Coral Silk Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Coral Venom Trap.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Cracked Crystal Skull.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Crown.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Crystal Bone Ring.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Crystal Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Crystal Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Demon Blade.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Dirk of Cronus.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Doctor Swordsworth.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Doku No Ken.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Doom Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Enchanted Ice Blade.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Enchanted Ice Shard.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Eternal Snowflake Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Etherite Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Experimental Ring.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Fairy Plate.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Freezing Quiver.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Frimarra.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Frost Citadel Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Frost Drake Hide Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Frost Elementalist Robe.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Frozen Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Geb's Ring of Wisdom.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ghastly Drape.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ghostly Prism.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Gold Medal.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Harlequin Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Helm of Draconic Dominance.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Helm of the Juggernaut.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/HoneyScepter.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ice Crown.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Indomptable.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/KoalaPOW.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Leaf Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Lethargic Sentience.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Mantle of Skuld.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Midnight Star.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Murky Toxin.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Onyx Shield of the Mad God.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Orb of Conflict.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Orb of Sweet Demise.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Penetrating Blast Spell.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Pirate King's Cutlass.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Pixie-Enchanted Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Plague Poison.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Poison Fang Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Precisely Calibrated Stringstick.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Prism of Dancing Swords.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Prism of Dire Instability.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Quiver of Thunder.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ray Katana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Resurrected Warrior's Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ring of Divine Faith.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ring of Minor Defense.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ring of Pure Wishes.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ring of the Burning Sun.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ring of the Covetous Heart.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ring of the Nile.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ring of the Northern Light.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ring of the Pyramid.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ring of the Sphinx.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ring of Unbound Health.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Ring Pop.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Robe of the Mad Scientist.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Robe of the Tlatoani.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Robobow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Scepter of Fulmination.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Scepter of Geb.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Seal of Blasphemous Prayer.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Seal of the Enchanted Forest.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Sentient Staff.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Sewer Cocktail.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Shendyt of Geb.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Shield of Ogmur.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Silver Medal.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Skull of Endless Torment.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Skullish Remains of Esben.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Snake Eye Ring.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Snake Skin Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Snake Skin Shield.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Soul of the Bearer.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Soulless Robe.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Spectral Cloth Armor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Spectral Ring of Horrors.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Spicy Wand of Spice.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Spider's Eye Ring.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Spirit Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Spiteful Scutum.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Sprite Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Staff of Esben.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Staff of Extreme Prejudice.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Staff of the Crystal Serpent.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Strike Amulet.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Sunshine Shiv.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Sword of Illumination.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Sword of the Rainbow's End.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Tablet of the King's Avatar.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/The Forgotten Crown.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/The Forgotten Ring.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/The Phylactery.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/The Robe of Twilight.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/The Twilight Gemstone.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Thousand Shot.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Thousand Suns Spell.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Tome of Frigid Protection.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Tome of Holy Protection.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Tome of Purification.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Toy Knife.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Unstable Anomaly.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Useless Katana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Void Blade.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Zaarvox's Heart.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T0 Shortbow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T1 Reinforced Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T10 Bow of Fey Magic.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T11 Bow of Eternal Frost.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T11 Bow of Innocent Blood.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T11 Bow of Nightmares.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T12 Bow of Covert Havens.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T13 Bow of Mystical Energy.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T14 Bow of Deep Enchantment.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T2 Crossbow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T3 Greywood Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T4 Ironwood Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T5 Fire Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T6 Double Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T7 Heavy Crossbow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T8 Golden Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T9 Cupid's Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Bows/T9 Verdant Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T0 Steel Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T1 Dirk.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T10 Emeraldshard Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T11 Agateclaw Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T11 An Icicle.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T11 Dagger of the Terrible Talon.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T12 Dagger of Foul Malevolence.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T12 Dagger of the Amethyst Prism.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T13 Dagger of Sinister Deeds.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T14 Dagger of Dire Hatred.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T2 Blue Steel Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T3 Dusky Rose Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T4 Silver Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T5 Golden Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T6 Obsidian Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T7 Mithril Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T8 Fire Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T9 Heartfind Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Dagger/T9 Ragetalon Dagger.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T0 Rusty Katana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T1 Kendo Stick.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T10 Ichimonji.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T11 Corrupted Cleaver.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T11 Muramasa.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T11 Salju.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T12 Masamune.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T13 Sadamune.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T2 Plain Katana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T3 Thunder Katana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T4 Line Kutter Katana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T5 Night Edge.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T6 Sky Edge.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T7 Buster Katana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T8 Demon Edge.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T9 Diamond Bladed Katana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T9 Jewel Eye Katana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T0 Anatis Staff.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T0 Energy Staff.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T1 Firebrand Staff.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T10 Staff of Diabolic Secrets.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T11 Staff of Astral Knowledge.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T11 Staff of Horrific Knowledge.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T11 Staff of Yuletide Carols.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T12 Staff of the Cosmic Whole.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T12 Staff of the Rising Sun.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T13 Staff of the Vital Unity.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T14 Staff of the Fundamental Core.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T2 Comet Staff.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T3 Serpentine Staff.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T4 Meteor Staff.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T5 Slayer Staff.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T6 Avenger Staff.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T7 Staff of Destruction.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T8 Staff of Horror.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T9 Staff of Adoration.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Staves/T9 Staff of Necrotic Arcana.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T0 Short Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T1 Broad Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T10 Archon Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T11 Frostbite.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T11 Skull-splitter Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T11 Skysplitter Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T12 Sword of Acclaim.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T12 Sword of the Mad God.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T13 Sword of Splendor.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T14 Sword of Majesty.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T2 Saber.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T3 Long Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T4 Falchion.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T5 Fire Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T6 Glass Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T7 Golden Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T8 Ravenheart Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T9 Dragonsoul Sword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Sword/T9 Vinesword.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T0 Fire Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T1 Force Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T10 Wand of Shadow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T11 Present Dispensing Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T11 Wand of Ancient Terror.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T11 Wand of Ancient Warning.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T12 Wand of Recompense.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T13 Wand of Evocation.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T14 Wand of Retribution.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T2 Power Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T3 Missile Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T4 Eldritch Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T5 Hell's Fire Wand.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T6 Wand of Dark Magic.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T7 Wand of Arcane Flame.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T8 Wand of Death.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T9 Wand of Budding Romance.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T9 Wand of Budding.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Wand/T9 Wand of Deep Sorcery.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Pre-Amulet of Resurrection.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/UTs/Arctic Bow.png</File>
-    <File>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/font.spritefont</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T0 Iron Mail.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T1 Chainmail.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T10 Vengeance Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T11 Abyssal Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T12 Acropolis Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T12 Almandine Armor of Anger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T13 Dominion Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T13 Fire Dragon Battle Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T14 Annihilation Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T2 Blue Steel Mail.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T3 Silver Chainmail.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T4 Golden Chainmail.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T5 Plate Mail.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T6 Mithril Chainmail.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T7 Mithril Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T8 Dragonscale Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T9 Desolation Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T0 Wolfskin Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T1 Leather Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T10 Hippogriff Hide Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T11 Griffon Hide Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T12 Hydra Skin Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T13 Leaf Dragon Hide Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T13 Wyrmhide Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T14 Leviathan Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T2 Basilisk Hide Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T3 Minotaur Hide Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T4 Bearskin Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T5 Chimera Hide Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T6 Wyvern Skin Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T7 Studded Leather Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T8 Drake Hide Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T9 Roc Leather Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T0 Robe of the Neophyte.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T1 Robe of the Apprentice.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T10 Robe of the Moon Wizard.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T11 Robe of the Elder Warlock.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T12 Robe of the Grand Sorcerer.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T12 Robe of the Summer Solstice.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T13 Robe of the Star Mother.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T13 Water Dragon Silk Robe.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T14 Robe of the Ancient Intellect.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T2 Robe of the Acolyte.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T3 Robe of the Student.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T4 Robe of the Conjurer.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T5 Robe of the Adept.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T6 Robe of the Invoker.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T7 Robe of the Illusionist.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T8 Robe of the Master.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Robe/T9 Robe of the Shadow Magus.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Admin Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Admin Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Admin Katana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Admin Staff.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Admin Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Admin Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Almandine Ring of Wrath.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/America Ring.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Amulet of Drakefyre.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Amulet of Resurrection.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ancient Spell Pierce.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ancient Stone Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Annoying Firecracker Katana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Apocalypse Feather.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Arbiters Wrath.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Barely Attuned Magic Thingy.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Bone Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Book of Geb.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Bow of the Morning Star.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Bracer of the Gaurdian.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Bronze Medal.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Candy Ring.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Candy-Coated Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Captain's Ring.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Celestial Blade.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Chasuble of Holy Light.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Cheater Heavy Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Cheater Light Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Cheater Robe.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Chicken Leg of Doom.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Cloak of the Planewalker.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Clover Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Conducting Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Coral Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Coral Ring.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Coral Silk Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Coral Venom Trap.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Cracked Crystal Skull.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Crown.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Crystal Bone Ring.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Crystal Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Crystal Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Demon Blade.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Dirk of Cronus.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Doctor Swordsworth.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Doku No Ken.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Doom Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Enchanted Ice Blade.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Enchanted Ice Shard.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Eternal Snowflake Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Etherite Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Experimental Ring.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Fairy Plate.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Freezing Quiver.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Frimarra.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Frost Citadel Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Frost Drake Hide Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Frost Elementalist Robe.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Frozen Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Geb's Ring of Wisdom.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ghastly Drape.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ghostly Prism.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Gold Medal.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Harlequin Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Helm of Draconic Dominance.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Helm of the Juggernaut.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/HoneyScepter.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ice Crown.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Indomptable.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/KoalaPOW.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Leaf Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Lethargic Sentience.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Mantle of Skuld.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Midnight Star.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Murky Toxin.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Onyx Shield of the Mad God.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Orb of Conflict.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Orb of Sweet Demise.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Penetrating Blast Spell.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Pirate King's Cutlass.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Pixie-Enchanted Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Plague Poison.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Poison Fang Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Precisely Calibrated Stringstick.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Prism of Dancing Swords.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Prism of Dire Instability.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Quiver of Thunder.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ray Katana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Resurrected Warrior's Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ring of Divine Faith.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ring of Minor Defense.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ring of Pure Wishes.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ring of the Burning Sun.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ring of the Covetous Heart.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ring of the Nile.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ring of the Northern Light.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ring of the Pyramid.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ring of the Sphinx.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ring of Unbound Health.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Ring Pop.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Robe of the Mad Scientist.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Robe of the Tlatoani.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Robobow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Scepter of Fulmination.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Scepter of Geb.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Seal of Blasphemous Prayer.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Seal of the Enchanted Forest.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Sentient Staff.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Sewer Cocktail.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Shendyt of Geb.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Shield of Ogmur.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Silver Medal.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Skull of Endless Torment.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Skullish Remains of Esben.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Snake Eye Ring.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Snake Skin Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Snake Skin Shield.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Soul of the Bearer.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Soulless Robe.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Spectral Cloth Armor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Spectral Ring of Horrors.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Spicy Wand of Spice.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Spider's Eye Ring.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Spirit Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Spiteful Scutum.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Sprite Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Staff of Esben.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Staff of Extreme Prejudice.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Staff of the Crystal Serpent.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Strike Amulet.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Sunshine Shiv.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Sword of Illumination.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Sword of the Rainbow's End.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Tablet of the King's Avatar.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/The Forgotten Crown.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/The Forgotten Ring.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/The Phylactery.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/The Robe of Twilight.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/The Twilight Gemstone.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Thousand Shot.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Thousand Suns Spell.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Tome of Frigid Protection.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Tome of Holy Protection.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Tome of Purification.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Toy Knife.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Unstable Anomaly.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Useless Katana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Void Blade.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Zaarvox's Heart.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T0 Shortbow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T1 Reinforced Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T10 Bow of Fey Magic.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T11 Bow of Eternal Frost.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T11 Bow of Innocent Blood.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T11 Bow of Nightmares.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T12 Bow of Covert Havens.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T13 Bow of Mystical Energy.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T14 Bow of Deep Enchantment.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T2 Crossbow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T3 Greywood Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T4 Ironwood Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T5 Fire Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T6 Double Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T7 Heavy Crossbow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T8 Golden Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T9 Cupid's Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Bows/T9 Verdant Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T0 Steel Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T1 Dirk.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T10 Emeraldshard Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T11 Agateclaw Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T11 An Icicle.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T11 Dagger of the Terrible Talon.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T12 Dagger of Foul Malevolence.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T12 Dagger of the Amethyst Prism.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T13 Dagger of Sinister Deeds.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T14 Dagger of Dire Hatred.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T2 Blue Steel Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T3 Dusky Rose Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T4 Silver Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T5 Golden Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T6 Obsidian Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T7 Mithril Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T8 Fire Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T9 Heartfind Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Dagger/T9 Ragetalon Dagger.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T0 Rusty Katana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T1 Kendo Stick.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T10 Ichimonji.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T11 Corrupted Cleaver.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T11 Muramasa.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T11 Salju.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T12 Masamune.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T13 Sadamune.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T2 Plain Katana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T3 Thunder Katana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T4 Line Kutter Katana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T5 Night Edge.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T6 Sky Edge.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T7 Buster Katana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T8 Demon Edge.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T9 Diamond Bladed Katana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T9 Jewel Eye Katana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T0 Anatis Staff.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T0 Energy Staff.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T1 Firebrand Staff.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T10 Staff of Diabolic Secrets.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T11 Staff of Astral Knowledge.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T11 Staff of Horrific Knowledge.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T11 Staff of Yuletide Carols.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T12 Staff of the Cosmic Whole.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T12 Staff of the Rising Sun.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T13 Staff of the Vital Unity.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T14 Staff of the Fundamental Core.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T2 Comet Staff.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T3 Serpentine Staff.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T4 Meteor Staff.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T5 Slayer Staff.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T6 Avenger Staff.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T7 Staff of Destruction.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T8 Staff of Horror.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T9 Staff of Adoration.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Staves/T9 Staff of Necrotic Arcana.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T0 Short Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T1 Broad Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T10 Archon Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T11 Frostbite.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T11 Skull-splitter Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T11 Skysplitter Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T12 Sword of Acclaim.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T12 Sword of the Mad God.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T13 Sword of Splendor.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T14 Sword of Majesty.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T2 Saber.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T3 Long Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T4 Falchion.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T5 Fire Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T6 Glass Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T7 Golden Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T8 Ravenheart Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T9 Dragonsoul Sword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T9 Vinesword.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T0 Fire Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T1 Force Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T10 Wand of Shadow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T11 Present Dispensing Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T11 Wand of Ancient Terror.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T11 Wand of Ancient Warning.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T12 Wand of Recompense.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T13 Wand of Evocation.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T14 Wand of Retribution.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T2 Power Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T3 Missile Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T4 Eldritch Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T5 Hell's Fire Wand.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T6 Wand of Dark Magic.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T7 Wand of Arcane Flame.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T8 Wand of Death.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T9 Wand of Budding Romance.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T9 Wand of Budding.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Wand/T9 Wand of Deep Sorcery.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Pre-Amulet of Resurrection.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/UTs/Arctic Bow.png</File>
+    <File>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/font.spritefont</File>
   </SourceFiles>
 </SourceFileCollection>

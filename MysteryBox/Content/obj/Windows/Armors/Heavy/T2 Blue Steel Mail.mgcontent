@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Armors/Heavy/T2 Blue Steel Mail.png</SourceFile>
-  <SourceTime>2018-11-22T11:06:29.1770882+01:00</SourceTime>
-  <DestFile>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/bin/Windows/Armors/Heavy/T2 Blue Steel Mail.xnb</DestFile>
-  <DestTime>2018-11-22T13:04:30.8505283+01:00</DestTime>
+  <SourceFile>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Heavy/T2 Blue Steel Mail.png</SourceFile>
+  <SourceTime>2018-11-22T15:22:25.3171963+01:00</SourceTime>
+  <DestFile>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/bin/Windows/Armors/Heavy/T2 Blue Steel Mail.xnb</DestFile>
+  <DestTime>2018-11-22T15:33:47.0180505+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

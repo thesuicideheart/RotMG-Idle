@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/Weapons/Katanas/T1 Kendo Stick.png</SourceFile>
-  <SourceTime>2018-11-22T11:06:29.9323287+01:00</SourceTime>
-  <DestFile>C:/Users/IT_1337/source/repos/RotMG/MysteryBox/Content/bin/Windows/Weapons/Katanas/T1 Kendo Stick.xnb</DestFile>
-  <DestTime>2018-11-22T13:04:33.0356164+01:00</DestTime>
+  <SourceFile>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Katanas/T1 Kendo Stick.png</SourceFile>
+  <SourceTime>2018-11-22T15:22:25.4073475+01:00</SourceTime>
+  <DestFile>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/bin/Windows/Weapons/Katanas/T1 Kendo Stick.xnb</DestFile>
+  <DestTime>2018-11-22T15:33:48.5314578+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
