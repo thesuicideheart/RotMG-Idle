@@ -8,6 +8,9 @@ namespace MysteryBox.Core
 {
     public static class GameData
     {
+        public static void Init()
+        {
 
+        }
     }
 }
