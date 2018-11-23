@@ -47,7 +47,8 @@ namespace MysteryBox
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            Sprites.Load(Content);
+            GameData.Init();
             graphics.PreferredBackBufferWidth = Option.Width;
             graphics.PreferredBackBufferHeight = Option.Height;
             graphics.ApplyChanges();
@@ -83,7 +84,6 @@ namespace MysteryBox
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            Sprites.Load(Content);
             font = Content.Load<SpriteFont>("font");
 
             // TODO: use this.Content to load your game content here

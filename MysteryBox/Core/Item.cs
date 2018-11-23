@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MysteryBox.Core
 {
-    class Item
+    public class Item
     {
+        public string Name;
+        public int Value;
     }
 }

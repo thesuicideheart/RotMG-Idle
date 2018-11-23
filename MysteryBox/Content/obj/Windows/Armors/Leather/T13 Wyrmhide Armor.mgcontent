@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<<<<<<< HEAD:MysteryBox/Content/obj/Windows/Armors/Leather/T13 Wyrmhide Armor.mgcontent
   <SourceFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/Content/Armors/Leather/T13 Wyrmhide Armor.png</SourceFile>
   <SourceTime>2018-11-22T11:06:29.2139894+01:00</SourceTime>
   <DestFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/Content/bin/Windows/Armors/Leather/T13 Wyrmhide Armor.xnb</DestFile>
   <DestTime>2018-11-22T15:15:02.7967285+01:00</DestTime>
+=======
+  <SourceFile>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T13 Wyrmhide Armor.png</SourceFile>
+  <SourceTime>2018-11-22T15:22:25.3223375+01:00</SourceTime>
+  <DestFile>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/bin/Windows/Armors/Leather/T13 Wyrmhide Armor.xnb</DestFile>
+  <DestTime>2018-11-22T15:33:47.1328262+01:00</DestTime>
+>>>>>>> 78500f41a3e853e35e85d281bcad663e3a9b0beb:MysteryBox/Content/obj/Windows/Armors/Leather/T13 Wyrmhide Armor.mgcontent
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
