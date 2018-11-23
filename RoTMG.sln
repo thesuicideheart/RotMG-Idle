@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysteryBox", "MysteryBox\MysteryBox.csproj", "{A7C7F2E9-1D2F-4B2F-B8D0-491AE2C75C3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C7F2E9-1D2F-4B2F-B8D0-491AE2C75C3D}.Debug|x86.ActiveCfg = Debug|x86
+		{A7C7F2E9-1D2F-4B2F-B8D0-491AE2C75C3D}.Debug|x86.Build.0 = Debug|x86
+		{A7C7F2E9-1D2F-4B2F-B8D0-491AE2C75C3D}.Release|x86.ActiveCfg = Release|x86
+		{A7C7F2E9-1D2F-4B2F-B8D0-491AE2C75C3D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74B4A370-E576-4D1A-80B8-6B837EC056D5}
+	EndGlobalSection
+EndGlobal

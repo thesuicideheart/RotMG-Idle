@@ -415,8 +415,28 @@
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
     <None Include="Content\GameData.json" />
+    <None Include="Content\Items\Swords\Ancient Stone Sword.json" />
+    <None Include="Content\Items\Swords\Archon Sword.json" />
+    <None Include="Content\Items\Swords\Broad Sword.json" />
+    <None Include="Content\Items\Swords\Crystal Sword.json" />
+    <None Include="Content\Items\Swords\Demon Blade.json" />
+    <None Include="Content\Items\Swords\Dragonsoul Sword.json" />
+    <None Include="Content\Items\Swords\Falchion.json" />
+    <None Include="Content\Items\Swords\Fire Sword.json" />
+    <None Include="Content\Items\Swords\Glass Sword.json" />
+    <None Include="Content\Items\Swords\Golden Sword.json" />
+    <None Include="Content\Items\Swords\Long Sword.json" />
+    <None Include="Content\Items\Swords\Pirate King%27s Cutlass.json" />
+    <None Include="Content\Items\Swords\Ravenheart Sword.json" />
+    <None Include="Content\Items\Swords\Saber.json" />
+    <None Include="Content\Items\Swords\Short Sword.json" />
+    <None Include="Content\Items\Swords\Skysplitter Sword.json" />
+    <None Include="Content\Items\Swords\Sword of Acclaim.json" />
+    <None Include="Content\Items\Swords\Sword of Splendor.json" />
+    <None Include="Content\Items\Swords\Sword of the Colossus.json" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
