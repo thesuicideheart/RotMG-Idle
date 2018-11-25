@@ -66,8 +66,9 @@ namespace MysteryBox
 
 
             List<LootboxItem> items = new List<LootboxItem> {
-                new LootboxItem("verts_item",0,50000),
-                new LootboxItem("test_item",50000,100000)
+                new LootboxItem("verts_item",0,40000),
+                new LootboxItem("mindless_item",40000,80000),
+                new LootboxItem("test_item",80000,100000)
             };
 
 

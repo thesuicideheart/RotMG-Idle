@@ -29,6 +29,8 @@ namespace MysteryBox.Core
 
         public void OpenBox(LootBox lootBox, List<InventoryItem> inventory)
         {
+            if (Active) return;
+
             Active = true;
 
             BoxToOpen = lootBox;

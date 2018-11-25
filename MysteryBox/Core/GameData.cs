@@ -15,6 +15,7 @@ namespace MysteryBox.Core
         {
             AddItem(new Item("verts_item","Verts OP item",1000,Rarity.Mystical, "Dirk of Cronus"));
             AddItem(new Item("test_item", "Test item", 10, Rarity.Common, "Gold Medal"));
+            AddItem(new Item("mindless_item", "Mindless's custom item", 100, Rarity.Legendary, "Shield of Ogmur"));
         }
 
         public static void AddItem(Item item)

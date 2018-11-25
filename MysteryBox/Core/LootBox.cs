@@ -10,12 +10,10 @@ namespace MysteryBox.Core
     {
         
         public List<LootboxItem> Items = new List<LootboxItem>();
-        public int ItemCount;
         
         public LootBox(List<LootboxItem> items)
         {
             Items = items;
-            ItemCount = Items.Count-1;
         }
         
 
