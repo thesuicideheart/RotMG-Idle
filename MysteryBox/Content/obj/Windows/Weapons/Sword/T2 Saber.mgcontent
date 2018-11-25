@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<<<<<<< HEAD:MysteryBox/Content/obj/Windows/Weapons/Sword/T2 Saber.mgcontent
-  <SourceFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/Content/Weapons/Sword/T2 Saber.png</SourceFile>
-  <SourceTime>2018-11-22T11:06:30.1158718+01:00</SourceTime>
-  <DestFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/Content/bin/Windows/Weapons/Sword/T2 Saber.xnb</DestFile>
-  <DestTime>2018-11-22T15:15:04.8389845+01:00</DestTime>
-=======
-  <SourceFile>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T2 Saber.png</SourceFile>
-  <SourceTime>2018-11-22T15:22:25.4242855+01:00</SourceTime>
-  <DestFile>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/bin/Windows/Weapons/Sword/T2 Saber.xnb</DestFile>
-  <DestTime>2018-11-22T15:33:48.8554151+01:00</DestTime>
->>>>>>> 78500f41a3e853e35e85d281bcad663e3a9b0beb:MysteryBox/Content/obj/Windows/Weapons/Sword/T2 Saber.mgcontent
+  <SourceFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T2 Saber.png</SourceFile>
+  <SourceTime>2018-11-25T02:49:41.7740507+01:00</SourceTime>
+  <DestFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/bin/Windows/Weapons/Sword/T2 Saber.xnb</DestFile>
+  <DestTime>2018-11-25T02:52:59.0227358+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

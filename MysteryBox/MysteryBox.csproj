@@ -7,7 +7,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{A7C7F2E9-1D2F-4B2F-B8D0-491AE2C75C3D}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MysteryBox</RootNamespace>
     <AssemblyName>MysteryBox</AssemblyName>
@@ -40,13 +40,18 @@
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Core\Button.cs" />
     <Compile Include="Core\GameData.cs" />
     <Compile Include="Core\InputManager.cs" />
     <Compile Include="Core\Inventory.cs" />
     <Compile Include="Core\InventoryItem.cs" />
     <Compile Include="Core\Item.cs" />
     <Compile Include="Core\LootBox.cs" />
+    <Compile Include="Core\LootBoxAnimationHandler.cs" />
     <Compile Include="Core\LootboxItem.cs" />
     <Compile Include="Core\Utils.cs" />
     <Compile Include="Game1.cs" />
@@ -138,13 +143,11 @@
     <Content Include="Content\UTs\Admin Staff.png" />
     <Content Include="Content\UTs\Admin Sword.png" />
     <Content Include="Content\UTs\Admin Wand.png" />
-    <Content Include="Content\UTs\Almandine Armor of Anger.png" />
     <Content Include="Content\UTs\Almandine Ring of Wrath.png" />
     <Content Include="Content\UTs\America Ring.png" />
     <Content Include="Content\UTs\Amulet of Drakefyre.png" />
     <Content Include="Content\UTs\Amulet of Resurrection.png" />
     <Content Include="Content\UTs\Pre-Amulet of Resurrection.png" />
-    <Content Include="Content\UTs\An Icicle.png" />
     <Content Include="Content\UTs\Ancient Spell Pierce.png" />
     <Content Include="Content\UTs\Ancient Stone Sword.png" />
     <Content Include="Content\UTs\Annihilation Armor.png" />
@@ -152,7 +155,6 @@
     <Content Include="Content\UTs\Apocalypse Feather.png" />
     <Content Include="Content\UTs\Arbiters Wrath.png" />
     <Content Include="Content\UTs\Arctic Bow.png" />
-    <Content Include="Content\UTs\Artic Bow.png" />
     <Content Include="Content\UTs\Barely Attuned Magic Thingy.png" />
     <Content Include="Content\UTs\Bone Dagger.png" />
     <Content Include="Content\UTs\Book of Geb.png" />

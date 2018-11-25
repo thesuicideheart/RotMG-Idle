@@ -25,16 +25,21 @@ namespace MysteryBox
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        public List<LootboxItem> Items = new List<LootboxItem>();
+        public List<InventoryItem> Items = new List<InventoryItem>();
 
-        SpriteFont font;
+        LootBoxAnimationHandler LootBoxAnimationHandler;
 
-        InputManager input;
+        public SpriteFont font,TimerFont;
+
+        public InputManager input;
+
+        public static Game1 Instance;
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            Instance = this;
         }
         LootBox box;
 
@@ -48,7 +53,6 @@ namespace MysteryBox
         {
             // TODO: Add your initialization logic here
             Sprites.Load(Content);
-            GameData.Init();
             graphics.PreferredBackBufferWidth = Option.Width;
             graphics.PreferredBackBufferHeight = Option.Height;
             graphics.ApplyChanges();
@@ -58,21 +62,19 @@ namespace MysteryBox
             input = new InputManager(this);
             this.Components.Add(input);
             base.Initialize();
+            GameData.Init();
 
 
             List<LootboxItem> items = new List<LootboxItem> {
-                new LootboxItem("Ya yeet!",0,1000),
-                new LootboxItem("Oh boie!",1000,20000),
-                new LootboxItem("Yeah man!",20000,35000),
-                new LootboxItem("For fuck sake",35000,65000),
-                new LootboxItem("God dammit",65000,85000),
-                new LootboxItem("Holy lord please fuck me",85000,90000),
-                new LootboxItem("Unholy satan. Yikes",90000, 95000),
-                new LootboxItem("Boi.",95000, 100000)
+                new LootboxItem("verts_item",0,50000),
+                new LootboxItem("test_item",50000,100000)
             };
 
+
+
             box = new LootBox(items);
-            
+
+            LootBoxAnimationHandler = new LootBoxAnimationHandler();
         }
 
         /// <summary>
@@ -85,6 +87,7 @@ namespace MysteryBox
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             font = Content.Load<SpriteFont>("font");
+            TimerFont = Content.Load<SpriteFont>("TimerFont");
 
             // TODO: use this.Content to load your game content here
         }
@@ -110,10 +113,11 @@ namespace MysteryBox
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+            LootBoxAnimationHandler.Update();
+
             if (input.JustPressed(Keys.F))
             {
-                var item = box.GetItem();
-                Items.Add(item);
+                LootBoxAnimationHandler.OpenBox(box, Items);
             }
 
             base.Update(gameTime);
@@ -125,20 +129,36 @@ namespace MysteryBox
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
 
             spriteBatch.Begin(samplerState: SamplerState.PointClamp);
 
-            for(int i = 0; i < Items.Count; i++)
+            LootBoxAnimationHandler.Draw(spriteBatch);
+
+            for (int i = 0; i < Items.Count; i++)
             {
-                drawString(Items[i].ItemId, 0, 30 * i);
+                //Todo: Debug this
+                var item = GameData.GetItemFromId(Items[i].ItemID);
+                Vector2 position = new Vector2();
+                position.X = 0;
+                position.Y = 40 * i;
+
+                drawString(item.Name, (int)position.X + 40, (int)position.Y + 10);
+                draw(item.GetTexture(), new Rectangle((int)position.X, (int)position.Y, 40, 40));
+                spriteBatch.DrawRectangle(new RectangleF(position.X, position.Y, Option.Width, 40), Color.Black, 3);
+
             }
 
             spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+
+        public void draw(Texture2D texture, Rectangle rect)
+        {
+            spriteBatch.Draw(texture, rect, Color.White);
         }
 
         public void drawString(string text, int x, int y)

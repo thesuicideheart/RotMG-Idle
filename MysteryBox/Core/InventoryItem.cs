@@ -8,5 +8,25 @@ namespace MysteryBox.Core
 {
     public class InventoryItem
     {
+
+        public int Count;
+        public string ItemID;
+
+        public InventoryItem()
+        {
+
+        }
+
+        public InventoryItem(string id, int count)
+        {
+            ItemID = id;
+            Count = count;
+        }
+
+        public static InventoryItem CreateInventoryItemFromLootboxItem(LootboxItem lootboxItem)
+        {
+            return new InventoryItem(lootboxItem.ItemId, 1);
+        }
+
     }
 }

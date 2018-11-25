@@ -18,6 +18,8 @@ namespace MysteryBox.Core
             ItemCount = Items.Count-1;
         }
         
+
+
         public LootboxItem GetItem()
         {
             //Vi skal generere et tilfældigt nummer mellem 0 og 100.000

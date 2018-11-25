@@ -25,8 +25,6 @@ namespace MysteryBox.Core
             MinNum = min;
             MaxNum = max;
         }
-
-
-
+        
     }
 }

@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<<<<<<< HEAD:MysteryBox/Content/obj/Windows/Weapons/Sword/T7 Golden Sword.mgcontent
-  <SourceFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/Content/Weapons/Sword/T7 Golden Sword.png</SourceFile>
-  <SourceTime>2018-11-22T11:06:30.1377813+01:00</SourceTime>
-  <DestFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/Content/bin/Windows/Weapons/Sword/T7 Golden Sword.xnb</DestFile>
-  <DestTime>2018-11-22T15:15:04.8828979+01:00</DestTime>
-=======
-  <SourceFile>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T7 Golden Sword.png</SourceFile>
-  <SourceTime>2018-11-22T15:22:25.4252829+01:00</SourceTime>
-  <DestFile>C:/Users/IT_1337/Desktop/RotMG stuf/RoTMG/something-with-lootboxes/MysteryBox/Content/bin/Windows/Weapons/Sword/T7 Golden Sword.xnb</DestFile>
-  <DestTime>2018-11-22T15:33:48.8906061+01:00</DestTime>
->>>>>>> 78500f41a3e853e35e85d281bcad663e3a9b0beb:MysteryBox/Content/obj/Windows/Weapons/Sword/T7 Golden Sword.mgcontent
+  <SourceFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T7 Golden Sword.png</SourceFile>
+  <SourceTime>2018-11-25T02:49:41.7760455+01:00</SourceTime>
+  <DestFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/bin/Windows/Weapons/Sword/T7 Golden Sword.xnb</DestFile>
+  <DestTime>2018-11-25T02:52:59.0630214+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -3777,3 +3777,10 @@
 /processorParam:TextureFormat=Compressed
 /build:font.spritefont
 
+#begin TimerFont.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:TimerFont.spritefont
+
