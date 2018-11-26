@@ -101,11 +101,80 @@ namespace MysteryBox.Core
                 if (ShouldOpenBox)
                 {
                     var rect = new RectangleF(80, 80, Option.Width - (80 * 2), Option.Height - (80 * 2));
-                    batch.FillRectangle(rect, Color.CadetBlue);
 
-                    batch.DrawString(Game1.Instance.font, "Youre opening a box D:", new Vector2(rect.Width / 2, rect.Height / 2), Color.White);
+
+
+                    batch.DrawRectangle(rect, GameData.BorderColor, 5);
+
+
+
+                    #region top and bottom bars
+
+                    batch.Draw
+                        (Sprites.GetTexture("middle"),
+                        new Rectangle((int)(rect.X + Sprites.GetTexture("LeftSide").Width),
+                        (int)rect.Y - (Sprites.GetTexture("LeftSide").Height / 2),
+                        432,
+                        Sprites.GetTexture("middle").Height),
+                        Color.White);
+
+                    batch.Draw
+                        (Sprites.GetTexture("middle"),
+                        new Rectangle((int)(rect.X + Sprites.GetTexture("LeftSide").Width),
+                        (int)(rect.Y + rect.Height) - (Sprites.GetTexture("LeftSide").Height / 2) + 1,
+                        432,
+                        Sprites.GetTexture("middle").Height),
+                        Color.White);
+
+                    batch.Draw(
+                        Sprites.GetTexture("LeftSide"),
+                        new Rectangle((int)(rect.X),
+                        (int)rect.Y - (Sprites.GetTexture("LeftSide").Height / 2) - 1,
+                        Sprites.GetTexture("LeftSide").Width,
+                        Sprites.GetTexture("LeftSide").Height),
+                        Color.White);
+
+                    batch.Draw(
+                        Sprites.GetTexture("LeftSide"),
+                        new Rectangle((int)(rect.X),
+                        (int)(rect.Y + rect.Height) - (Sprites.GetTexture("LeftSide").Height / 2),
+                        Sprites.GetTexture("LeftSide").Width,
+                        Sprites.GetTexture("LeftSide").Height),
+                        Color.White);
+
+
+                    batch.Draw(
+                        Sprites.GetTexture("RightSide"),
+                        new Rectangle((int)(rect.X + rect.Width - Sprites.GetTexture("RightSide").Width),
+                        (int)rect.Y - (Sprites.GetTexture("RightSide").Height / 2) - 1,
+                        Sprites.GetTexture("RightSide").Width,
+                        Sprites.GetTexture("RightSide").Height),
+                        Color.White);
+
+                    batch.Draw(
+                        Sprites.GetTexture("RightSide"),
+                        new Rectangle((int)(rect.X + rect.Width - Sprites.GetTexture("RightSide").Width),
+                        (int)(rect.Y + rect.Height) - (Sprites.GetTexture("RightSide").Height / 2),
+                        Sprites.GetTexture("RightSide").Width,
+                        Sprites.GetTexture("RightSide").Height),
+                        Color.White);
+                    #endregion
+
+
+                    batch.DrawString(Game1.Instance.TimerFont, $"You're opening {BoxToOpen.Name}!", new Vector2(rect.Width / 2 - 64, rect.Height / 2), Color.White);
+
+                    batch.Draw(
+                        Sprites.GetTexture("item_slot"),
+                        new Rectangle((int)(rect.Width / 2 + (Sprites.GetTexture("item_slot").Width / 2)),
+                        (int)(rect.Height / 2 + (Sprites.GetTexture("item_slot").Height / 2)),
+                        Sprites.GetTexture("item_slot").Width,
+                        Sprites.GetTexture("item_slot").Height),
+                        Color.White
+                        );
+
                     if (!ShouldHideTimer)
                         batch.DrawString(Game1.Instance.TimerFont, $"{TimerNumber}", new Vector2(rect.Width / 2, rect.Height / 2 + 50), Color.White);
+
                     if (ItemToReturn != null)
                     {
                         //draw the item here

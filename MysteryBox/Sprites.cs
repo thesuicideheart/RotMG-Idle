@@ -29,6 +29,7 @@ namespace MysteryBox
             var leahterArmors = Directory.GetFiles("Content\\Armors\\Leather");
             var robes = Directory.GetFiles("Content\\Armors\\Robe");
             var untiered = Directory.GetFiles("Content\\UTs");
+            var GUI = Directory.GetFiles("Content\\GUI");
 
             #region Load in weapon textures
 
@@ -109,7 +110,7 @@ namespace MysteryBox
             }
 
             #endregion
-
+            
             #region Untiered items
 
             foreach (var item in untiered)
@@ -120,11 +121,21 @@ namespace MysteryBox
 
             #endregion
 
+            #region GUI
+
+            foreach(var file in GUI)
+            {
+                var fileName = Path.GetFileNameWithoutExtension(file);
+                textures.Add(fileName, content.Load<Texture2D>("GUI\\"+Path.GetFileNameWithoutExtension(file)));
+            }
+
+            #endregion
 
         }
 
         public static Texture2D GetTexture(string filename)
         {
+
             return textures[filename];
         }
 

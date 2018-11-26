@@ -73,7 +73,7 @@ namespace MysteryBox
 
 
 
-            box = new LootBox(items);
+            box = new LootBox("Test crate", items);
 
             LootBoxAnimationHandler = new LootBoxAnimationHandler();
         }
@@ -137,20 +137,6 @@ namespace MysteryBox
             spriteBatch.Begin(samplerState: SamplerState.PointClamp);
 
             LootBoxAnimationHandler.Draw(spriteBatch);
-
-            for (int i = 0; i < Items.Count; i++)
-            {
-                //Todo: Debug this
-                var item = GameData.GetItemFromId(Items[i].ItemID);
-                Vector2 position = new Vector2();
-                position.X = 0;
-                position.Y = 40 * i;
-
-                drawString(item.Name, (int)position.X + 40, (int)position.Y + 10);
-                draw(item.GetTexture(), new Rectangle((int)position.X, (int)position.Y, 40, 40));
-                spriteBatch.DrawRectangle(new RectangleF(position.X, position.Y, Option.Width, 40), Color.Black, 3);
-
-            }
 
             spriteBatch.End();
 

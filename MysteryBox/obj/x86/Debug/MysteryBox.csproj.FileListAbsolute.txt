@@ -1029,3 +1029,353 @@ C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86
 C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
 C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\obj\x86\Debug\MysteryBox.csproj.CopyComplete
 C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\TimerFont.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T0 Fire Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T1 Force Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T10 Wand of Shadow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T11 Present Dispensing Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T11 Wand of Ancient Terror.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T11 Wand of Ancient Warning.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T12 Wand of Recompense.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T13 Wand of Evocation.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T14 Wand of Retribution.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T2 Power Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T3 Missile Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T4 Eldritch Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T5 Hell's Fire Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T6 Wand of Dark Magic.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T7 Wand of Arcane Flame.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T8 Wand of Death.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T9 Wand of Budding Romance.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T9 Wand of Budding.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Wand\T9 Wand of Deep Sorcery.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T0 Short Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T1 Broad Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T10 Archon Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T11 Frostbite.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T11 Skull-splitter Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T11 Skysplitter Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T12 Sword of Acclaim.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T12 Sword of the Mad God.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T13 Sword of Splendor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T14 Sword of Majesty.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T2 Saber.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T3 Long Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T4 Falchion.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T5 Fire Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T6 Glass Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T7 Golden Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T8 Ravenheart Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T9 Dragonsoul Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Sword\T9 Vinesword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T0 Anatis Staff.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T0 Energy Staff.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T1 Firebrand Staff.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T10 Staff of Diabolic Secrets.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T11 Staff of Astral Knowledge.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T11 Staff of Horrific Knowledge.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T11 Staff of Yuletide Carols.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T12 Staff of the Cosmic Whole.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T12 Staff of the Rising Sun.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T13 Staff of the Vital Unity.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T14 Staff of the Fundamental Core.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T2 Comet Staff.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T3 Serpentine Staff.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T4 Meteor Staff.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T5 Slayer Staff.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T6 Avenger Staff.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T7 Staff of Destruction.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T8 Staff of Horror.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T9 Staff of Adoration.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Staves\T9 Staff of Necrotic Arcana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T0 Rusty Katana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T1 Kendo Stick.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T10 Ichimonji.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T11 Corrupted Cleaver.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T11 Muramasa.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T11 Salju.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T12 Masamune.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T13 Sadamune.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T2 Plain Katana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T3 Thunder Katana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T4 Line Kutter Katana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T5 Night Edge.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T6 Sky Edge.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T7 Buster Katana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T8 Demon Edge.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T9 Diamond Bladed Katana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Katanas\T9 Jewel Eye Katana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T0 Steel Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T1 Dirk.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T10 Emeraldshard Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T11 Agateclaw Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T11 An Icicle.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T11 Dagger of the Terrible Talon.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T12 Dagger of Foul Malevolence.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T12 Dagger of the Amethyst Prism.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T13 Dagger of Sinister Deeds.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T14 Dagger of Dire Hatred.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T2 Blue Steel Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T3 Dusky Rose Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T4 Silver Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T5 Golden Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T6 Obsidian Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T7 Mithril Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T8 Fire Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T9 Heartfind Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Dagger\T9 Ragetalon Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Admin Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Admin Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Admin Katana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Admin Staff.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Admin Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Admin Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Almandine Ring of Wrath.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\America Ring.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Amulet of Drakefyre.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Amulet of Resurrection.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ancient Spell Pierce.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ancient Stone Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Annoying Firecracker Katana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Apocalypse Feather.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Arbiters Wrath.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Arctic Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Barely Attuned Magic Thingy.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Bone Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Book of Geb.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Bow of the Morning Star.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Bracer of the Gaurdian.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Bronze Medal.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Candy Ring.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Candy-Coated Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Captain's Ring.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Celestial Blade.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Chasuble of Holy Light.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Cheater Heavy Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Cheater Light Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Cheater Robe.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Chicken Leg of Doom.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Cloak of the Planewalker.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Clover Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Conducting Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Coral Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Coral Ring.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Coral Silk Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Coral Venom Trap.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Cracked Crystal Skull.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Crown.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Crystal Bone Ring.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Crystal Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Crystal Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Demon Blade.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Dirk of Cronus.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Doctor Swordsworth.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Doku No Ken.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Doom Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Enchanted Ice Blade.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Enchanted Ice Shard.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Eternal Snowflake Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Etherite Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Experimental Ring.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Fairy Plate.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Freezing Quiver.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Frimarra.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Frost Citadel Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Frost Drake Hide Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Frost Elementalist Robe.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Frozen Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Geb's Ring of Wisdom.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ghastly Drape.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ghostly Prism.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Gold Medal.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Harlequin Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Helm of Draconic Dominance.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Helm of the Juggernaut.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\HoneyScepter.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ice Crown.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Indomptable.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\KoalaPOW.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Leaf Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Lethargic Sentience.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Mantle of Skuld.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Midnight Star.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Murky Toxin.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Onyx Shield of the Mad God.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Orb of Conflict.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Orb of Sweet Demise.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Penetrating Blast Spell.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Pirate King's Cutlass.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Pixie-Enchanted Sword.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Plague Poison.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Poison Fang Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Pre-Amulet of Resurrection.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Precisely Calibrated Stringstick.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Prism of Dancing Swords.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Prism of Dire Instability.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Quiver of Thunder.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ray Katana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Resurrected Warrior's Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ring of Divine Faith.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ring of Minor Defense.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ring of Pure Wishes.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ring of the Burning Sun.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ring of the Covetous Heart.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ring of the Nile.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ring of the Northern Light.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ring of the Pyramid.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ring of the Sphinx.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ring of Unbound Health.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Ring Pop.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Robe of the Mad Scientist.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Robe of the Tlatoani.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Robobow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Scepter of Fulmination.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Scepter of Geb.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Seal of Blasphemous Prayer.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Seal of the Enchanted Forest.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Sentient Staff.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Sewer Cocktail.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Shendyt of Geb.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Shield of Ogmur.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Silver Medal.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Skull of Endless Torment.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Skullish Remains of Esben.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Snake Eye Ring.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Snake Skin Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Snake Skin Shield.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Soul of the Bearer.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Soulless Robe.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Spectral Cloth Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Spectral Ring of Horrors.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Spicy Wand of Spice.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Spider's Eye Ring.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Spirit Dagger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Spiteful Scutum.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Sprite Wand.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Staff of Esben.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Staff of Extreme Prejudice.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Staff of the Crystal Serpent.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Strike Amulet.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Sunshine Shiv.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Sword of Illumination.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Sword of the Rainbow's End.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Tablet of the King's Avatar.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\The Forgotten Crown.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\The Forgotten Ring.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\The Phylactery.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\The Robe of Twilight.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\The Twilight Gemstone.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Thousand Shot.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Thousand Suns Spell.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Tome of Frigid Protection.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Tome of Holy Protection.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Tome of Purification.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Toy Knife.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Unstable Anomaly.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Useless Katana.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Void Blade.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\UTs\Zaarvox's Heart.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T0 Shortbow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T1 Reinforced Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T10 Bow of Fey Magic.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T11 Bow of Eternal Frost.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T11 Bow of Innocent Blood.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T11 Bow of Nightmares.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T12 Bow of Covert Havens.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T13 Bow of Mystical Energy.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T14 Bow of Deep Enchantment.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T2 Crossbow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T3 Greywood Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T4 Ironwood Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T5 Fire Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T6 Double Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T7 Heavy Crossbow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T8 Golden Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T9 Cupid's Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Weapons\Bows\T9 Verdant Bow.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T0 Robe of the Neophyte.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T1 Robe of the Apprentice.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T10 Robe of the Moon Wizard.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T11 Robe of the Elder Warlock.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T12 Robe of the Grand Sorcerer.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T12 Robe of the Summer Solstice.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T13 Robe of the Star Mother.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T13 Water Dragon Silk Robe.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T14 Robe of the Ancient Intellect.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T2 Robe of the Acolyte.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T3 Robe of the Student.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T4 Robe of the Conjurer.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T5 Robe of the Adept.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T6 Robe of the Invoker.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T7 Robe of the Illusionist.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T8 Robe of the Master.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Robe\T9 Robe of the Shadow Magus.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T0 Wolfskin Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T1 Leather Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T10 Hippogriff Hide Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T11 Griffon Hide Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T12 Hydra Skin Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T13 Leaf Dragon Hide Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T13 Wyrmhide Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T14 Leviathan Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T2 Basilisk Hide Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T3 Minotaur Hide Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T4 Bearskin Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T5 Chimera Hide Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T6 Wyvern Skin Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T7 Studded Leather Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T8 Drake Hide Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Leather\T9 Roc Leather Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\CornerPiece.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\LeftSide.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\middle.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\RightSide.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T0 Iron Mail.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T1 Chainmail.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T10 Vengeance Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T11 Abyssal Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T12 Acropolis Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T12 Almandine Armor of Anger.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T13 Dominion Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T13 Fire Dragon Battle Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T14 Annihilation Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T2 Blue Steel Mail.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T3 Silver Chainmail.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T4 Golden Chainmail.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T5 Plate Mail.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T6 Mithril Chainmail.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T7 Mithril Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T8 Dragonscale Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Armors\Heavy\T9 Desolation Armor.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\font.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\TimerFont.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\MysteryBox.exe
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\MysteryBox.pdb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\MonoGame.Extended.dll
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Newtonsoft.Json.dll
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\MonoGame.Extended.pdb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\MonoGame.Extended.xml
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Newtonsoft.Json.xml
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\obj\x86\Debug\MysteryBox.csprojResolveAssemblyReference.cache
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\obj\x86\Debug\MysteryBox.csproj.CoreCompileInputs.cache
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\obj\x86\Debug\MysteryBox.csproj.CopyComplete
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\obj\x86\Debug\MysteryBox.exe
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\obj\x86\Debug\MysteryBox.pdb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\item_slot.xnb

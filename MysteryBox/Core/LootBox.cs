@@ -10,9 +10,12 @@ namespace MysteryBox.Core
     {
         
         public List<LootboxItem> Items = new List<LootboxItem>();
+        public string Name;
+        public int Cost;
         
-        public LootBox(List<LootboxItem> items)
+        public LootBox(string name,List<LootboxItem> items)
         {
+            Name = name;
             Items = items;
         }
         

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,7 @@ namespace MysteryBox.Core
             ID = id;
         }
 
-        public virtual void Draw()
+        public virtual void Draw(SpriteBatch batch)
         {
 
         }

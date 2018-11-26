@@ -140,6 +140,10 @@
     <Content Include="Content\Armors\Robe\T7 Robe of the Illusionist.png" />
     <Content Include="Content\Armors\Robe\T8 Robe of the Master.png" />
     <Content Include="Content\Armors\Robe\T9 Robe of the Shadow Magus.png" />
+    <Content Include="Content\GUI\CornerPiece.png" />
+    <Content Include="Content\GUI\LeftSide.png" />
+    <Content Include="Content\GUI\middle.png" />
+    <Content Include="Content\GUI\RightSide.png" />
     <Content Include="Content\UTs\Admin Bow.png" />
     <Content Include="Content\UTs\Admin Dagger.png" />
     <Content Include="Content\UTs\Admin Katana.png" />

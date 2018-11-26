@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/UTs/Helm of Draconic Dominance.png</SourceFile>
-  <SourceTime>2018-11-25T02:49:41.6952619+01:00</SourceTime>
-  <DestFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/bin/Windows/UTs/Helm of Draconic Dominance.xnb</DestFile>
-  <DestTime>2018-11-25T02:52:57.7250815+01:00</DestTime>
+  <SourceFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/UTs/Helm of Draconic Dominance.png</SourceFile>
+  <SourceTime>2018-11-22T11:06:29.481839+01:00</SourceTime>
+  <DestFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/bin/Windows/UTs/Helm of Draconic Dominance.xnb</DestFile>
+  <DestTime>2018-11-26T10:49:26.7757246+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

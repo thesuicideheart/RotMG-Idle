@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T9 Roc Leather Armor.png</SourceFile>
-  <SourceTime>2018-11-25T02:49:41.650381+01:00</SourceTime>
-  <DestFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/bin/Windows/Armors/Leather/T9 Roc Leather Armor.xnb</DestFile>
-  <DestTime>2018-11-25T02:52:57.0340931+01:00</DestTime>
+  <SourceFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/Armors/Leather/T9 Roc Leather Armor.png</SourceFile>
+  <SourceTime>2018-11-22T11:06:29.2369274+01:00</SourceTime>
+  <DestFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/bin/Windows/Armors/Leather/T9 Roc Leather Armor.xnb</DestFile>
+  <DestTime>2018-11-26T10:49:25.9751016+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

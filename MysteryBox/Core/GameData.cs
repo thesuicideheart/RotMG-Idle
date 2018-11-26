@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,11 @@ namespace MysteryBox.Core
     public static class GameData
     {
 
+        public static string InvState = "STATE_INV";
+
         public static List<Item> ItemsInGame = new List<Item>();
+
+        public static Color BorderColor = new Color(32, 32, 32);
 
         public static void Init()
         {
