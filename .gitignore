@@ -1,4 +1,4 @@
-MysteryBox/bin/
-MysteryBox/obj/
-MysteryBox/Content/obj
+/MysteryBox/bin/
+/MysteryBox/obj/
+/MysteryBox/Content/obj
 /.vs/
