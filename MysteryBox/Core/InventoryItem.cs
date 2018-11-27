@@ -25,6 +25,7 @@ namespace MysteryBox.Core
 
         public static InventoryItem CreateInventoryItemFromLootboxItem(LootboxItem lootboxItem)
         {
+            Console.WriteLine(lootboxItem.ItemId);
             return new InventoryItem(lootboxItem.ItemId, 1);
         }
 

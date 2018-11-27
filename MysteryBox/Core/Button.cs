@@ -18,12 +18,15 @@ namespace MysteryBox.Core
 
         public RectangleF Bounds;
 
+        public string Text;
+
         private Color Color;
 
         public bool Visible;
 
-        public Button(float x, float y, float width, float height, Color color, bool visible = true)
+        public Button(string text, float x, float y, float width, float height, Color color, bool visible = true)
         {
+            Text = text;
             X = x;
             Y = y;
             Width = width;
@@ -46,7 +49,10 @@ namespace MysteryBox.Core
         public void Draw(SpriteBatch batch)
         {
             if (Visible)
+            {
                 batch.FillRectangle(new RectangleF(X, Y, Width, Height), Color);
+                Utils.DrawBigString(Text, Utils.RectFToRect(Bounds), Color.White);
+            }
         }
 
     }

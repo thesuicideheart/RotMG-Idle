@@ -27,6 +27,65 @@ namespace MysteryBox.Core
         public int Timer;
         public int TimerNumber; //Number thats gonna be rendered;
 
+        private Texture2D LeftSide, RightSide, Middle, BoxLabel, itemSlot;
+        private Rectangle labelRect, labelTextRect;
+        private Rectangle itemSlotRect, itemNameRect, itemRarityRect, itemPriceRect;
+        private RectangleF borderRect;
+
+
+        public LootBoxAnimationHandler()
+        {
+            LeftSide = Sprites.GetTexture("LeftSide");
+            RightSide = Sprites.GetTexture("RightSide");
+            Middle = Sprites.GetTexture("middle");
+            BoxLabel = Sprites.GetTexture("label");
+            itemSlot = Sprites.GetTexture("item_slot");
+
+            borderRect = new RectangleF(80, 80, Option.Width - (80 * 2), Option.Height - (80 * 2));
+            labelRect = new Rectangle(
+                (int)borderRect.X + 80,
+                (int)borderRect.Y + 60,
+                (int)borderRect.Width - 132,
+                BoxLabel.Height - 10
+            );
+
+            labelTextRect = new Rectangle(
+                (int)labelRect.X + 10,
+                (int)labelRect.Y + 10,
+                (int)labelRect.Width - 10,
+                (int)labelRect.Height - 10
+            );
+
+            itemSlotRect = new Rectangle(
+                (int)(Option.Width / 2 - 40),
+                (int)(Option.Height / 2 - 40),
+                itemSlot.Width,
+                itemSlot.Height
+            );
+
+            itemNameRect = new Rectangle(
+                (int)itemSlotRect.X - 30,
+                (int)itemSlotRect.Y + itemSlot.Height,
+                128,
+                itemSlot.Height
+            );
+
+            itemRarityRect = new Rectangle(
+                itemNameRect.X,
+                itemNameRect.Y+itemNameRect.Height-20,
+                itemNameRect.Width,
+                itemNameRect.Height
+            );
+
+            itemPriceRect = new Rectangle(
+                itemRarityRect.X,
+                itemRarityRect.Y + itemRarityRect.Height-10,
+                itemRarityRect.Width,
+                itemRarityRect.Height/2
+                );
+
+        }
+
         public void OpenBox(LootBox lootBox, List<InventoryItem> inventory)
         {
             if (Active) return;
@@ -44,7 +103,7 @@ namespace MysteryBox.Core
 
 
             //640 440
-            OkButton = new Button(Option.Width / 2 - 80, Option.Height / 2 + 60, 160, 64, Color.CornflowerBlue, false);
+            OkButton = new Button("Sweet!", Option.Width / 2 - 80, Option.Height / 2 + 204, 160, 32, Color.CornflowerBlue, false);
         }
 
         public void Update()
@@ -100,90 +159,88 @@ namespace MysteryBox.Core
             {
                 if (ShouldOpenBox)
                 {
-                    var rect = new RectangleF(80, 80, Option.Width - (80 * 2), Option.Height - (80 * 2));
 
+                    batch.DrawRectangle(borderRect, GameData.BorderColor, 5);
 
-
-                    batch.DrawRectangle(rect, GameData.BorderColor, 5);
-
-
+                    Utils.DrawBigString($"Youre opening {BoxToOpen.Name}", labelTextRect, Color.White);
 
                     #region top and bottom bars
 
-                    batch.Draw
-                        (Sprites.GetTexture("middle"),
-                        new Rectangle((int)(rect.X + Sprites.GetTexture("LeftSide").Width),
-                        (int)rect.Y - (Sprites.GetTexture("LeftSide").Height / 2),
+                    batch.Draw(
+                        BoxLabel,
+                        labelRect,
+                        Color.White
+                        );
+
+                    batch.Draw(
+                        Middle,
+                        new Rectangle((int)(borderRect.X + LeftSide.Width),
+                        (int)borderRect.Y - (LeftSide.Height / 2),
                         432,
-                        Sprites.GetTexture("middle").Height),
+                        Middle.Height),
                         Color.White);
 
-                    batch.Draw
-                        (Sprites.GetTexture("middle"),
-                        new Rectangle((int)(rect.X + Sprites.GetTexture("LeftSide").Width),
-                        (int)(rect.Y + rect.Height) - (Sprites.GetTexture("LeftSide").Height / 2) + 1,
+                    batch.Draw(
+                        Middle,
+                        new Rectangle((int)(borderRect.X + LeftSide.Width),
+                        (int)(borderRect.Y + borderRect.Height) - (LeftSide.Height / 2) + 1,
                         432,
-                        Sprites.GetTexture("middle").Height),
+                        Middle.Height),
                         Color.White);
 
                     batch.Draw(
-                        Sprites.GetTexture("LeftSide"),
-                        new Rectangle((int)(rect.X),
-                        (int)rect.Y - (Sprites.GetTexture("LeftSide").Height / 2) - 1,
-                        Sprites.GetTexture("LeftSide").Width,
-                        Sprites.GetTexture("LeftSide").Height),
+                        LeftSide,
+                        new Rectangle((int)(borderRect.X),
+                        (int)borderRect.Y - (LeftSide.Height / 2) - 1,
+                        LeftSide.Width,
+                        LeftSide.Height),
                         Color.White);
 
                     batch.Draw(
-                        Sprites.GetTexture("LeftSide"),
-                        new Rectangle((int)(rect.X),
-                        (int)(rect.Y + rect.Height) - (Sprites.GetTexture("LeftSide").Height / 2),
-                        Sprites.GetTexture("LeftSide").Width,
-                        Sprites.GetTexture("LeftSide").Height),
+                        LeftSide,
+                        new Rectangle((int)(borderRect.X),
+                        (int)(borderRect.Y + borderRect.Height) - (LeftSide.Height / 2),
+                        LeftSide.Width,
+                        LeftSide.Height),
                         Color.White);
 
 
                     batch.Draw(
-                        Sprites.GetTexture("RightSide"),
-                        new Rectangle((int)(rect.X + rect.Width - Sprites.GetTexture("RightSide").Width),
-                        (int)rect.Y - (Sprites.GetTexture("RightSide").Height / 2) - 1,
-                        Sprites.GetTexture("RightSide").Width,
-                        Sprites.GetTexture("RightSide").Height),
+                        RightSide,
+                        new Rectangle((int)(borderRect.X + borderRect.Width - RightSide.Width),
+                        (int)borderRect.Y - (RightSide.Height / 2) - 1,
+                        RightSide.Width,
+                        RightSide.Height),
                         Color.White);
 
                     batch.Draw(
-                        Sprites.GetTexture("RightSide"),
-                        new Rectangle((int)(rect.X + rect.Width - Sprites.GetTexture("RightSide").Width),
-                        (int)(rect.Y + rect.Height) - (Sprites.GetTexture("RightSide").Height / 2),
-                        Sprites.GetTexture("RightSide").Width,
-                        Sprites.GetTexture("RightSide").Height),
+                        RightSide,
+                        new Rectangle((int)(borderRect.X + borderRect.Width - RightSide.Width),
+                        (int)(borderRect.Y + borderRect.Height) - (RightSide.Height / 2),
+                        RightSide.Width,
+                        RightSide.Height),
                         Color.White);
                     #endregion
 
 
-                    batch.DrawString(Game1.Instance.TimerFont, $"You're opening {BoxToOpen.Name}!", new Vector2(rect.Width / 2 - 64, rect.Height / 2), Color.White);
-
                     batch.Draw(
-                        Sprites.GetTexture("item_slot"),
-                        new Rectangle((int)(rect.Width / 2 + (Sprites.GetTexture("item_slot").Width / 2)),
-                        (int)(rect.Height / 2 + (Sprites.GetTexture("item_slot").Height / 2)),
-                        Sprites.GetTexture("item_slot").Width,
-                        Sprites.GetTexture("item_slot").Height),
+                        itemSlot,
+                        itemSlotRect,
                         Color.White
                         );
 
                     if (!ShouldHideTimer)
-                        batch.DrawString(Game1.Instance.TimerFont, $"{TimerNumber}", new Vector2(rect.Width / 2, rect.Height / 2 + 50), Color.White);
+                        batch.DrawString(Game1.Instance.TimerFont, $"{TimerNumber}", new Vector2(itemSlotRect.X + 16, itemSlotRect.Y - 40), Color.White);
 
                     if (ItemToReturn != null)
                     {
                         //draw the item here
                         var item = GameData.GetItemFromId(ItemToReturn.ItemID);
-                        batch.Draw(item.GetTexture(), new Rectangle((int)(rect.Width / 2), (int)(rect.Height / 2) + 50, 40, 40), Color.White);
-                        batch.DrawString(Game1.Instance.font, $"{item.Name}", new Vector2(rect.Width / 2, (int)(rect.Height / 2) + 90), Color.White);
-
+                        batch.Draw(item.GetTexture(), new Rectangle(itemSlotRect.X + 6, itemSlotRect.Y + 7, 40, 40), Color.White);
+                        Utils.DrawBigString($"{item.Name}", itemNameRect, Color.White);
+                        Utils.DrawRarityString(item, itemRarityRect);
+                        Utils.DrawSmallString($"Price: {item.Price}", itemPriceRect, Color.White);
                         OkButton.Draw(batch);
-
                     }
 
                 }

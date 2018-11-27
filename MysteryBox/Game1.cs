@@ -22,14 +22,14 @@ namespace MysteryBox
     /// </summary>
     public class Game1 : Game
     {
-        GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
+        public GraphicsDeviceManager graphics;
+        public SpriteBatch spriteBatch;
 
         public List<InventoryItem> Items = new List<InventoryItem>();
 
         LootBoxAnimationHandler LootBoxAnimationHandler;
 
-        public SpriteFont font,TimerFont;
+        public SpriteFont font, TimerFont;
 
         public InputManager input;
 
@@ -66,9 +66,20 @@ namespace MysteryBox
 
 
             List<LootboxItem> items = new List<LootboxItem> {
-                new LootboxItem("verts_item",0,40000),
-                new LootboxItem("mindless_item",40000,80000),
-                new LootboxItem("test_item",80000,100000)
+                new LootboxItem("t0_katana",0,25000),
+                new LootboxItem("t1_katana",25000,50000),
+                new LootboxItem("t2_katana",50000,55000),
+                new LootboxItem("t3_katana",55000,60000),
+                new LootboxItem("t4_katana",60000,65000),
+                new LootboxItem("t5_katana",65000,70000),
+                new LootboxItem("t6_katana",70000,75000),
+                new LootboxItem("t7_katana",75000,80000),
+                new LootboxItem("t8_katana",80000,85000),
+                new LootboxItem("t9_katana",85000,90000),
+                new LootboxItem("t10_katana",90000,95000),
+                new LootboxItem("t11_katana",95000,97000),
+                new LootboxItem("t12_katana",97000,99000),
+                new LootboxItem("t13_katana",99000,100000)
             };
 
 
@@ -102,7 +113,7 @@ namespace MysteryBox
             // TODO: Unload any non ContentManager content here
         }
 
-        
+
 
         /// <summary>
         /// Allows the game to run logic such as updating the world,
@@ -137,6 +148,8 @@ namespace MysteryBox
             spriteBatch.Begin(samplerState: SamplerState.PointClamp);
 
             LootBoxAnimationHandler.Draw(spriteBatch);
+
+            drawString($"Mouse pos: {input.GetMousePosition().ToString()}", 0, 0);
 
             spriteBatch.End();
 
