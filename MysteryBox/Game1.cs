@@ -25,8 +25,6 @@ namespace MysteryBox
         public GraphicsDeviceManager graphics;
         public SpriteBatch spriteBatch;
 
-        public List<InventoryItem> Items = new List<InventoryItem>();
-
         LootBoxAnimationHandler LootBoxAnimationHandler;
 
         public SpriteFont font, TimerFont;
@@ -35,13 +33,22 @@ namespace MysteryBox
 
         public static Game1 Instance;
 
+        public State CurrentState;
+
+        public Dictionary<string, State> states = new Dictionary<string, State>();
+
+        LootBox box;
+
+        public Player player;
+
+        public InventoryState InventoryState;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             Instance = this;
         }
-        LootBox box;
 
         /// <summary>
         /// Allows the game to perform any initialization it needs to before starting to run.xd 
@@ -52,6 +59,7 @@ namespace MysteryBox
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+
             Sprites.Load(Content);
             graphics.PreferredBackBufferWidth = Option.Width;
             graphics.PreferredBackBufferHeight = Option.Height;
@@ -64,6 +72,7 @@ namespace MysteryBox
             base.Initialize();
             GameData.Init();
 
+            player = new Player();
 
             List<LootboxItem> items = new List<LootboxItem> {
                 new LootboxItem("t0_katana",0,25000),
@@ -82,11 +91,12 @@ namespace MysteryBox
                 new LootboxItem("t13_katana",99000,100000)
             };
 
-
-
             box = new LootBox("Test crate", items);
 
             LootBoxAnimationHandler = new LootBoxAnimationHandler();
+
+            InventoryState = new InventoryState();
+
         }
 
         /// <summary>
@@ -122,14 +132,19 @@ namespace MysteryBox
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
 
+            CurrentState.Update();
             LootBoxAnimationHandler.Update();
+
+            if (input.JustPressed(Keys.E))
+            {
+                SwitchState(GameData.InvState);
+            }
 
             if (input.JustPressed(Keys.F))
             {
-                LootBoxAnimationHandler.OpenBox(box, Items);
+                if (CurrentState.ID != GameData.InvState)
+                    LootBoxAnimationHandler.OpenBox(box, player.Inventory);
             }
 
             base.Update(gameTime);
@@ -149,11 +164,21 @@ namespace MysteryBox
 
             LootBoxAnimationHandler.Draw(spriteBatch);
 
+            CurrentState.Draw(spriteBatch);
+
             drawString($"Mouse pos: {input.GetMousePosition().ToString()}", 0, 0);
 
             spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+
+        public void SwitchState(string id)
+        {
+            if (states.ContainsKey(id))
+            {
+                CurrentState = states[id];
+            }
         }
 
         public void draw(Texture2D texture, Rectangle rect)

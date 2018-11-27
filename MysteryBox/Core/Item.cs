@@ -51,13 +51,20 @@ namespace MysteryBox.Core
         /// <param name="name">The item name. This is what players will see when they unbox an item</param>
         /// <param name="price">The price of the item</param>
         /// <param name="rarity">The rarity of the item</param>
-        public Item(string id, string name, int price, Rarity rarity, string textureId)
+        public Item(string id, string name, int price, Rarity rarity, string textureId = "")
         {
             ID = id;
             Name = name;
             Price = price;
             Rarity = rarity;
-            texture_id = textureId;
+            if(textureId != "")
+            {
+                texture_id = textureId;
+            }
+            else
+            {
+                texture_id = name;
+            }
         }
 
 

@@ -47,7 +47,6 @@
     <Compile Include="Core\Button.cs" />
     <Compile Include="Core\GameData.cs" />
     <Compile Include="Core\InputManager.cs" />
-    <Compile Include="Core\Inventory.cs" />
     <Compile Include="Core\InventoryItem.cs" />
     <Compile Include="Core\InventoryState.cs" />
     <Compile Include="Core\Item.cs" />
@@ -55,6 +54,7 @@
     <Compile Include="Core\LootBoxAnimationHandler.cs" />
     <Compile Include="Core\LootboxItem.cs" />
     <Compile Include="Core\OpenCase.cs" />
+    <Compile Include="Core\Player.cs" />
     <Compile Include="Core\State.cs" />
     <Compile Include="Core\Utils.cs" />
     <Compile Include="Game1.cs" />
