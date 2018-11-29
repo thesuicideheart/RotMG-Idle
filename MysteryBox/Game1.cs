@@ -25,8 +25,6 @@ namespace MysteryBox
         public GraphicsDeviceManager graphics;
         public SpriteBatch spriteBatch;
 
-        LootBoxAnimationHandler LootBoxAnimationHandler;
-
         public SpriteFont font, TimerFont;
 
         public InputManager input;
@@ -37,11 +35,10 @@ namespace MysteryBox
 
         public Dictionary<string, State> states = new Dictionary<string, State>();
 
-        LootBox box;
-
         public Player player;
 
         public InventoryState InventoryState;
+        public MainState MainState;
 
         public Game1()
         {
@@ -59,7 +56,7 @@ namespace MysteryBox
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            RPC.Initialize();
             Sprites.Load(Content);
             graphics.PreferredBackBufferWidth = Option.Width;
             graphics.PreferredBackBufferHeight = Option.Height;
@@ -74,29 +71,20 @@ namespace MysteryBox
 
             player = new Player();
 
-            List<LootboxItem> items = new List<LootboxItem> {
-                new LootboxItem("t0_katana",0,25000),
-                new LootboxItem("t1_katana",25000,50000),
-                new LootboxItem("t2_katana",50000,55000),
-                new LootboxItem("t3_katana",55000,60000),
-                new LootboxItem("t4_katana",60000,65000),
-                new LootboxItem("t5_katana",65000,70000),
-                new LootboxItem("t6_katana",70000,75000),
-                new LootboxItem("t7_katana",75000,80000),
-                new LootboxItem("t8_katana",80000,85000),
-                new LootboxItem("t9_katana",85000,90000),
-                new LootboxItem("t10_katana",90000,95000),
-                new LootboxItem("t11_katana",95000,97000),
-                new LootboxItem("t12_katana",97000,99000),
-                new LootboxItem("t13_katana",99000,100000)
-            };
+            InventoryState = new InventoryState(player);
+            MainState = new MainState(player);
 
-            box = new LootBox("Test crate", items);
+            AddState(InventoryState);
+            AddState(MainState);
 
-            LootBoxAnimationHandler = new LootBoxAnimationHandler();
+            SwitchState(MainState.ID);
 
-            InventoryState = new InventoryState();
+        }
 
+        protected override void OnExiting(object sender, EventArgs args)
+        {
+            RPC.Dispose();
+            base.OnExiting(sender, args);
         }
 
         /// <summary>
@@ -122,9 +110,7 @@ namespace MysteryBox
         {
             // TODO: Unload any non ContentManager content here
         }
-
-
-
+        
         /// <summary>
         /// Allows the game to run logic such as updating the world,
         /// checking for collisions, gathering input, and playing audio.
@@ -134,17 +120,10 @@ namespace MysteryBox
         {
 
             CurrentState.Update();
-            LootBoxAnimationHandler.Update();
 
             if (input.JustPressed(Keys.E))
             {
                 SwitchState(GameData.InvState);
-            }
-
-            if (input.JustPressed(Keys.F))
-            {
-                if (CurrentState.ID != GameData.InvState)
-                    LootBoxAnimationHandler.OpenBox(box, player.Inventory);
             }
 
             base.Update(gameTime);
@@ -162,11 +141,10 @@ namespace MysteryBox
 
             spriteBatch.Begin(samplerState: SamplerState.PointClamp);
 
-            LootBoxAnimationHandler.Draw(spriteBatch);
-
             CurrentState.Draw(spriteBatch);
-
+            
             drawString($"Mouse pos: {input.GetMousePosition().ToString()}", 0, 0);
+            drawString($"Current state: {CurrentState.ID}", 0, 20);
 
             spriteBatch.End();
 
@@ -177,9 +155,19 @@ namespace MysteryBox
         {
             if (states.ContainsKey(id))
             {
+                Console.WriteLine("switched to " + id);
                 CurrentState = states[id];
             }
         }
+
+        public void AddState(State state)
+        {
+            if (!states.ContainsKey(state.ID))
+            {
+                states.Add(state.ID, state);
+            }
+        }
+
 
         public void draw(Texture2D texture, Rectangle rect)
         {

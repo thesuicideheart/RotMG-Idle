@@ -11,6 +11,7 @@ namespace MysteryBox.Core
     {
 
         public static string InvState = "STATE_INV";
+        public static string MainState = "STATE_MAIN";
 
         public static List<Item> ItemsInGame = new List<Item>();
 

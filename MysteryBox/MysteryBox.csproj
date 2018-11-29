@@ -7,7 +7,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{A7C7F2E9-1D2F-4B2F-B8D0-491AE2C75C3D}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MysteryBox</RootNamespace>
     <AssemblyName>MysteryBox</AssemblyName>
@@ -45,6 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Core\Button.cs" />
+    <Compile Include="Core\DiscordRPCHandler.cs" />
     <Compile Include="Core\GameData.cs" />
     <Compile Include="Core\InputManager.cs" />
     <Compile Include="Core\InventoryItem.cs" />
@@ -63,14 +64,17 @@
     <Compile Include="Sprites.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="DiscordRPC">
+      <HintPath>..\Libs\Discord RPC\DiscordRPC.dll</HintPath>
+    </Reference>
     <Reference Include="MonoGame.Extended, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MonoGame.Extended.1.1.0\lib\portable-net45+win8+wpa81\MonoGame.Extended.dll</HintPath>
     </Reference>
     <Reference Include="MonoGame.Framework">
       <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
@@ -418,10 +422,12 @@
     <Content Include="Content\Weapons\Wand\T9 Wand of Budding Romance.png" />
     <Content Include="Content\Weapons\Wand\T9 Wand of Budding.png" />
     <Content Include="Content\Weapons\Wand\T9 Wand of Deep Sorcery.png" />
+    <Compile Include="Core\MainState.cs" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.config" />
     <None Include="app.manifest" />
     <None Include="Content\GameData.json" />
     <None Include="Content\Items\Swords\Ancient Stone Sword.json" />
