@@ -143,8 +143,7 @@ namespace MysteryBox
 
             CurrentState.Draw(spriteBatch);
             
-            drawString($"Mouse pos: {input.GetMousePosition().ToString()}", 0, 0);
-            drawString($"Current state: {CurrentState.ID}", 0, 20);
+            drawString($"Current state: {CurrentState.ID}", 0, 0);
 
             spriteBatch.End();
 
