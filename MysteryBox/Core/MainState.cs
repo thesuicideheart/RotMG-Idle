@@ -15,10 +15,13 @@ namespace MysteryBox.Core
 
         public Button btnGetFame;
 
+
+
         public MainState(Player player) : base(GameData.MainState)
         {
             Player = player;
             btnGetFame = new Button("Get Fame",Option.Width/2-60,Option.Height/2+60,128,48,Color.Chocolate);
+
         }
 
         public override void Draw(SpriteBatch batch)

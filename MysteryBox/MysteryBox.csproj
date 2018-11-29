@@ -51,6 +51,7 @@
     <Compile Include="Core\InventoryItem.cs" />
     <Compile Include="Core\InventoryState.cs" />
     <Compile Include="Core\Item.cs" />
+    <Compile Include="Core\Label.cs" />
     <Compile Include="Core\LootBox.cs" />
     <Compile Include="Core\LootBoxAnimationHandler.cs" />
     <Compile Include="Core\LootboxItem.cs" />
