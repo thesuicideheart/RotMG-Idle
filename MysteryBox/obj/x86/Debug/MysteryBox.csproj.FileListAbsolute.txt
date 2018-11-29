@@ -1383,3 +1383,17 @@ C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\Mys
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\DiscordRPC.dll
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\MysteryBox.exe.config
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Newtonsoft.Json.pdb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\CornerPiece.xnb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\item_slot.xnb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\label.xnb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\LeftSide.xnb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\middle.xnb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\RightSide.xnb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\MysteryBox.exe.config
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\DiscordRPC.dll
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Newtonsoft.Json.pdb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\down.xnb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\inventory.xnb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\left.xnb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\right.xnb
+C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\up.xnb

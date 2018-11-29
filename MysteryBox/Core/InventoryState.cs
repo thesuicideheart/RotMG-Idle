@@ -24,6 +24,8 @@ namespace MysteryBox.Core
 
         private int SelectedItem = 0;
 
+        private Texture2D invBackground;
+
         public InventoryState(Player player) : base(GameData.InvState)
         {
             Player = player;
@@ -54,12 +56,16 @@ namespace MysteryBox.Core
             invListCenterY = invY + invHeight / 2 + 5;
             invListCenterX = invX + 44;
 
+            invBackground = Sprites.GetTexture("inventory");
+
         }
 
         public override void Draw(SpriteBatch batch)
         {
 
-            for (int i = -10; i < 11; i++)
+            batch.Draw(invBackground, new Rectangle(0,0, Option.Width,Option.Height), Color.White);
+
+            /*for (int i = -10; i < 11; i++)
             {
                 if (SelectedItem + i < 0 || SelectedItem + i >= Player.Inventory.Count) continue;
                 var iItem = Player.Inventory[SelectedItem + i];
@@ -75,7 +81,7 @@ namespace MysteryBox.Core
                     Game1.Instance.drawString($"{item.Name} x{iItem.Count}", invListCenterX, invListCenterY + i * invListSpacing);
                     Game1.Instance.draw(item.GetTexture(), new Rectangle(invX - item.GetTexture().Width, (invY + i * invListSpacing) + 10, item.GetTexture().Width, item.GetTexture().Height));
                 }
-            }
+            }*/
 
             base.Draw(batch);
         }
