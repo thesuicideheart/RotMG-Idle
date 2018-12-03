@@ -1397,3 +1397,11 @@ C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86
 C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\left.xnb
 C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\right.xnb
 C:\Users\Bruger\Desktop\game\something-with-lootboxes\MysteryBox\bin\Windows\x86\Debug\Content\GUI\up.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\down.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\inventory.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\left.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\right.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\up.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\Close Inventory Button.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\exitbtn.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\get_fame.xnb

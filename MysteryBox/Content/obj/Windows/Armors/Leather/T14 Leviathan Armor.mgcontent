@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/Armors/Leather/T14 Leviathan Armor.png</SourceFile>
-  <SourceTime>2018-11-29T19:34:18.1952504+01:00</SourceTime>
-  <DestFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/bin/Windows/Armors/Leather/T14 Leviathan Armor.xnb</DestFile>
-  <DestTime>2018-11-29T19:34:49.2364128+01:00</DestTime>
+  <SourceFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/Armors/Leather/T14 Leviathan Armor.png</SourceFile>
+  <SourceTime>2018-11-22T11:06:29.2159839+01:00</SourceTime>
+  <DestFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/bin/Windows/Armors/Leather/T14 Leviathan Armor.xnb</DestFile>
+  <DestTime>2018-12-03T08:48:15.4675421+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

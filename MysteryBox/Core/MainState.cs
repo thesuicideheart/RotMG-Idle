@@ -15,12 +15,13 @@ namespace MysteryBox.Core
 
         public Button btnGetFame;
 
-
+        public Texture2D getFameSprite;
 
         public MainState(Player player) : base(GameData.MainState)
         {
             Player = player;
-            btnGetFame = new Button("Get Fame",Option.Width/2-60,Option.Height/2+60,128,48,Color.Chocolate);
+            getFameSprite = Sprites.GetTexture("get_fame");
+            btnGetFame = new Button(Option.Width / 2 - (getFameSprite.Width / 2), Option.Height / 2 + 60, getFameSprite.Width, getFameSprite.Height, getFameSprite);
 
         }
 
@@ -54,12 +55,13 @@ namespace MysteryBox.Core
                 Game1.Instance.SwitchState(GameData.InvState);
             }
 
+#if DEBUG
             if (Game1.Instance.input.JustPressed(Keys.F))
             {
                 //increment
                 Player.Fame += 10;
             }
-
+#endif
             base.Update();
         }
     }

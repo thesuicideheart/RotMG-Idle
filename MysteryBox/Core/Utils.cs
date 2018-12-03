@@ -13,6 +13,16 @@ namespace MysteryBox.Core
     public class Utils
     {
 
+        
+        public static void DrawSmallString(string text, int x, int y, Color color)
+        {
+
+        }
+
+        public static void DrawBigString(string text, int x, int y, Color color)
+        {
+
+        }
 
         public static void DrawRarityString(Item item, Rectangle bounds)
         {

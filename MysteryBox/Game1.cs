@@ -121,10 +121,6 @@ namespace MysteryBox
 
             CurrentState.Update();
 
-            if (input.JustPressed(Keys.E))
-            {
-                SwitchState(GameData.InvState);
-            }
 
             base.Update(gameTime);
         }

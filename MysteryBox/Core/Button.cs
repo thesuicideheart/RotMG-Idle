@@ -23,6 +23,32 @@ namespace MysteryBox.Core
         private Color Color;
 
         public bool Visible;
+        private bool noColor, useTexture;
+
+        public Texture2D Texture;
+
+        public Button(float x, float y, float width, float height, Texture2D text, bool visible = true)
+        {
+            X = x;
+            Y = y;
+            Width = width;
+            Height = height;
+            Texture = text;
+            Visible = visible;
+            Bounds = new RectangleF(X, Y, Width, Height);
+            useTexture = true;
+        }
+
+        public Button(float x, float y, float width, float height, bool visible = true)
+        {
+            X = x;
+            Y = y;
+            Width = width;
+            Height = height;
+            Visible = visible;
+            Bounds = new RectangleF(X, Y, Width, Height);
+            noColor = true;
+        }
 
         public Button(string text, float x, float y, float width, float height, Color color, bool visible = true)
         {
@@ -34,6 +60,7 @@ namespace MysteryBox.Core
             Bounds = new RectangleF(X, Y, Width, Height);
             Color = color;
             Visible = visible;
+            noColor = false;
         }
 
         public bool MouseHovering()
@@ -50,8 +77,32 @@ namespace MysteryBox.Core
         {
             if (Visible)
             {
-                batch.FillRectangle(new RectangleF(X, Y, Width, Height), Color);
-                Utils.DrawBigString(Text, Utils.RectFToRect(Bounds), Color.White);
+                if (useTexture)
+                {
+                    if (MouseHovering())
+                    {
+                        batch.Draw(Texture, Utils.RectFToRect(Bounds), new Color((byte)Color.White.R, (byte)Color.White.G, (byte)Color.White.B, (byte)175));
+                    }
+                    else
+                    {
+                        batch.Draw(Texture, Utils.RectFToRect(Bounds), Color.White);
+                    }
+                }
+                else
+                {
+                    if (!noColor)
+                    {
+                        if (Color != null)
+                            batch.FillRectangle(new RectangleF(X, Y, Width, Height), Color);
+                        if (Text != "" && Bounds != null)
+                            Utils.DrawBigString(Text, Utils.RectFToRect(Bounds), Color.White);
+                    }
+                    else
+                    {
+                        //No drawing!
+                    }
+                }
+
             }
         }
 
