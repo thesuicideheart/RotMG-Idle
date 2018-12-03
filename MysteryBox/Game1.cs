@@ -137,6 +137,8 @@ namespace MysteryBox
 
             spriteBatch.Begin(samplerState: SamplerState.PointClamp);
 
+            spriteBatch.Draw(Sprites.GetTexture("base_background"), new Rectangle(0, 0, Option.Width, Option.Height), Color.White);
+
             CurrentState.Draw(spriteBatch);
             
             drawString($"Current state: {CurrentState.ID}", 0, 0);

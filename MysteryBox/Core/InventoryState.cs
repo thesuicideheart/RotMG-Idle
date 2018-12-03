@@ -41,6 +41,8 @@ namespace MysteryBox.Core
 
             Player = player;
 
+            Player.AddItem(new InventoryItem("t13_sword", 100));
+
             invListCenterY = invY + invHeight / 2 + 5;
             invListCenterX = invX + 44;
 

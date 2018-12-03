@@ -15,20 +15,27 @@ namespace MysteryBox.Core
 
         public Button btnGetFame;
 
-        public Texture2D getFameSprite;
+        private Vector2 labelPos = new Vector2(162, 62);
+
+        public Texture2D getFameSprite, backgroundSprite, fameLabel;
 
         public MainState(Player player) : base(GameData.MainState)
         {
             Player = player;
+            backgroundSprite = Sprites.GetTexture("inventory");
             getFameSprite = Sprites.GetTexture("get_fame");
-            btnGetFame = new Button(Option.Width / 2 - (getFameSprite.Width / 2), Option.Height / 2 + 60, getFameSprite.Width, getFameSprite.Height, getFameSprite);
+            fameLabel = Sprites.GetTexture("fame_label");
+            btnGetFame = new Button(315, 533, getFameSprite.Width, getFameSprite.Height, getFameSprite);
 
         }
 
         public override void Draw(SpriteBatch batch)
         {
-
+            batch.Draw(backgroundSprite, new Rectangle(0, 0, Option.Width, Option.Height), Color.White);
             btnGetFame.Draw(batch);
+            batch.Draw(fameLabel, new Rectangle((int)labelPos.X, (int)labelPos.Y, fameLabel.Width, fameLabel.Height), Color.White);
+
+            Utils.DrawBigString($"Fame: {Player.Fame}", (int)labelPos.X, (int)labelPos.Y, Color.White);
 
             base.Draw(batch);
         }

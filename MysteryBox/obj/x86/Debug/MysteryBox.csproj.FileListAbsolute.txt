@@ -1405,3 +1405,5 @@ C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\Mys
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\Close Inventory Button.xnb
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\exitbtn.xnb
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\get_fame.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\fame_label.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\base_background.xnb
