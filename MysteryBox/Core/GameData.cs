@@ -10,15 +10,24 @@ namespace MysteryBox.Core
     public static class GameData
     {
 
-        public static string InvState = "STATE_INV";
-        public static string MainState = "STATE_MAIN";
+        public const string InvState = "STATE_INV";
+        public const string MainState = "STATE_MAIN";
+        public const string OpenCaseState = "STATE_OPEN_CASE";
 
         public static List<Item> ItemsInGame = new List<Item>();
 
-        public static Color BorderColor = new Color(32, 32, 32);
+        #region loot boxes
+
+        public static LootBox BasicBox, IntermediateBox, AdvancedBox;
+
+        #endregion
+
+        public static Color BorderColor = new Color(32, 32, 32, 175);
 
         public static void Init()
         {
+
+            #region items
 
             #region custom items
 
@@ -142,7 +151,17 @@ namespace MysteryBox.Core
             AddItem(new Item("t13_staff", "Staff of the Vital Unity", 650, Rarity.Legendary));
 
             #endregion
+            #endregion
 
+            #region loot boxes
+
+            BasicBox = new LootBox("Basic Box", 10,
+                new List<LootboxItem>()
+                {
+                    new LootboxItem("t0_dagger",0,50000)
+                });
+
+            #endregion
 
         }
 

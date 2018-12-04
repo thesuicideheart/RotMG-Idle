@@ -16,12 +16,12 @@ namespace MysteryBox.Core
         
         public static void DrawSmallString(string text, int x, int y, Color color)
         {
-
+            Game1.Instance.spriteBatch.DrawString(Game1.Instance.font, text, new Vector2(x, y), color);
         }
 
         public static void DrawBigString(string text, int x, int y, Color color)
         {
-
+            Game1.Instance.spriteBatch.DrawString(Game1.Instance.TimerFont, text, new Vector2(x, y), color);
         }
 
         public static void DrawRarityString(Item item, Rectangle bounds)

@@ -19,7 +19,7 @@ namespace MysteryBox.Core
         public bool ShouldHideTimer;
         public bool ShouldGenerateItem;
 
-        public List<InventoryItem> Inventory;
+        public Player player;
         public LootBox BoxToOpen;
         public InventoryItem ItemToReturn;
         public Button OkButton;
@@ -86,14 +86,14 @@ namespace MysteryBox.Core
 
         }
 
-        public void OpenBox(LootBox lootBox, List<InventoryItem> inventory)
+        public void OpenBox(LootBox lootBox, Player player)
         {
             if (Active) return;
 
             Active = true;
 
             BoxToOpen = lootBox;
-            Inventory = inventory;
+            this.player = player;
 
             ShouldOpenBox = true;
             ShouldUpdateTimer = true;
@@ -103,7 +103,7 @@ namespace MysteryBox.Core
 
 
             //640 440
-            OkButton = new Button("Sweet!", Option.Width / 2 - 80, Option.Height / 2 + 204, 160, 32, Color.CornflowerBlue, false);
+            OkButton = new Button("Sweet!", 320, 550, 160, 32, Color.CornflowerBlue, false);
         }
 
         public void Update()
@@ -139,7 +139,7 @@ namespace MysteryBox.Core
                     {
                         OkButton.Visible = true;
                         ItemToReturn = InventoryItem.CreateInventoryItemFromLootboxItem(BoxToOpen.GetItem());
-                        Inventory.Add(ItemToReturn);
+                        player.AddItem(ItemToReturn);
                         ShouldGenerateItem = false;
 
                     }
@@ -160,69 +160,12 @@ namespace MysteryBox.Core
                 if (ShouldOpenBox)
                 {
 
-                    batch.DrawRectangle(borderRect, GameData.BorderColor, 5);
+                    batch.FillRectangle(borderRect, GameData.BorderColor);
+                    
+
 
                     Utils.DrawBigString($"Youre opening {BoxToOpen.Name}", labelTextRect, Color.White);
-
-                    #region top and bottom bars
-
-                    batch.Draw(
-                        BoxLabel,
-                        labelRect,
-                        Color.White
-                        );
-
-                    batch.Draw(
-                        Middle,
-                        new Rectangle((int)(borderRect.X + LeftSide.Width),
-                        (int)borderRect.Y - (LeftSide.Height / 2),
-                        432,
-                        Middle.Height),
-                        Color.White);
-
-                    batch.Draw(
-                        Middle,
-                        new Rectangle((int)(borderRect.X + LeftSide.Width),
-                        (int)(borderRect.Y + borderRect.Height) - (LeftSide.Height / 2) + 1,
-                        432,
-                        Middle.Height),
-                        Color.White);
-
-                    batch.Draw(
-                        LeftSide,
-                        new Rectangle((int)(borderRect.X),
-                        (int)borderRect.Y - (LeftSide.Height / 2) - 1,
-                        LeftSide.Width,
-                        LeftSide.Height),
-                        Color.White);
-
-                    batch.Draw(
-                        LeftSide,
-                        new Rectangle((int)(borderRect.X),
-                        (int)(borderRect.Y + borderRect.Height) - (LeftSide.Height / 2),
-                        LeftSide.Width,
-                        LeftSide.Height),
-                        Color.White);
-
-
-                    batch.Draw(
-                        RightSide,
-                        new Rectangle((int)(borderRect.X + borderRect.Width - RightSide.Width),
-                        (int)borderRect.Y - (RightSide.Height / 2) - 1,
-                        RightSide.Width,
-                        RightSide.Height),
-                        Color.White);
-
-                    batch.Draw(
-                        RightSide,
-                        new Rectangle((int)(borderRect.X + borderRect.Width - RightSide.Width),
-                        (int)(borderRect.Y + borderRect.Height) - (RightSide.Height / 2),
-                        RightSide.Width,
-                        RightSide.Height),
-                        Color.White);
-                    #endregion
-
-
+                    
                     batch.Draw(
                         itemSlot,
                         itemSlotRect,
@@ -256,7 +199,7 @@ namespace MysteryBox.Core
         {
 
             BoxToOpen = null;
-            Inventory = null;
+            player = null;
             ItemToReturn = null;
 
             ShouldOpenBox = false;

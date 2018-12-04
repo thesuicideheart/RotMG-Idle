@@ -6,6 +6,7 @@ using System;
 using MonoGame.Extended;
 using System.Collections.Generic;
 using MysteryBox.Core;
+using System.IO;
 
 namespace MysteryBox
 {
@@ -15,6 +16,8 @@ namespace MysteryBox
         public const int Width = 800;
         public const int Height = 600;
         public const int FPS = 60;
+        public const string SaveFolderName = "MysteryBoxSimulator";
+        public const string SaveFileName = "Save.xml";
     }
 
     /// <summary>
@@ -39,6 +42,7 @@ namespace MysteryBox
 
         public InventoryState InventoryState;
         public MainState MainState;
+        public OpenCaseState OpenCaseState;
 
         public Game1()
         {
@@ -55,6 +59,10 @@ namespace MysteryBox
         /// </summary>
         protected override void Initialize()
         {
+            if (Directory.Exists(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $"\\{Option.SaveFolderName}\\") == false)
+            {
+                Directory.CreateDirectory(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $"\\{Option.SaveFolderName}\\");
+            }
             // TODO: Add your initialization logic here
             RPC.Initialize();
             Sprites.Load(Content);
@@ -69,13 +77,23 @@ namespace MysteryBox
             base.Initialize();
             GameData.Init();
 
-            player = new Player();
+            if (File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $"\\{Option.SaveFolderName}\\{Option.SaveFileName}"))
+            {
+                player = Player.Load(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $"\\{Option.SaveFolderName}\\{Option.SaveFileName}");
+            }
+            else
+            {
+                player = new Player();
+            }
+
 
             InventoryState = new InventoryState(player);
             MainState = new MainState(player);
+            OpenCaseState = new OpenCaseState(player);
 
             AddState(InventoryState);
             AddState(MainState);
+            AddState(OpenCaseState);
 
             SwitchState(MainState.ID);
 
@@ -110,17 +128,19 @@ namespace MysteryBox
         {
             // TODO: Unload any non ContentManager content here
         }
-        
-        /// <summary>
-        /// Allows the game to run logic such as updating the world,
-        /// checking for collisions, gathering input, and playing audio.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+
+        int timer;
         protected override void Update(GameTime gameTime)
         {
 
             CurrentState.Update();
 
+            timer++;
+
+            if (timer % 60 == 0)
+            {
+                player.Save();
+            }
 
             base.Update(gameTime);
         }
@@ -141,8 +161,6 @@ namespace MysteryBox
 
             CurrentState.Draw(spriteBatch);
             
-            drawString($"Current state: {CurrentState.ID}", 0, 0);
-
             spriteBatch.End();
 
             base.Draw(gameTime);

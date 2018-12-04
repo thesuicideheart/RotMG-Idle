@@ -27,5 +27,10 @@ namespace MysteryBox.Core
 
         }
 
+        public void SwitchState(string stateId)
+        {
+            Game1.Instance.SwitchState(stateId);
+        }
+
     }
 }

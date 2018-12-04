@@ -29,7 +29,8 @@ namespace MysteryBox.Core
         private Rectangle itemSlotRect,
             itemNameRect,
             itemRarityRect,
-            itemPriceRect;
+            itemPriceRect,
+            itemCountRect;
 
         private Button btnCloseInvBig, btnCloseInvSmall;
 
@@ -37,12 +38,9 @@ namespace MysteryBox.Core
 
         public InventoryState(Player player) : base(GameData.InvState)
         {
-
-
+            
             Player = player;
-
-            Player.AddItem(new InventoryItem("t13_sword", 100));
-
+            
             invListCenterY = invY + invHeight / 2 + 5;
             invListCenterX = invX + 44;
 
@@ -53,7 +51,7 @@ namespace MysteryBox.Core
             itemNameRect = new Rectangle(itemSlotRect.X - 96, itemSlotRect.Y + itemSlotRect.Height + 10, 256, 48);
             itemRarityRect = new Rectangle(itemNameRect.X, itemNameRect.Y + itemNameRect.Height + 10, 256, 24);
             itemPriceRect = new Rectangle(itemRarityRect.X, itemRarityRect.Y + itemRarityRect.Height + 10, 256, 24);
-
+            itemCountRect = new Rectangle(itemPriceRect.X, itemPriceRect.Y + itemPriceRect.Height, 256, 24);
 
 
             btnCloseInvBig = new Button(300, 529, 200, 66, Sprites.GetTexture("Close Inventory Button"));
@@ -87,6 +85,7 @@ namespace MysteryBox.Core
                         Utils.DrawSmallString(item.Name, itemNameRect, Color.White);
                         Utils.DrawRarityString(item, itemRarityRect);
                         Utils.DrawSmallString($"Price: {item.Price} fame", itemPriceRect, Color.White);
+                        Utils.DrawSmallString($"Amount: {iItem.Count}", itemCountRect, Color.White);
                         //Game1.Instance.drawString($">{item.Name} x{iItem.Count}<", invListCenterX, invListCenterY + i * invListSpacing);
                     }
                     else

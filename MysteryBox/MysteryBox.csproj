@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Core\Button.cs" />
     <Compile Include="Core\DiscordRPCHandler.cs" />
+    <Compile Include="Core\Extensions.cs" />
     <Compile Include="Core\GameData.cs" />
     <Compile Include="Core\InputManager.cs" />
     <Compile Include="Core\InventoryItem.cs" />
@@ -55,7 +56,7 @@
     <Compile Include="Core\LootBox.cs" />
     <Compile Include="Core\LootBoxAnimationHandler.cs" />
     <Compile Include="Core\LootboxItem.cs" />
-    <Compile Include="Core\OpenCase.cs" />
+    <Compile Include="Core\OpenCaseState.cs" />
     <Compile Include="Core\Player.cs" />
     <Compile Include="Core\State.cs" />
     <Compile Include="Core\Utils.cs" />
@@ -79,6 +80,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Abilities\Cloak\T0 Cloak of Shadows.png" />
