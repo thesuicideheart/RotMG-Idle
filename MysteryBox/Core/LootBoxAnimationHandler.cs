@@ -160,7 +160,7 @@ namespace MysteryBox.Core
                 if (ShouldOpenBox)
                 {
 
-                    batch.FillRectangle(borderRect, GameData.BorderColor);
+                    batch.FillRectangle(borderRect, GameData.TransparentBorderColor);
                     
 
 

@@ -24,6 +24,11 @@ namespace MysteryBox.Core
             Game1.Instance.spriteBatch.DrawString(Game1.Instance.TimerFont, text, new Vector2(x, y), color);
         }
 
+        public static RectangleF RectToRectF(Rectangle rect)
+        {
+            return new RectangleF(rect.X, rect.Y, rect.Width, rect.Height);
+        }
+
         public static void DrawRarityString(Item item, Rectangle bounds)
         {
             if (item != null)

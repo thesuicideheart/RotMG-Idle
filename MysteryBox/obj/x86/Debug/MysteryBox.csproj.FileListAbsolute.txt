@@ -1409,3 +1409,4 @@ C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\Mys
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\base_background.xnb
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\inv_icon.xnb
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\mystery_box.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\base_lootbox.xnb

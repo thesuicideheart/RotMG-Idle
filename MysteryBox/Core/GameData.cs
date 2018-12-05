@@ -15,6 +15,7 @@ namespace MysteryBox.Core
         public const string OpenCaseState = "STATE_OPEN_CASE";
 
         public static List<Item> ItemsInGame = new List<Item>();
+        public static List<LootBox> LootBoxesInGame = new List<LootBox>();
 
         #region loot boxes
 
@@ -22,7 +23,9 @@ namespace MysteryBox.Core
 
         #endregion
 
-        public static Color BorderColor = new Color(32, 32, 32, 175);
+        public static Color TransparentBorderColor = new Color(32, 32, 32, 175);
+        public static Color BorderColor = new Color(32, 32, 32);
+        public static Color LightBorderColor = new Color(82, 82, 82);
 
         public static void Init()
         {
@@ -52,7 +55,7 @@ namespace MysteryBox.Core
             AddItem(new Item("t10_sword", "Archon Sword", 212, Rarity.Uncommon));
             AddItem(new Item("t11_sword", "Skysplitter Sword", 310, Rarity.Uncommon));
             AddItem(new Item("t12_sword", "Sword of Acclaim", 450, Rarity.Rare));
-            AddItem(new Item("t13_sword", "Sword of Splendor", 650, Rarity.Legendary));
+            AddItem(new Item("t13_sword", "Sword of Splendor", 900, Rarity.Legendary));
 
             #endregion
 
@@ -71,7 +74,7 @@ namespace MysteryBox.Core
             AddItem(new Item("t10_dagger", "Emeraldshard Dagger", 212, Rarity.Uncommon));
             AddItem(new Item("t11_dagger", "Agateclaw Dagger", 310, Rarity.Uncommon));
             AddItem(new Item("t12_dagger", "Dagger of Foul Malevolence", 450, Rarity.Rare));
-            AddItem(new Item("t13_dagger", "Dagger of Sinister Deeds", 650, Rarity.Legendary));
+            AddItem(new Item("t13_dagger", "Dagger of Sinister Deeds", 550, Rarity.Legendary));
 
             #endregion
 
@@ -90,7 +93,7 @@ namespace MysteryBox.Core
             AddItem(new Item("t10_katana", "Ichimonji", 212, Rarity.Uncommon));
             AddItem(new Item("t11_katana", "Muramasa", 310, Rarity.Uncommon));
             AddItem(new Item("t12_katana", "Masamune", 450, Rarity.Rare));
-            AddItem(new Item("t13_katana", "Sadamune", 650, Rarity.Legendary));
+            AddItem(new Item("t13_katana", "Sadamune", 550, Rarity.Legendary));
 
             #endregion
 
@@ -109,7 +112,7 @@ namespace MysteryBox.Core
             AddItem(new Item("t10_wand", "Wand of Shadow", 212, Rarity.Uncommon));
             AddItem(new Item("t11_wand", "Wand of Ancient Warning", 310, Rarity.Uncommon));
             AddItem(new Item("t12_wand", "Wand of Recompense", 450, Rarity.Rare));
-            AddItem(new Item("t13_wand", "Wand of Evocation", 650, Rarity.Legendary));
+            AddItem(new Item("t13_wand", "Wand of Evocation", 900, Rarity.Legendary));
 
             #endregion
 
@@ -128,7 +131,7 @@ namespace MysteryBox.Core
             AddItem(new Item("t10_bow", "Bow of Fey Magic", 212, Rarity.Uncommon));
             AddItem(new Item("t11_bow", "Bow of Innocent Blood", 310, Rarity.Uncommon));
             AddItem(new Item("t12_bow", "Bow of Covert Havens", 450, Rarity.Rare));
-            AddItem(new Item("t13_bow", "Bow of Mystical Energy", 650, Rarity.Legendary));
+            AddItem(new Item("t13_bow", "Bow of Mystical Energy", 550, Rarity.Legendary));
 
 
             #endregion
@@ -148,18 +151,92 @@ namespace MysteryBox.Core
             AddItem(new Item("t10_staff", "Staff of Diabolic Secrets", 212, Rarity.Uncommon));
             AddItem(new Item("t11_staff", "Staff of Astral Knowledge", 310, Rarity.Uncommon));
             AddItem(new Item("t12_staff", "Staff of the Cosmic Whole", 450, Rarity.Rare));
-            AddItem(new Item("t13_staff", "Staff of the Vital Unity", 650, Rarity.Legendary));
+            AddItem(new Item("t13_staff", "Staff of the Vital Unity", 900, Rarity.Legendary));
 
             #endregion
             #endregion
 
             #region loot boxes
 
-            BasicBox = new LootBox("Basic Box", 10,
+            BasicBox = new LootBox("Basic Box", "Shield of Ogmur", 10,
                 new List<LootboxItem>()
                 {
-                    new LootboxItem("t0_dagger",0,50000)
+                    new LootboxItem("t1_dagger",0,10000),
+                    new LootboxItem("t2_dagger",10000,15000),
+                    new LootboxItem("t3_dagger",15000,17500),
+                    new LootboxItem("t4_dagger",17500,19500),
+                    new LootboxItem("t5_dagger",19500,20000),
+                    new LootboxItem("t6_dagger",20000,20250),
+
+                    new LootboxItem("t1_sword",20250,30250),
+                    new LootboxItem("t2_sword",30250,37750),
+                    new LootboxItem("t3_sword",37750,40250),
+                    new LootboxItem("t4_sword",40250,42250),
+                    new LootboxItem("t5_sword",42250,42750),
+                    new LootboxItem("t6_sword",42750,43000),
+
+                    new LootboxItem("t1_bow",43000,53000),
+                    new LootboxItem("t2_bow",53000,58000),
+                    new LootboxItem("t3_bow",58000,60500),
+                    new LootboxItem("t4_bow",60500,62500),
+                    new LootboxItem("t5_bow",62500,63000),
+                    new LootboxItem("t6_bow",63000,63200),
+
+                    new LootboxItem("t1_wand",63200,73200),
+                    new LootboxItem("t2_wand",73200,78200),
+                    new LootboxItem("t3_wand",78200,80700),
+                    new LootboxItem("t4_wand",80700,82700),
+                    new LootboxItem("t5_wand",82700,83200),
+                    new LootboxItem("t6_wand",83200,83400),
+
+                    new LootboxItem("t1_katana",83400,93400),
+                    new LootboxItem("t2_katana",93400,98400),
+                    new LootboxItem("t3_katana",98400,100900),
+                    new LootboxItem("t4_katana",100900,102900),
+                    new LootboxItem("t5_katana",102900,103400),
+                    new LootboxItem("t6_katana",103400,103650),
+
+                    new LootboxItem("t1_staff",103650,113650),
+                    new LootboxItem("t2_staff",113650,118650),
+                    new LootboxItem("t3_staff",118650,121150),
+                    new LootboxItem("t4_staff",121150,123150),
+                    new LootboxItem("t5_staff",123150,123650),
+                    new LootboxItem("t6_staff",123650,123900)
                 });
+
+            IntermediateBox = new LootBox("Intermediate Box", "Dirk of Cronus", 100,
+                new List<LootboxItem>()
+                {
+                    new LootboxItem("t11_bow",0,15500),
+                    new LootboxItem("t11_katana",15500,31000),
+                    new LootboxItem("t11_dagger",31000,46500),
+                    new LootboxItem("t11_staff",46500,62000),
+                    new LootboxItem("t11_wand",62000,77500),
+                    new LootboxItem("t11_sword",77500,93000),
+
+                    new LootboxItem("t12_bow",93000,94111),
+                    new LootboxItem("t12_katana",94111,95222),
+                    new LootboxItem("t12_dagger",95222,96333),
+                    new LootboxItem("t12_staff",96333,97555),
+                    new LootboxItem("t12_wand",97555,98000),
+                    new LootboxItem("t12_sword",98000,100000)
+                });
+
+            AdvancedBox = new LootBox("Advanced Box", "Staff of the Vital Unity", 750,
+                new List<LootboxItem>()
+                {
+                    new LootboxItem("t13_bow",0,30000),
+                    new LootboxItem("t13_katana",30000,60000),
+                    new LootboxItem("t13_dagger",60000,90000),
+
+                    new LootboxItem("t13_staff",90000,93333),
+                    new LootboxItem("t13_wand",93333,96666),
+                    new LootboxItem("t13_sword",96666,100000)
+                });
+
+            LootBoxesInGame.Add(BasicBox);
+            LootBoxesInGame.Add(IntermediateBox);
+            LootBoxesInGame.Add(AdvancedBox);
 
             #endregion
 

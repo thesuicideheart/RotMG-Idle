@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,12 @@ namespace MysteryBox.Core
         public List<LootboxItem> Items = new List<LootboxItem>();
         public string Name;
         public int Cost;
+        public Texture2D Texture;
 
-        public LootBox(string name, int cost, List<LootboxItem> items)
+        public LootBox(string name,string textureName, int cost, List<LootboxItem> items)
         {
             Name = name;
+            Texture = Sprites.GetTexture(textureName);
             Cost = cost;
             Items = items;
         }
@@ -34,9 +37,7 @@ namespace MysteryBox.Core
             }
 
             Console.WriteLine(randomNumber);
-
-            //var item = Items.SingleOrDefault(i => randomNumber < i.MaxNum && randomNumber > i.MinNum);
-
+            
             foreach (var item in Items)
             {
 
