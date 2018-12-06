@@ -24,15 +24,16 @@ namespace MysteryBox.Core
 
         private int SelectedItem = 0;
 
-        private Texture2D invBackground, itemSlot;
+        private Texture2D invBackground, itemSlot, fameIcon;
 
         private Rectangle itemSlotRect,
             itemNameRect,
             itemRarityRect,
             itemPriceRect,
-            itemCountRect;
+            itemCountRect,
+            FameRect;
 
-        private Button btnCloseInvBig, btnCloseInvSmall;
+        private Button btnCloseInvBig, btnCloseInvSmall, btnSellItem;
 
 
 
@@ -56,9 +57,11 @@ namespace MysteryBox.Core
 
             btnCloseInvBig = new Button(300, 529, 200, 66, Sprites.GetTexture("Close Inventory Button"));
             btnCloseInvSmall = new Button(740, 18, 34, 33, Sprites.GetTexture("exitbtn"));
+            btnSellItem = new Button(613, 549, Sprites.GetTexture("sell_btn").Width, Sprites.GetTexture("sell_btn").Height, Sprites.GetTexture("sell_btn"));
 
+            fameIcon = Sprites.GetTexture("fame_small");
 
-
+            FameRect = new Rectangle(102 + fameIcon.Width, 14, 64, 36);
         }
 
         public override void Draw(SpriteBatch batch)
@@ -66,9 +69,13 @@ namespace MysteryBox.Core
 
             batch.Draw(invBackground, new Rectangle(0, 0, Option.Width, Option.Height), Color.White);
             batch.Draw(itemSlot, itemSlotRect, Color.White);
+            batch.Draw(fameIcon, new Rectangle(102, 14, fameIcon.Width, fameIcon.Height), Color.White);
+
+            Utils.DrawBigString($"{Player.Fame}", FameRect, Color.White);
 
             btnCloseInvSmall.Draw(batch);
             btnCloseInvBig.Draw(batch);
+            btnSellItem.Draw(batch);
 
             if (Player.Inventory.Count > 0)
             {
@@ -117,6 +124,14 @@ namespace MysteryBox.Core
                 if (Game1.Instance.input.JustPressed(Keys.S) || Game1.Instance.input.JustPressed(Keys.Down))
                 {
                     SelectedItem++;
+                }
+
+                if (btnSellItem.MouseClicked())
+                {
+                    if(iItem != null && item != null)
+                    {
+                        Player.SellItem(SelectedItem);
+                    }
                 }
 
                 RPC.SetPresence("Browsing the Inventory", $"Looking at {item.Name}", "inventory", "Browsing the inventory");

@@ -204,7 +204,7 @@ namespace MysteryBox.Core
                     new LootboxItem("t6_staff",123650,123900)
                 });
 
-            IntermediateBox = new LootBox("Intermediate Box", "Dirk of Cronus", 100,
+            IntermediateBox = new LootBox("Intermediate Box", "Dirk of Cronus", 300,
                 new List<LootboxItem>()
                 {
                     new LootboxItem("t11_bow",0,15500),

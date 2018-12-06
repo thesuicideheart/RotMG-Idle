@@ -32,6 +32,32 @@ namespace MysteryBox.Core
             }
         }
 
+        public void SellItem(int index)
+        {
+            if (index < 0) index = 0;
+            if (index >= Inventory.Count()) index = Inventory.Count - 1;
+            var iItem = Inventory[index];
+
+            if (iItem.Count > 0)
+            {
+                var item = GameData.GetItemFromId(iItem.ItemID);
+
+                if (item != null)
+                {
+                    iItem.Count--;
+                    Fame += item.Price;
+                    if(iItem.Count <= 0)
+                    {
+                        //Todo: Remove item from inventroy
+                        Inventory.RemoveAt(index);
+                    }
+                }
+            }
+
+
+
+        }
+
         public void Save()
         {
             var xDoc = new XDocument();
@@ -46,7 +72,7 @@ namespace MysteryBox.Core
             goldElem.Value = Gold.ToString();
 
 
-            foreach(var item in Inventory)
+            foreach (var item in Inventory)
             {
                 var itemElem = new XElement("Item");
                 itemElem.SetAttributeValue("id", $"{item.ItemID}");
@@ -88,7 +114,7 @@ namespace MysteryBox.Core
 
                 var itemsInInv = invElem.Elements("Item");
 
-                foreach(var itemElem in itemsInInv)
+                foreach (var itemElem in itemsInInv)
                 {
                     int count = 0;
                     if (!int.TryParse(itemElem.Value, out count))
