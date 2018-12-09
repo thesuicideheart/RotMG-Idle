@@ -43,6 +43,8 @@ namespace MysteryBox
         public InventoryState InventoryState;
         public MainState MainState;
         public OpenCaseState OpenCaseState;
+        public TestState TestState;
+        public StoreState StoreState;
 
         public Game1()
         {
@@ -90,12 +92,16 @@ namespace MysteryBox
             InventoryState = new InventoryState(player);
             MainState = new MainState(player);
             OpenCaseState = new OpenCaseState(player);
+            TestState = new TestState(player);
+            StoreState = new StoreState();
 
             AddState(InventoryState);
             AddState(MainState);
             AddState(OpenCaseState);
+            AddState(TestState);
+            AddState(StoreState);
 
-            SwitchState(MainState.ID);
+            SwitchState(GameData.TestState);
 
         }
 

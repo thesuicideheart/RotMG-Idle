@@ -14,6 +14,7 @@ namespace MysteryBox.Core
         public const string MainState = "STATE_MAIN";
         public const string OpenCaseState = "STATE_OPEN_CASE";
         public const string StoreState = "STATE_STORE";
+        public const string TestState = "STATE_TEST";
 
         public static List<Item> ItemsInGame = new List<Item>();
         public static List<LootBox> LootBoxesInGame = new List<LootBox>();
@@ -244,7 +245,9 @@ namespace MysteryBox.Core
 
             #region units
 
-            UnitsInGame.Add(new Unit("UNIT_TEST", "test unit", 100, 5));
+            UnitsInGame.Add(new Unit("UNIT_TEST", "test unit 1", 100, 5));
+            UnitsInGame.Add(new Unit("UNIT_TEST_2", "test unit 2", 250, 10));
+            UnitsInGame.Add(new Unit("UNIT_TEST_3", "test unit 3", 500, 25));
 
             #endregion
 
