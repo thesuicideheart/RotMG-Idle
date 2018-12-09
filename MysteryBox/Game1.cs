@@ -142,6 +142,11 @@ namespace MysteryBox
                 player.Save();
             }
 
+            if(timer % (5 * Option.FPS) == 0)
+            {
+                player.GiveFameFromUnits();
+            }
+
             base.Update(gameTime);
         }
 

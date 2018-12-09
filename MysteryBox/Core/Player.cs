@@ -14,10 +14,36 @@ namespace MysteryBox.Core
         public int Gold;
 
         public List<InventoryItem> Inventory = new List<InventoryItem>();
+        public List<PlayerUnit> Units = new List<PlayerUnit>();
 
         public Player()
         {
 
+        }
+
+        public void GiveFameFromUnits()
+        {
+            var amtToGive = 0;
+            foreach(var unit in Units)
+            {
+                var units = unit.Count;
+                var aUnit = GameData.GetUnit(unit.UnitID);
+                amtToGive += (units * aUnit.IncomePerTick);
+            }
+
+            Fame += amtToGive;
+        }
+
+        public void AddUnit(PlayerUnit unit)
+        {
+            if(Units.Exists(u => u.UnitID == unit.UnitID))
+            {
+                Inventory.Find(u => u.ItemID == unit.UnitID).Count += unit.Count;
+            }
+            else
+            {
+                Units.Add(unit);
+            }
         }
 
         public void AddItem(InventoryItem item)

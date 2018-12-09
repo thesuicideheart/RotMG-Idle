@@ -13,9 +13,11 @@ namespace MysteryBox.Core
         public const string InvState = "STATE_INV";
         public const string MainState = "STATE_MAIN";
         public const string OpenCaseState = "STATE_OPEN_CASE";
+        public const string StoreState = "STATE_STORE";
 
         public static List<Item> ItemsInGame = new List<Item>();
         public static List<LootBox> LootBoxesInGame = new List<LootBox>();
+        public static List<Unit> UnitsInGame = new List<Unit>();
 
         #region loot boxes
 
@@ -240,11 +242,22 @@ namespace MysteryBox.Core
 
             #endregion
 
+            #region units
+
+            UnitsInGame.Add(new Unit("UNIT_TEST", "test unit", 100, 5));
+
+            #endregion
+
         }
 
         public static void AddItem(Item item)
         {
             ItemsInGame.Add(item);
+        }
+
+        public static Unit GetUnit(string id)
+        {
+            return UnitsInGame.SingleOrDefault(unit => unit.ID == id);
         }
 
         public static Item GetItemFromId(string id)

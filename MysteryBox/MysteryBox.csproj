@@ -58,7 +58,12 @@
     <Compile Include="Core\LootboxItem.cs" />
     <Compile Include="Core\OpenCaseState.cs" />
     <Compile Include="Core\Player.cs" />
+    <Compile Include="Core\PlayerUnit.cs" />
+    <Compile Include="Core\ShopItem.cs" />
     <Compile Include="Core\State.cs" />
+    <Compile Include="Core\Store.cs" />
+    <Compile Include="Core\StoreState.cs" />
+    <Compile Include="Core\Unit.cs" />
     <Compile Include="Core\Utils.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Program.cs" />

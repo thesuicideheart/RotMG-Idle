@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/UTs/Snake Skin Shield.png</SourceFile>
-  <SourceTime>2018-11-22T11:06:29.6332471+01:00</SourceTime>
-  <DestFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/bin/Windows/UTs/Snake Skin Shield.xnb</DestFile>
-  <DestTime>2018-12-04T12:56:08.4606837+01:00</DestTime>
+  <SourceFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/UTs/Snake Skin Shield.png</SourceFile>
+  <SourceTime>2018-11-29T19:34:18.3099442+01:00</SourceTime>
+  <DestFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/bin/Windows/UTs/Snake Skin Shield.xnb</DestFile>
+  <DestTime>2018-12-08T15:21:06.5529492+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
