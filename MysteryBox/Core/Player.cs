@@ -21,6 +21,20 @@ namespace MysteryBox.Core
 
         }
 
+        public bool BuyUnit(PlayerUnit unit)
+        {
+            if(Fame >= GameData.UnitsInGame.Find(r => r.ID == unit.UnitID).Price)
+            {
+                AddUnit(unit);
+                return true;
+            }
+            else
+            {
+                //Cant afford unit
+                return false;
+            }
+        }
+
         public void GiveFameFromUnits()
         {
             var amtToGive = 0;
@@ -38,7 +52,7 @@ namespace MysteryBox.Core
         {
             if(Units.Exists(u => u.UnitID == unit.UnitID))
             {
-                Inventory.Find(u => u.ItemID == unit.UnitID).Count += unit.Count;
+                Units.Find(u => u.UnitID == unit.UnitID).Count += unit.Count;
             }
             else
             {

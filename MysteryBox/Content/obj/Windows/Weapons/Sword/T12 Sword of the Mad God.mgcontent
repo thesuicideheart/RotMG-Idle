@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/Weapons/Sword/T12 Sword of the Mad God.png</SourceFile>
-  <SourceTime>2018-11-29T19:34:18.3777619+01:00</SourceTime>
-  <DestFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/bin/Windows/Weapons/Sword/T12 Sword of the Mad God.xnb</DestFile>
-  <DestTime>2018-12-08T15:21:07.8066488+01:00</DestTime>
+  <SourceFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/Weapons/Sword/T12 Sword of the Mad God.png</SourceFile>
+  <SourceTime>2018-11-22T11:06:30.1028735+01:00</SourceTime>
+  <DestFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/bin/Windows/Weapons/Sword/T12 Sword of the Mad God.xnb</DestFile>
+  <DestTime>2018-12-10T08:31:42.5066136+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

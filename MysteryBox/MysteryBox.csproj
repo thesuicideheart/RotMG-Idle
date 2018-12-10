@@ -57,6 +57,7 @@
     <Compile Include="Core\LootBoxAnimationHandler.cs" />
     <Compile Include="Core\LootboxItem.cs" />
     <Compile Include="Core\LootboxShopItem.cs" />
+    <Compile Include="Core\MessageBox.cs" />
     <Compile Include="Core\OpenCaseState.cs" />
     <Compile Include="Core\Player.cs" />
     <Compile Include="Core\PlayerUnit.cs" />

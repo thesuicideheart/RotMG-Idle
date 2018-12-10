@@ -22,5 +22,10 @@ namespace MysteryBox.Core
             Count = count;
         }
 
+        public override string ToString()
+        {
+            return $"[ID: {UnitID}, Count:{Count}]";
+        }
+
     }
 }
