@@ -36,9 +36,11 @@ namespace MysteryBox
 
         public State CurrentState;
 
-        public Dictionary<string, State> states = new Dictionary<string, State>();
+        public Dictionary<string, State> states = new Dictionary<string, State>( );
 
         public Player player;
+
+        public MessageBox messageBox;
 
         public InventoryState InventoryState;
         public MainState MainState;
@@ -46,11 +48,12 @@ namespace MysteryBox
         public TestState TestState;
         public StoreState StoreState;
 
-        public Game1()
+        public Game1 ( )
         {
-            graphics = new GraphicsDeviceManager(this);
+            graphics = new GraphicsDeviceManager( this );
             Content.RootDirectory = "Content";
             Instance = this;
+            messageBox = new MessageBox( );
         }
 
         /// <summary>
@@ -59,69 +62,74 @@ namespace MysteryBox
         /// related content.  Calling base.Initialize will enumerate through any components
         /// and initialize them as well.
         /// </summary>
-        protected override void Initialize()
+        protected override void Initialize ( )
         {
-            if (Directory.Exists(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $"\\{Option.SaveFolderName}\\") == false)
+            if ( Directory.Exists( Environment.GetFolderPath( Environment.SpecialFolder.ApplicationData ) + $"\\{Option.SaveFolderName}\\" ) == false )
             {
-                Directory.CreateDirectory(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $"\\{Option.SaveFolderName}\\");
+                Directory.CreateDirectory( Environment.GetFolderPath( Environment.SpecialFolder.ApplicationData ) + $"\\{Option.SaveFolderName}\\" );
             }
             // TODO: Add your initialization logic here
-            RPC.Initialize();
-            Sprites.Load(Content);
+            RPC.Initialize( );
+            Sprites.Load( Content );
             graphics.PreferredBackBufferWidth = Option.Width;
             graphics.PreferredBackBufferHeight = Option.Height;
-            graphics.ApplyChanges();
+            graphics.ApplyChanges( );
             this.IsMouseVisible = true;
             this.IsFixedTimeStep = true;
-            this.MaxElapsedTime = TimeSpan.FromSeconds(1f / Option.FPS);
-            input = new InputManager(this);
-            this.Components.Add(input);
-            base.Initialize();
-            GameData.Init();
+            this.MaxElapsedTime = TimeSpan.FromSeconds( 1f / Option.FPS );
+            input = new InputManager( this );
+            this.Components.Add( input );
+            base.Initialize( );
+            GameData.Init( );
 
-            if (File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $"\\{Option.SaveFolderName}\\{Option.SaveFileName}"))
+            if ( File.Exists( Environment.GetFolderPath( Environment.SpecialFolder.ApplicationData ) + $"\\{Option.SaveFolderName}\\{Option.SaveFileName}" ) )
             {
-                player = Player.Load(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $"\\{Option.SaveFolderName}\\{Option.SaveFileName}");
+                player = Player.Load( Environment.GetFolderPath( Environment.SpecialFolder.ApplicationData ) + $"\\{Option.SaveFolderName}\\{Option.SaveFileName}" );
             }
             else
             {
-                player = new Player();
+                player = new Player( );
             }
 
 
-            InventoryState = new InventoryState(player);
-            MainState = new MainState(player);
-            OpenCaseState = new OpenCaseState(player);
-            TestState = new TestState(player);
-            StoreState = new StoreState();
+            InventoryState = new InventoryState( player );
+            MainState = new MainState( player );
+            OpenCaseState = new OpenCaseState( player );
+            TestState = new TestState( player );
+            StoreState = new StoreState( );
 
-            AddState(InventoryState);
-            AddState(MainState);
-            AddState(OpenCaseState);
-            AddState(TestState);
-            AddState(StoreState);
+            AddState( InventoryState );
+            AddState( MainState );
+            AddState( OpenCaseState );
+            AddState( TestState );
+            AddState( StoreState );
 
-            SwitchState(GameData.TestState);
+            SwitchState( GameData.TestState );
 
         }
 
-        protected override void OnExiting(object sender, EventArgs args)
+        public static void ShowMessageBox(string msg )
         {
-            RPC.Dispose();
-            base.OnExiting(sender, args);
+            Instance.messageBox.Show( msg );
+        }
+
+        protected override void OnExiting ( object sender, EventArgs args )
+        {
+            RPC.Dispose( );
+            base.OnExiting( sender, args );
         }
 
         /// <summary>
         /// LoadContent will be called once per game and is the place to load
         /// all of your content.
         /// </summary>
-        protected override void LoadContent()
+        protected override void LoadContent ( )
         {
             // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new SpriteBatch(GraphicsDevice);
+            spriteBatch = new SpriteBatch( GraphicsDevice );
 
-            font = Content.Load<SpriteFont>("font");
-            TimerFont = Content.Load<SpriteFont>("TimerFont");
+            font = Content.Load<SpriteFont>( "font" );
+            TimerFont = Content.Load<SpriteFont>( "TimerFont" );
 
             // TODO: use this.Content to load your game content here
         }
@@ -130,79 +138,82 @@ namespace MysteryBox
         /// UnloadContent will be called once per game and is the place to unload
         /// game-specific content.
         /// </summary>
-        protected override void UnloadContent()
+        protected override void UnloadContent ( )
         {
             // TODO: Unload any non ContentManager content here
         }
 
         int timer;
-        protected override void Update(GameTime gameTime)
+        protected override void Update ( GameTime gameTime )
         {
 
-            CurrentState.Update();
+            CurrentState.Update( );
+            messageBox.Update( );
 
             timer++;
 
-            if (timer % 60 == 0)
+            if ( timer % 60 == 0 )
             {
-                player.Save();
+                player.Save( );
             }
 
-            if(timer % (5 * Option.FPS) == 0)
+            if ( timer % ( 5 * Option.FPS ) == 0 )
             {
-                player.GiveFameFromUnits();
+                player.GiveFameFromUnits( );
             }
 
-            base.Update(gameTime);
+            base.Update( gameTime );
         }
 
         /// <summary>
         /// This is called when the game should draw itself.
         /// </summary>
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
-        protected override void Draw(GameTime gameTime)
+        protected override void Draw ( GameTime gameTime )
         {
-            GraphicsDevice.Clear(Color.Black);
+            GraphicsDevice.Clear( Color.Black );
 
             // TODO: Add your drawing code here
 
-            spriteBatch.Begin(samplerState: SamplerState.PointClamp);
+            spriteBatch.Begin( samplerState: SamplerState.PointClamp );
 
-            spriteBatch.Draw(Sprites.GetTexture("base_background"), new Rectangle(0, 0, Option.Width, Option.Height), Color.White);
+            spriteBatch.Draw( Sprites.GetTexture( "base_background" ), new Rectangle( 0, 0, Option.Width, Option.Height ), Color.White );
 
-            CurrentState.Draw(spriteBatch);
-            
-            spriteBatch.End();
+            CurrentState.Draw( spriteBatch );
 
-            base.Draw(gameTime);
+            messageBox.Draw( spriteBatch );
+
+            spriteBatch.End( );
+
+            base.Draw( gameTime );
         }
 
-        public void SwitchState(string id)
+        public void SwitchState ( string id )
         {
-            if (states.ContainsKey(id))
+            if ( states.ContainsKey( id ) )
             {
-                Console.WriteLine("switched to " + id);
-                CurrentState = states[id];
+                Console.WriteLine( "switched to " + id );
+                CurrentState = states [ id ];
             }
         }
 
-        public void AddState(State state)
+        public void AddState ( State state )
         {
-            if (!states.ContainsKey(state.ID))
+            if ( !states.ContainsKey( state.ID ) )
             {
-                states.Add(state.ID, state);
+                states.Add( state.ID, state );
             }
         }
 
 
-        public void draw(Texture2D texture, Rectangle rect)
+        public void draw ( Texture2D texture, Rectangle rect )
         {
-            spriteBatch.Draw(texture, rect, Color.White);
+            spriteBatch.Draw( texture, rect, Color.White );
         }
 
-        public void drawString(string text, int x, int y)
+        public void drawString ( string text, int x, int y )
         {
-            spriteBatch.DrawString(font, text, new Vector2(x, y), Color.White);
+            spriteBatch.DrawString( font, text, new Vector2( x, y ), Color.White );
         }
     }
 }

@@ -26,6 +26,11 @@ namespace MysteryBox.Core
         public override void Draw(SpriteBatch batch)
         {
 
+            if ( !MessageBox.Active )
+            {
+
+            }
+
             base.Draw(batch);
         }
     }

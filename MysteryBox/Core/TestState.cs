@@ -23,81 +23,73 @@ namespace MysteryBox.Core
 
         private Button testbtn;
 
-        public MessageBox MessageBox;
 
-        public TestState(Player player) : base(GameData.TestState)
+        public TestState ( Player player ) : base( GameData.TestState )
         {
 
             Player = player;
-            testbtn = new Button("Xd", 100, 100, 100, 100, Color.Blue);
-            MessageBox = new MessageBox();
+            testbtn = new Button( "Xd", 100, 100, 100, 100, Color.Blue );
         }
 
-        public override void Draw(SpriteBatch batch)
+        public override void Draw ( SpriteBatch batch )
         {
-            
-            testbtn.Draw(batch);
-            for (int i = -3; i < 4; i++)
+
+            testbtn.Draw( batch );
+            for ( int i = -3 ; i < 4 ; i++ )
             {
-                if (SelectedItem + i < 0 || SelectedItem + i >= GameData.UnitsInGame.Count) continue;
-                var unit = GameData.UnitsInGame[SelectedItem + i];
-                if (i == 0)
+                if ( SelectedItem + i < 0 || SelectedItem + i >= GameData.UnitsInGame.Count ) continue;
+                var unit = GameData.UnitsInGame [ SelectedItem + i ];
+                if ( i == 0 )
                 {
-                    Utils.DrawSmallString($"  >{unit.Name}<", invX, (invY + i * invListSpacing) + 10, Color.White);
+                    Utils.DrawSmallString( $"  >{unit.Name}<", invX, ( invY + i * invListSpacing ) + 10, Color.White );
                 }
                 else
                 {
-                    Utils.DrawSmallString($"{unit.Name}", invX, (invY + i * invListSpacing) + 10, Color.White);
+                    Utils.DrawSmallString( $"{unit.Name}", invX, ( invY + i * invListSpacing ) + 10, Color.White );
                 }
 
             }
 
-            for (var i = 0; i < Player.Units.Count(); i++)
+            Utils.DrawBigString( $"Fame: {Player.Fame}", 500, 40, Color.White );
+
+            for ( var i = 0 ; i < Player.Units.Count( ) ; i++ )
             {
-                Utils.DrawSmallString($"Unit: {GameData.GetUnit(Player.Units[i].UnitID).Name} x{Player.Units[i].Count}", newInvX, (invY + i * invListSpacing) + 10, Color.White);
+                Utils.DrawSmallString( $"Unit: {GameData.GetUnit( Player.Units [ i ].UnitID ).Name} x{Player.Units [ i ].Count}", newInvX, ( invY + i * invListSpacing ) + 10, Color.White );
             }
-            MessageBox.Draw(batch);
-            base.Draw(batch);
+            base.Draw( batch );
         }
 
-        public override void Update()
+        public override void Update ( )
         {
-            MessageBox.Update();
-
-            if (!MessageBox.Active)
+            if ( !MessageBox.Active )
             {
-                if (SelectedItem < 0)
+                if ( SelectedItem < 0 )
                     SelectedItem = GameData.UnitsInGame.Count - 1;
-                else if (SelectedItem >= GameData.UnitsInGame.Count)
+                else if ( SelectedItem >= GameData.UnitsInGame.Count )
                     SelectedItem = 0;
 
-                if (testbtn.MouseClicked())
+                if ( testbtn.MouseClicked( ) )
                 {
 
-                    var pUnit = new PlayerUnit(GameData.UnitsInGame[SelectedItem].ID);
-                    Player.BuyUnit(pUnit);
-                    Console.WriteLine("Added unit " + GameData.UnitsInGame[SelectedItem].Name + "!");
+                    var pUnit = new PlayerUnit( GameData.UnitsInGame [ SelectedItem ].ID );
+                    Player.BuyUnit( pUnit );
+                    MessageBox.Show( $"Bought unit \"{GameData.UnitsInGame [ SelectedItem ].Name}\" for {GameData.UnitsInGame [ SelectedItem ].Price} Fame!" );
                 }
 
-                if (Game1.Instance.input.JustPressed(Keys.W) || Game1.Instance.input.JustPressed(Keys.Up))
+                if ( Game1.Instance.input.JustPressed( Keys.W ) || Game1.Instance.input.JustPressed( Keys.Up ) )
                 {
                     SelectedItem--;
                 }
-                if (Game1.Instance.input.JustPressed(Keys.S) || Game1.Instance.input.JustPressed(Keys.Down))
+                if ( Game1.Instance.input.JustPressed( Keys.S ) || Game1.Instance.input.JustPressed( Keys.Down ) )
                 {
                     SelectedItem++;
                 }
-
-                if (Game1.Instance.input.JustPressed(Keys.G))
-                {
-                    MessageBox.Show("XDD");
-                }
             }
-            
+
             //TODO: Prettify this at some point in time.
             //TODO: Implement a "buy" feature. Probs gonna do that today(10-12-2018)
 
-            base.Update();
+            base.Update( );
         }
 
     }

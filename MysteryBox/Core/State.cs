@@ -10,7 +10,8 @@ namespace MysteryBox.Core
     public class State
     {
         public string ID;
-        
+
+        public MessageBox MessageBox = new MessageBox( );
 
         public State(string id)
         {
@@ -19,12 +20,12 @@ namespace MysteryBox.Core
 
         public virtual void Draw(SpriteBatch batch)
         {
-
+            MessageBox.Draw( batch );
         }
 
         public virtual void Update()
         {
-
+            MessageBox.Update( );
         }
 
         public void SwitchState(string stateId)

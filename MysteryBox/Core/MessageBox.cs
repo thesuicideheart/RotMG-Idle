@@ -18,36 +18,45 @@ namespace MysteryBox.Core
 
         public string text;
 
-
-        public RectangleF bounds = new RectangleF(100, 100, Option.Width - 200, Option.Height - 200);
+        public RectangleF bounds = new RectangleF( 100, 100, Option.Width - 200, Option.Height - 200 );
         public Button OkBtn;
 
 
-        public MessageBox()
+        public MessageBox ( )
         {
-            OkBtn = new Button("Okay", bounds.X + (bounds.Width/2)-50, bounds.Y+bounds.Width-100, 192, 24, Color.Blue);
+            OkBtn = new Button( "Okay", bounds.X + ( bounds.Width / 2 ) - 50, bounds.Y + bounds.Height - 100, 192, 24, Color.Blue );
         }
 
-        public bool Active;
+        public bool Active = false;
 
-        public void Show(string text)
+        public void Show ( string text )
         {
             Active = true;
             this.text = text;
         }
 
-        public void Update()
+        public void Close ( )
         {
-            OkBtn.MouseClicked();
+            Active = false;
+            this.text = "";
         }
 
-        public void Draw(SpriteBatch batch)
+        public void Update ( )
         {
-            if (Active)
+            if ( OkBtn.MouseClicked( ) )
             {
-                batch.FillRectangle(bounds, GameData.LightBorderColor);
-                batch.DrawRectangle(bounds, GameData.BorderColor, 3);
-                OkBtn.Draw(batch);
+                Close( );
+            }
+        }
+
+        public void Draw ( SpriteBatch batch )
+        {
+            if ( Active )
+            {
+                batch.FillRectangle( bounds, GameData.LightBorderColor );
+                batch.DrawRectangle( bounds, GameData.BorderColor, 3 );
+                Utils.DrawBigString( text, ( int ) bounds.X + 10, ( int ) bounds.Y + 10, Color.White );
+                OkBtn.Draw( batch );
             }
         }
 
