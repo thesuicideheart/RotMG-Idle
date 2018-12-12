@@ -21,7 +21,9 @@ namespace MysteryBox.Core
 
         public string name;
 
-
+        public Weapon weapon;
+        public Armor armor;
+        
 
         public bool HandleLevelUp ( )
         {

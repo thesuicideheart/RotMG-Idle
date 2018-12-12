@@ -44,6 +44,7 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Core\Armor.cs" />
     <Compile Include="Core\Button.cs" />
     <Compile Include="Core\Character.cs" />
     <Compile Include="Core\DiscordRPCHandler.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Core\Unit.cs" />
     <Compile Include="Core\UnitShopItem.cs" />
     <Compile Include="Core\Utils.cs" />
+    <Compile Include="Core\Weapon.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
