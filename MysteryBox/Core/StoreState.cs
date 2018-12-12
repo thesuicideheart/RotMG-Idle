@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 
 namespace MysteryBox.Core
 {
@@ -25,11 +26,6 @@ namespace MysteryBox.Core
 
         public override void Draw(SpriteBatch batch)
         {
-
-            if ( !MessageBox.Active )
-            {
-
-            }
 
             base.Draw(batch);
         }

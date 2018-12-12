@@ -65,12 +65,12 @@ namespace MysteryBox.Core
             btnGetFame.Draw(batch);
             btnInv.Draw(batch);
             btnMysteryBox.Draw(batch);
-            btnShop.Draw(batch);
+            //btnShop.Draw(batch);
 
             Utils.DrawBigString($"Fame: {Player.Fame}", (int)Option.Width / 2 - 60, (int)labelPos.Y, Color.White);
             Utils.DrawBigString("Inventory", rectInvText, Color.White);
             Utils.DrawBigString("Mystery Boxes", rectMysteryBoxText, Color.White);
-            Utils.DrawBigString("Shop", rectShopText, Color.White);
+            //Utils.DrawBigString("Shop", rectShopText, Color.White);
 
 
             base.Draw(batch);
@@ -103,10 +103,10 @@ namespace MysteryBox.Core
                 Game1.Instance.SwitchState(GameData.OpenCaseState);
             }
 
-            if (btnShop.MouseClicked() || rectShopText.RectangleClicked())
-            {
-                Console.WriteLine("xd");
-            }
+            //if (btnShop.MouseClicked() || rectShopText.RectangleClicked())
+            //{
+            //    Console.WriteLine("xd");
+            //}
 
 
 #if DEBUG

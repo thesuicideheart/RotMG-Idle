@@ -45,6 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Core\Button.cs" />
+    <Compile Include="Core\Character.cs" />
     <Compile Include="Core\DiscordRPCHandler.cs" />
     <Compile Include="Core\Extensions.cs" />
     <Compile Include="Core\GameData.cs" />
