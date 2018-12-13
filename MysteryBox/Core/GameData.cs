@@ -15,6 +15,7 @@ namespace MysteryBox.Core
         public const string OpenCaseState = "STATE_OPEN_CASE";
         public const string StoreState = "STATE_STORE";
         public const string TestState = "STATE_TEST";
+        public const string CharacterScreen = "STATE_CHARACTER_SCREEN";
 
         public static List<Item> ItemsInGame = new List<Item>();
         public static List<LootBox> LootBoxesInGame = new List<LootBox>();

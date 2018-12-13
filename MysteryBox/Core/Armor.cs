@@ -10,5 +10,15 @@ namespace MysteryBox.Core
     {
         public string ItemID;
         public int Defence;
+        public int FameBonus;
+        public ArmorType ArmorType;
+
+        public Armor(string id, int def, int bonus , ArmorType type)
+        {
+            ItemID = id;
+            Defence = def;
+            FameBonus = bonus;
+            ArmorType = type;
+        }
     }
 }

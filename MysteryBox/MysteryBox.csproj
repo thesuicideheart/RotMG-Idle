@@ -45,8 +45,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Core\Armor.cs" />
+    <Compile Include="Core\ArmorType.cs" />
+    <Compile Include="Core\Bag.cs" />
     <Compile Include="Core\Button.cs" />
     <Compile Include="Core\Character.cs" />
+    <Compile Include="Core\CharacterScreen.cs" />
     <Compile Include="Core\DiscordRPCHandler.cs" />
     <Compile Include="Core\Extensions.cs" />
     <Compile Include="Core\GameData.cs" />
@@ -63,6 +66,7 @@
     <Compile Include="Core\OpenCaseState.cs" />
     <Compile Include="Core\Player.cs" />
     <Compile Include="Core\PlayerUnit.cs" />
+    <Compile Include="Core\PotionStorage.cs" />
     <Compile Include="Core\ShopItem.cs" />
     <Compile Include="Core\ShopPanel.cs" />
     <Compile Include="Core\ShopSlot.cs" />
@@ -74,6 +78,7 @@
     <Compile Include="Core\UnitShopItem.cs" />
     <Compile Include="Core\Utils.cs" />
     <Compile Include="Core\Weapon.cs" />
+    <Compile Include="Core\WeaponType.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

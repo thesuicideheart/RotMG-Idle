@@ -12,13 +12,15 @@ namespace MysteryBox.Core
         public int MinDmg;
         public int MaxDmg;
         public int FameBonus;
+        public WeaponType WeaponType;
 
-        public Weapon(string id, int mindmg, int maxdmg, int famebonus )
+        public Weapon(string id, int mindmg, int maxdmg, int famebonus , WeaponType type)
         {
             ItemID = id;
             MinDmg = mindmg;
             MaxDmg = maxdmg;
             FameBonus = famebonus;
+            WeaponType = type;
         }
     }
 }

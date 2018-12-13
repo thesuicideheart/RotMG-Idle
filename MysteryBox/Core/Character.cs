@@ -19,12 +19,21 @@ namespace MysteryBox.Core
 
         public Stats Stats;
 
-        public string name;
+        public string Name;
 
         public Weapon weapon;
         public Armor armor;
-        
 
+        public Character ( string name , Class cl)
+        {
+            Name = name;
+            Class = cl;
+            Level = 1;
+            Exp = 0;
+            Stats = new Stats( );
+            Stats.LoadInitialStats( cl );
+        }
+        
         public bool HandleLevelUp ( )
         {
             if ( Exp >= ExpRemaining )
@@ -249,6 +258,376 @@ namespace MysteryBox.Core
                     Vit += Utils.GenerateRandomNumber( 0, 1 );
                     Wis += Utils.GenerateRandomNumber( 1, 2 );
                     break;
+                #endregion
+
+                default:
+                    break;
+            }
+        }
+
+        public void LoadInitialStats(Class cl )
+        {
+            switch ( cl )
+            {
+
+                //TODO: Assignt all stats with the official start stats from realmeye
+
+                #region rogue
+                case Class.Rogue:
+                    MaxHP = 720;
+                    MaxMP = 252;
+                    MaxAtk = 50;
+                    MaxDef = 25;
+                    MaxSpd = 75;
+                    MaxDex = 75;
+                    Maxvit = 40;
+                    MaxWis = 50;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region archer
+                case Class.Archer:
+                    MaxHP = 700;
+                    MaxMP = 252;
+                    MaxAtk = 75;
+                    MaxDef = 25;
+                    MaxSpd = 50;
+                    MaxDex = 50;
+                    Maxvit = 40;
+                    MaxWis = 50;
+
+                    HP = 130;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 12;
+                    Dex = 12;
+                    Vit = 12;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region wizard
+                case Class.Wizard:
+                    MaxHP = 670;
+                    MaxMP = 385;
+                    MaxAtk = 75;
+                    MaxDef = 25;
+                    MaxSpd = 50;
+                    MaxDex = 75;
+                    Maxvit = 40;
+                    MaxWis = 60;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region priest
+                case Class.Priest:
+                    MaxHP = 670;
+                    MaxMP = 385;
+                    MaxAtk = 50;
+                    MaxDef = 25;
+                    MaxSpd = 55;
+                    MaxDex = 55;
+                    Maxvit = 40;
+                    MaxWis = 75;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region warrior
+                case Class.Warrior:
+                    MaxHP = 770;
+                    MaxMP = 252;
+                    MaxAtk = 75;
+                    MaxDef = 25;
+                    MaxSpd = 50;
+                    MaxDex = 50;
+                    Maxvit = 75;
+                    MaxWis = 50;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region knight
+                case Class.Knight:
+                    MaxHP = 770;
+                    MaxMP = 252;
+                    MaxAtk = 50;
+                    MaxDef = 40;
+                    MaxSpd = 50;
+                    MaxDex = 50;
+                    Maxvit = 75;
+                    MaxWis = 50;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+                #endregion
+
+                #region paladin
+                case Class.Paladin:
+                    MaxHP = 770;
+                    MaxMP = 252;
+                    MaxAtk = 50;
+                    MaxDef = 30;
+                    MaxSpd = 55;
+                    MaxDex = 50;
+                    Maxvit = 40;
+                    MaxWis = 75;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+                #endregion
+
+                #region assassin
+                case Class.Assassin:
+                    MaxHP = 720;
+                    MaxMP = 252;
+                    MaxAtk = 60;
+                    MaxDef = 25;
+                    MaxSpd = 75;
+                    MaxDex = 75;
+                    Maxvit = 40;
+                    MaxWis = 60;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region necromancer
+                case Class.Necromancer:
+                    MaxHP = 670;
+                    MaxMP = 385;
+                    MaxAtk = 75;
+                    MaxDef = 25;
+                    MaxSpd = 50;
+                    MaxDex = 60;
+                    Maxvit = 30;
+                    MaxWis = 75;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region huntress
+                case Class.Huntress:
+                    MaxHP = 700;
+                    MaxMP = 252;
+                    MaxAtk = 75;
+                    MaxDef = 25;
+                    MaxSpd = 50;
+                    MaxDex = 50;
+                    Maxvit = 40;
+                    MaxWis = 50;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region mystic
+                case Class.Mystic:
+                    MaxHP = 670;
+                    MaxMP = 385;
+                    MaxAtk = 60;
+                    MaxDef = 25;
+                    MaxSpd = 60;
+                    MaxDex = 55;
+                    Maxvit = 40;
+                    MaxWis = 75;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region trickster
+                case Class.Trickster:
+                    MaxHP = 720;
+                    MaxMP = 252;
+                    MaxAtk = 65;
+                    MaxDef = 25;
+                    MaxSpd = 75;
+                    MaxDex = 75;
+                    Maxvit = 40;
+                    MaxWis = 60;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region sorcerer
+                case Class.Sorcerer:
+                    MaxHP = 670;
+                    MaxMP = 385;
+                    MaxAtk = 40;
+                    MaxDef = 25;
+                    MaxSpd = 60;
+                    MaxDex = 60;
+                    Maxvit = 75;
+                    MaxWis = 60;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region ninja(fuck you flux)
+                case Class.Ninja:
+                    MaxHP = 720;
+                    MaxMP = 252;
+                    MaxAtk = 70;
+                    MaxDef = 25;
+                    MaxSpd = 60;
+                    MaxDex = 70;
+                    Maxvit = 40;
+                    MaxWis = 70;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
+                #endregion
+
+                #region MyRegion samurai
+                case Class.Samurai:
+                    MaxHP = 720;
+                    MaxMP = 252;
+                    MaxAtk = 75;
+                    MaxDef = 25;
+                    MaxSpd = 50;
+                    MaxDex = 50;
+                    Maxvit = 40;
+                    MaxWis = 60;
+
+                    HP = 150;
+                    MP = 100;
+                    Def = 0;
+                    Atk = 10;
+                    Spd = 15;
+                    Dex = 15;
+                    Vit = 15;
+                    Wis = 10;
+
+                    break;
+
                 #endregion
 
                 default:

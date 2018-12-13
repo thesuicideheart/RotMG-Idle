@@ -15,6 +15,9 @@ namespace MysteryBox.Core
 
         public List<InventoryItem> Inventory = new List<InventoryItem>( );
         public List<PlayerUnit> Units = new List<PlayerUnit>( );
+        public List<Character> Characters = new List<Character>( );
+
+        public PotionStorage PotionStorage = new PotionStorage( );
 
         public Player ( )
         {
@@ -34,6 +37,11 @@ namespace MysteryBox.Core
                 //Cant afford unit
                 return false;
             }
+        }
+
+        public void AddCharacter ( Character character )
+        {
+            Characters.Add( character );
         }
 
         public void GiveFameFromUnits ( )
@@ -109,6 +117,7 @@ namespace MysteryBox.Core
             var goldElem = new XElement( "Gold" );
             var invElem = new XElement( "Inventory" );
             var UnitInv = new XElement( "Units" );
+            var potionStorage = new XElement( "PotionStorage" );
 
             fameElem.Value = Fame.ToString( );
             goldElem.Value = Gold.ToString( );
@@ -130,10 +139,44 @@ namespace MysteryBox.Core
                 UnitInv.Add( unitElem );
             }
 
+            var hpElem = new XElement( "Health" );
+            hpElem.Value = PotionStorage.HealthPotions.ToString( );
+
+            var mpElem = new XElement( "Mana" );
+            mpElem.Value = PotionStorage.ManaPotions.ToString( );
+
+            var defElem = new XElement( "Defense" );
+            defElem.Value = PotionStorage.DefensePotions.ToString( );
+
+            var atkElem = new XElement( "Attack" );
+            atkElem.Value = PotionStorage.AttackPotions.ToString( );
+
+            var dexElem = new XElement( "Dexterity" );
+            dexElem.Value = PotionStorage.DexterityPotions.ToString( );
+
+            var spdElem = new XElement( "Speed" );
+            spdElem.Value = PotionStorage.SpeedPotions.ToString( );
+
+            var vitElem = new XElement( "Vitality" );
+            vitElem.Value = PotionStorage.VitalityPotions.ToString( );
+
+            var wisElem = new XElement( "Wisdom" );
+            wisElem.Value = PotionStorage.WisdomPotions.ToString( );
+
+            potionStorage.Add( hpElem );
+            potionStorage.Add( mpElem );
+            potionStorage.Add( defElem );
+            potionStorage.Add( atkElem );
+            potionStorage.Add( dexElem );
+            potionStorage.Add( spdElem );
+            potionStorage.Add( vitElem );
+            potionStorage.Add( wisElem );
+
             saveElem.Add( fameElem );
             saveElem.Add( goldElem );
             saveElem.Add( invElem );
             saveElem.Add( UnitInv );
+            saveElem.Add( potionStorage );
 
             xDoc.Add( saveElem );
 
@@ -189,14 +232,58 @@ namespace MysteryBox.Core
                         Console.WriteLine( "Error loading unit count" );
                         continue;
                     }
-                    
+
                     var unit = new PlayerUnit( unitElem.Attribute( "id" ).Value, count );
                     player.AddUnit( unit );
                 }
 
+                var potionStorageElem = saveElem.Element( "PotionStorage" );
+
+                #region Potion Storage
+
+                if ( !int.TryParse( potionStorageElem.Element( "Health" ).Value, out player.PotionStorage.HealthPotions ) )
+                {
+
+                }
+
+                if ( !int.TryParse( potionStorageElem.Element( "Mana" ).Value, out player.PotionStorage.ManaPotions ) )
+                {
+
+                }
+
+                if ( !int.TryParse( potionStorageElem.Element( "Defense" ).Value, out player.PotionStorage.DefensePotions ) )
+                {
+
+                }
+
+                if ( !int.TryParse( potionStorageElem.Element( "Attack" ).Value, out player.PotionStorage.AttackPotions ) )
+                {
+
+                }
+
+                if ( !int.TryParse( potionStorageElem.Element( "Dexterity" ).Value, out player.PotionStorage.DexterityPotions ) )
+                {
+
+                }
+
+                if ( !int.TryParse( potionStorageElem.Element( "Speed" ).Value, out player.PotionStorage.SpeedPotions ) )
+                {
+
+                }
+
+                if ( !int.TryParse( potionStorageElem.Element( "Wisdom" ).Value, out player.PotionStorage.WisdomPotions ) )
+                {
+
+                }
+
+                if ( !int.TryParse( potionStorageElem.Element( "Vitality" ).Value, out player.PotionStorage.VitalityPotions ) )
+                {
+
+                }
+                #endregion
+
             }
             return player;
         }
-
     }
 }
