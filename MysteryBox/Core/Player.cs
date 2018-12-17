@@ -118,6 +118,7 @@ namespace MysteryBox.Core
             var invElem = new XElement( "Inventory" );
             var UnitInv = new XElement( "Units" );
             var potionStorage = new XElement( "PotionStorage" );
+            var charsElem = new XElement( "Characters" );
 
             fameElem.Value = Fame.ToString( );
             goldElem.Value = Gold.ToString( );
@@ -139,6 +140,7 @@ namespace MysteryBox.Core
                 UnitInv.Add( unitElem );
             }
 
+            #region potion storage
             var hpElem = new XElement( "Health" );
             hpElem.Value = PotionStorage.HealthPotions.ToString( );
 
@@ -172,11 +174,49 @@ namespace MysteryBox.Core
             potionStorage.Add( vitElem );
             potionStorage.Add( wisElem );
 
+            #endregion
+
+            #region characters
+
+            foreach ( var chr in Characters )
+            {
+                var chrElem = new XElement( "Character" );
+
+                chrElem.Add( new XElement( "Name", chr.Name ) );
+
+                var levelElem = new XElement( "Leveling" );
+                levelElem.Add( new XElement( "Level", chr.Level ) );
+                levelElem.Add( new XElement( "Exp", chr.Exp ) );
+                levelElem.Add( new XElement( "ExpRemaining", chr.ExpRemaining ) );
+
+                chrElem.Add( levelElem );
+
+                chrElem.Add( new XElement( "Weapon", chr.weapon) );
+                chrElem.Add( new XElement( "Armor", chr.armor) );
+
+                var statElem = new XElement( "Stats" );
+                statElem.Add( new XElement( "Health", chr.Stats.HP ) );
+                statElem.Add( new XElement( "Mana", chr.Stats.MP ) );
+                statElem.Add( new XElement( "Attack", chr.Stats.Atk ) );
+                statElem.Add( new XElement( "Defence", chr.Stats.Def ) );
+                statElem.Add( new XElement( "Speed", chr.Stats.Spd ) );
+                statElem.Add( new XElement( "Dexterity", chr.Stats.Dex ) );
+                statElem.Add( new XElement( "Vitality", chr.Stats.Vit ) );
+                statElem.Add( new XElement( "Wisdom", chr.Stats.Wis ) );
+
+                chrElem.Add( statElem );
+
+                charsElem.Add( chrElem );
+            }
+
+            #endregion
+
             saveElem.Add( fameElem );
             saveElem.Add( goldElem );
             saveElem.Add( invElem );
             saveElem.Add( UnitInv );
             saveElem.Add( potionStorage );
+            saveElem.Add( charsElem );
 
             xDoc.Add( saveElem );
 
@@ -206,81 +246,139 @@ namespace MysteryBox.Core
 
                 var invElem = saveElem.Element( "Inventory" );
 
-                var itemsInInv = invElem.Elements( "Item" );
-
-                foreach ( var itemElem in itemsInInv )
+                if(invElem != null )
                 {
-                    int count = 0;
-                    if ( !int.TryParse( itemElem.Value, out count ) )
-                    {
-                        Console.WriteLine( "Error in loading item. Item Count Error" );
-                        continue;
-                    }
+                    var itemsInInv = invElem.Elements( "Item" );
 
-                    var item = new InventoryItem( itemElem.Attribute( "id" ).Value, count );
-                    player.AddItem( item );
+                    foreach ( var itemElem in itemsInInv )
+                    {
+                        int count = 0;
+                        if ( !int.TryParse( itemElem.Value, out count ) )
+                        {
+                            Console.WriteLine( "Error in loading item. Item Count Error" );
+                            continue;
+                        }
+
+                        var item = new InventoryItem( itemElem.Attribute( "id" ).Value, count );
+                        player.AddItem( item );
+                    }
                 }
-
+                
                 var unitsElem = saveElem.Element( "Units" );
-                var unitsInInv = unitsElem.Elements( "Unit" );
-
-                foreach ( var unitElem in unitsInInv )
+                if ( unitsElem != null )
                 {
-                    int count = 0;
-                    if ( !int.TryParse( unitElem.Value, out count ) )
-                    {
-                        Console.WriteLine( "Error loading unit count" );
-                        continue;
-                    }
+                    var unitsInInv = unitsElem.Elements( "Unit" );
 
-                    var unit = new PlayerUnit( unitElem.Attribute( "id" ).Value, count );
-                    player.AddUnit( unit );
+                    foreach ( var unitElem in unitsInInv )
+                    {
+                        int count = 0;
+                        if ( !int.TryParse( unitElem.Value, out count ) )
+                        {
+                            Console.WriteLine( "Error loading unit count" );
+                            continue;
+                        }
+
+                        var unit = new PlayerUnit( unitElem.Attribute( "id" ).Value, count );
+                        player.AddUnit( unit );
+                    }
                 }
 
                 var potionStorageElem = saveElem.Element( "PotionStorage" );
 
-                #region Potion Storage
-
-                if ( !int.TryParse( potionStorageElem.Element( "Health" ).Value, out player.PotionStorage.HealthPotions ) )
+                if ( potionStorageElem != null )
                 {
+
+                    #region Potion Storage
+
+                    if ( !int.TryParse( potionStorageElem.Element( "Health" ).Value, out player.PotionStorage.HealthPotions ) )
+                    {
+
+                    }
+
+                    if ( !int.TryParse( potionStorageElem.Element( "Mana" ).Value, out player.PotionStorage.ManaPotions ) )
+                    {
+
+                    }
+
+                    if ( !int.TryParse( potionStorageElem.Element( "Defense" ).Value, out player.PotionStorage.DefensePotions ) )
+                    {
+
+                    }
+
+                    if ( !int.TryParse( potionStorageElem.Element( "Attack" ).Value, out player.PotionStorage.AttackPotions ) )
+                    {
+
+                    }
+
+                    if ( !int.TryParse( potionStorageElem.Element( "Dexterity" ).Value, out player.PotionStorage.DexterityPotions ) )
+                    {
+
+                    }
+
+                    if ( !int.TryParse( potionStorageElem.Element( "Speed" ).Value, out player.PotionStorage.SpeedPotions ) )
+                    {
+
+                    }
+
+                    if ( !int.TryParse( potionStorageElem.Element( "Wisdom" ).Value, out player.PotionStorage.WisdomPotions ) )
+                    {
+
+                    }
+
+                    if ( !int.TryParse( potionStorageElem.Element( "Vitality" ).Value, out player.PotionStorage.VitalityPotions ) )
+                    {
+
+                    }
+                    #endregion
 
                 }
 
-                if ( !int.TryParse( potionStorageElem.Element( "Mana" ).Value, out player.PotionStorage.ManaPotions ) )
+                var charsElem = saveElem.Element( "Characters" );
+                if(charsElem != null )
                 {
+                    var chars = charsElem.Elements( "Character" );
+                    foreach(var chr in chars )
+                    {
+                        Console.WriteLine( chr );
+                        var Character = new Character( );
 
+                        Character.Name = chr.Element( "Name" ).Value;
+                        XElement levelElem;
+                        if((levelElem = chr.Element("Leveling")) != null )
+                        {
+                            if ( levelElem.Element( "Level" ) != null )
+                            {
+                                int.TryParse( levelElem.Element( "Level" ).Value, out Character.Level );
+                            }
+                            if ( levelElem.Element( "Exp" ) != null )
+                            {
+                                int.TryParse( levelElem.Element( "Exp" ).Value, out Character.Exp );
+                            }
+                            if ( levelElem.Element( "ExpRemaining" ) != null )
+                            {
+                                int.TryParse( levelElem.Element( "ExpRemaining" ).Value, out Character.ExpRemaining );
+                            }
+                        }
+
+                        if ( chr.Element( "Weapon" ) != null )
+                        {
+                            Character.weapon = chr.Element( "Weapon" ).Value;
+                        }
+
+                        if ( chr.Element( "Armor" ) != null )
+                        {
+                            Character.armor = chr.Element( "Armor" ).Value;
+
+                        }
+
+                        XElement statsElem;
+                        if((statsElem = chr.Element("Stats")) != null )
+                        {
+                            Character.LoadStats( statsElem );        
+                        }
+
+                    }
                 }
-
-                if ( !int.TryParse( potionStorageElem.Element( "Defense" ).Value, out player.PotionStorage.DefensePotions ) )
-                {
-
-                }
-
-                if ( !int.TryParse( potionStorageElem.Element( "Attack" ).Value, out player.PotionStorage.AttackPotions ) )
-                {
-
-                }
-
-                if ( !int.TryParse( potionStorageElem.Element( "Dexterity" ).Value, out player.PotionStorage.DexterityPotions ) )
-                {
-
-                }
-
-                if ( !int.TryParse( potionStorageElem.Element( "Speed" ).Value, out player.PotionStorage.SpeedPotions ) )
-                {
-
-                }
-
-                if ( !int.TryParse( potionStorageElem.Element( "Wisdom" ).Value, out player.PotionStorage.WisdomPotions ) )
-                {
-
-                }
-
-                if ( !int.TryParse( potionStorageElem.Element( "Vitality" ).Value, out player.PotionStorage.VitalityPotions ) )
-                {
-
-                }
-                #endregion
 
             }
             return player;

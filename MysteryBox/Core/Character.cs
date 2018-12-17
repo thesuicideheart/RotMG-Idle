@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace MysteryBox.Core
 {
@@ -21,10 +22,10 @@ namespace MysteryBox.Core
 
         public string Name;
 
-        public Weapon weapon;
-        public Armor armor;
+        public string weapon;
+        public string armor;
 
-        public Character ( string name , Class cl)
+        public Character ( string name, Class cl )
         {
             Name = name;
             Class = cl;
@@ -33,7 +34,48 @@ namespace MysteryBox.Core
             Stats = new Stats( );
             Stats.LoadInitialStats( cl );
         }
-        
+
+        public Character ( )
+        {
+
+        }
+
+        public void LoadStats ( XElement element )
+        {
+            if ( element.Element( "Health" ) != null )
+            {
+
+            }
+            if ( element.Element( "Mana" ) != null )
+            {
+
+            }
+            if ( element.Element( "Attack" ) != null )
+            {
+
+            }
+            if ( element.Element( "Defence" ) != null )
+            {
+
+            }
+            if ( element.Element( "Speed" ) != null )
+            {
+
+            }
+            if ( element.Element( "Dexterity" ) != null )
+            {
+
+            }
+            if ( element.Element( "Vitality" ) != null )
+            {
+
+            }
+            if ( element.Element( "Wisdom" ) != null )
+            {
+
+            }
+        }
+
         public bool HandleLevelUp ( )
         {
             if ( Exp >= ExpRemaining )
@@ -265,7 +307,7 @@ namespace MysteryBox.Core
             }
         }
 
-        public void LoadInitialStats(Class cl )
+        public void LoadInitialStats ( Class cl )
         {
             switch ( cl )
             {

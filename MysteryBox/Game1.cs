@@ -104,7 +104,7 @@ namespace MysteryBox
             AddState( TestState );
             AddState( StoreState );
 
-            SwitchState( GameData.TestState );
+            SwitchState( GameData.MainState );
 
         }
 
@@ -155,11 +155,6 @@ namespace MysteryBox
             if ( timer % 60 == 0 )
             {
                 player.Save( );
-            }
-
-            if ( timer % ( 5 * Option.FPS ) == 0 )
-            {
-                player.GiveFameFromUnits( );
             }
 
             base.Update( gameTime );
