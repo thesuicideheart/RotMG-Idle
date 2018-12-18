@@ -47,6 +47,7 @@ namespace MysteryBox
         public OpenCaseState OpenCaseState;
         public TestState TestState;
         public StoreState StoreState;
+        public CharSelectState CharSelectState;
 
         public Game1 ( )
         {
@@ -77,6 +78,8 @@ namespace MysteryBox
             this.IsMouseVisible = true;
             this.IsFixedTimeStep = true;
             this.MaxElapsedTime = TimeSpan.FromSeconds( 1f / Option.FPS );
+            this.Window.AllowUserResizing = true;
+            this.graphics.PreferMultiSampling = false;
             input = new InputManager( this );
             this.Components.Add( input );
             base.Initialize( );
@@ -97,14 +100,16 @@ namespace MysteryBox
             OpenCaseState = new OpenCaseState( player );
             TestState = new TestState( player );
             StoreState = new StoreState( );
+            CharSelectState = new CharSelectState( player );
 
             AddState( InventoryState );
             AddState( MainState );
             AddState( OpenCaseState );
             AddState( TestState );
             AddState( StoreState );
+            AddState( CharSelectState );
 
-            SwitchState( GameData.MainState );
+            SwitchState( GameData.TestState );
 
         }
 
@@ -172,7 +177,7 @@ namespace MysteryBox
 
             spriteBatch.Begin( samplerState: SamplerState.PointClamp );
 
-            spriteBatch.Draw( Sprites.GetTexture( "base_background" ), new Rectangle( 0, 0, Option.Width, Option.Height ), Color.White );
+            spriteBatch.Draw( Sprites.GetTexture( "base_background" ), new Rectangle( 0, 0, Window.ClientBounds.Width, Window.ClientBounds.Height), Color.White );
 
             CurrentState.Draw( spriteBatch );
 

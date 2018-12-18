@@ -42,37 +42,43 @@ namespace MysteryBox.Core
 
         public void LoadStats ( XElement element )
         {
+            Stats = new Stats( );
             if ( element.Element( "Health" ) != null )
             {
-
+                int.TryParse( element.Element( "Health" ).Value, out Stats.HP );
             }
             if ( element.Element( "Mana" ) != null )
             {
-
+                int.TryParse( element.Element( "Mana" ).Value, out Stats.MP );
             }
             if ( element.Element( "Attack" ) != null )
             {
-
+                int.TryParse( element.Element( "Attack" ).Value, out Stats.Atk );
             }
             if ( element.Element( "Defence" ) != null )
             {
-
+                int.TryParse( element.Element( "Defence" ).Value, out Stats.Def );
             }
             if ( element.Element( "Speed" ) != null )
             {
-
+                int.TryParse( element.Element( "Speed" ).Value, out Stats.Spd);
             }
             if ( element.Element( "Dexterity" ) != null )
             {
-
+                int.TryParse( element.Element( "Dexterity" ).Value, out Stats.Dex );
             }
             if ( element.Element( "Vitality" ) != null )
             {
-
+                int.TryParse( element.Element( "Vitality" ).Value, out Stats.Vit );
             }
             if ( element.Element( "Wisdom" ) != null )
             {
-
+                int.TryParse( element.Element( "Wisdom" ).Value, out Stats.Wis );
+            }
+            else
+            {
+                //TODO: Load stats if elem doesnt exist.
+                //Stats.LoadWisFromClass(cl);
             }
         }
 
@@ -373,14 +379,14 @@ namespace MysteryBox.Core
                     Maxvit = 40;
                     MaxWis = 60;
 
-                    HP = 150;
+                    HP = 100;
                     MP = 100;
                     Def = 0;
-                    Atk = 10;
-                    Spd = 15;
+                    Atk = 12;
+                    Spd = 10;
                     Dex = 15;
-                    Vit = 15;
-                    Wis = 10;
+                    Vit = 12;
+                    Wis = 12;
 
                     break;
 

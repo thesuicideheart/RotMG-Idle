@@ -19,9 +19,16 @@ namespace MysteryBox.Core
 
         public PotionStorage PotionStorage = new PotionStorage( );
 
+        public Character ActiveCharacter = null;
+
         public Player ( )
         {
 
+        }
+
+        public void SetActiveCharacter ( Character chr )
+        {
+            ActiveCharacter = chr;
         }
 
         public bool BuyUnit ( PlayerUnit unit )
@@ -113,6 +120,7 @@ namespace MysteryBox.Core
 
             var saveElem = new XElement( "Save" );
 
+
             var fameElem = new XElement( "Fame" );
             var goldElem = new XElement( "Gold" );
             var invElem = new XElement( "Inventory" );
@@ -183,6 +191,7 @@ namespace MysteryBox.Core
                 var chrElem = new XElement( "Character" );
 
                 chrElem.Add( new XElement( "Name", chr.Name ) );
+                chrElem.Add( new XElement( "Class", chr.Class.ToString( ) ) );
 
                 var levelElem = new XElement( "Leveling" );
                 levelElem.Add( new XElement( "Level", chr.Level ) );
@@ -191,8 +200,8 @@ namespace MysteryBox.Core
 
                 chrElem.Add( levelElem );
 
-                chrElem.Add( new XElement( "Weapon", chr.weapon) );
-                chrElem.Add( new XElement( "Armor", chr.armor) );
+                chrElem.Add( new XElement( "Weapon", chr.weapon ) );
+                chrElem.Add( new XElement( "Armor", chr.armor ) );
 
                 var statElem = new XElement( "Stats" );
                 statElem.Add( new XElement( "Health", chr.Stats.HP ) );
@@ -235,7 +244,7 @@ namespace MysteryBox.Core
             if ( xDoc.Element( "Save" ) != null )
             {
                 var saveElem = xDoc.Element( "Save" );
-
+                
                 if ( saveElem.Element( "Fame" ) != null )
                     if ( !int.TryParse( saveElem.Element( "Fame" ).Value, out player.Fame ) )
                         player.Fame = 0;
@@ -246,7 +255,7 @@ namespace MysteryBox.Core
 
                 var invElem = saveElem.Element( "Inventory" );
 
-                if(invElem != null )
+                if ( invElem != null )
                 {
                     var itemsInInv = invElem.Elements( "Item" );
 
@@ -263,7 +272,7 @@ namespace MysteryBox.Core
                         player.AddItem( item );
                     }
                 }
-                
+
                 var unitsElem = saveElem.Element( "Units" );
                 if ( unitsElem != null )
                 {
@@ -334,17 +343,22 @@ namespace MysteryBox.Core
                 }
 
                 var charsElem = saveElem.Element( "Characters" );
-                if(charsElem != null )
+                if ( charsElem != null )
                 {
                     var chars = charsElem.Elements( "Character" );
-                    foreach(var chr in chars )
+                    foreach ( var chr in chars )
                     {
                         Console.WriteLine( chr );
                         var Character = new Character( );
 
-                        Character.Name = chr.Element( "Name" ).Value;
+                        if ( chr.Element( "Name" ) != null )
+                            Character.Name = chr.Element( "Name" ).Value;
+
+                        if ( chr.Element( "Class" ) != null )
+                            Character.Class = Utils.ParseClass( chr.Element( "Class" ).Value );
+
                         XElement levelElem;
-                        if((levelElem = chr.Element("Leveling")) != null )
+                        if ( ( levelElem = chr.Element( "Leveling" ) ) != null )
                         {
                             if ( levelElem.Element( "Level" ) != null )
                             {
@@ -372,10 +386,11 @@ namespace MysteryBox.Core
                         }
 
                         XElement statsElem;
-                        if((statsElem = chr.Element("Stats")) != null )
+                        if ( ( statsElem = chr.Element( "Stats" ) ) != null )
                         {
-                            Character.LoadStats( statsElem );        
+                            Character.LoadStats( statsElem );
                         }
+                        player.AddCharacter( Character );
 
                     }
                 }
