@@ -119,6 +119,59 @@ namespace MysteryBox.Core
                     break;
             }
         }
+        public static void DrawClassIcon ( Class chr, int x, int y, int w, int h )
+        {
+            switch ( chr )
+            {
+                case Class.Rogue:
+                    Game1.Instance.draw( Sprites.GetTexture( "rogue" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Archer:
+                    Game1.Instance.draw( Sprites.GetTexture( "archer" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Wizard:
+                    Game1.Instance.draw( Sprites.GetTexture( "wizard" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Priest:
+                    Game1.Instance.draw( Sprites.GetTexture( "priest" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Warrior:
+                    Game1.Instance.draw( Sprites.GetTexture( "warrior" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Knight:
+                    Game1.Instance.draw( Sprites.GetTexture( "knight" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Paladin:
+                    Game1.Instance.draw( Sprites.GetTexture( "paladin" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Assassin:
+                    Game1.Instance.draw( Sprites.GetTexture( "assassin" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Necromancer:
+                    Game1.Instance.draw( Sprites.GetTexture( "necromancer" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Huntress:
+                    Game1.Instance.draw( Sprites.GetTexture( "huntress" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Mystic:
+                    Game1.Instance.draw( Sprites.GetTexture( "mystic" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Trickster:
+                    Game1.Instance.draw( Sprites.GetTexture( "trickster" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Sorcerer:
+                    Game1.Instance.draw( Sprites.GetTexture( "sorcerer" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Ninja:
+                    Game1.Instance.draw( Sprites.GetTexture( "ninja" ), new Rectangle( x, y, w, h ) );
+                    break;
+                case Class.Samurai:
+                    Game1.Instance.draw( Sprites.GetTexture( "samurai" ), new Rectangle( x, y, w, h ) );
+                    break;
+                default:
+                    break;
+            }
+        }
 
         public static void DrawSmallString ( string text, int x, int y, Color color )
         {

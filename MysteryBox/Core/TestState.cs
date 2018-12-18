@@ -27,7 +27,7 @@ namespace MysteryBox.Core
 
             if ( Player.ActiveCharacter != null )
             {
-                Utils.DrawClassIcon( Player.ActiveCharacter.Class, 100, 100 );
+                Utils.DrawClassIcon( Player.ActiveCharacter.Class, 100, 100 , 40,40);
             }
 
             base.Draw( batch );
@@ -40,15 +40,8 @@ namespace MysteryBox.Core
             else if ( iStuff >= Player.Characters.Count( ) ) iStuff = 0;
 
             Player.SetActiveCharacter( Player.Characters [ iStuff ] );
-
-            if ( Game1.Instance.input.JustPressed( Keys.F ) )
-            {
-                var chr = new Character( "Test char", Class.Wizard );
-                chr.weapon = "t13_staff";
-
-                Player.AddCharacter( chr );
-                Console.WriteLine( "XD" );
-            }
+            //Todo: Do GUI for character select.
+            //Figure out how to do GUI elements like textbox, scrollbar
             if ( Game1.Instance.input.JustPressed( Keys.A ) )
             {
                 //TODO: Select char

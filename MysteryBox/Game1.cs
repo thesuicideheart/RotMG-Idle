@@ -78,8 +78,6 @@ namespace MysteryBox
             this.IsMouseVisible = true;
             this.IsFixedTimeStep = true;
             this.MaxElapsedTime = TimeSpan.FromSeconds( 1f / Option.FPS );
-            this.Window.AllowUserResizing = true;
-            this.graphics.PreferMultiSampling = false;
             input = new InputManager( this );
             this.Components.Add( input );
             base.Initialize( );
@@ -109,7 +107,7 @@ namespace MysteryBox
             AddState( StoreState );
             AddState( CharSelectState );
 
-            SwitchState( GameData.TestState );
+            SwitchState( GameData.MainState);
 
         }
 
@@ -160,6 +158,11 @@ namespace MysteryBox
             if ( timer % 60 == 0 )
             {
                 player.Save( );
+            }
+
+            if(input.IsHeld(Keys.LeftControl) && input.JustPressed( Keys.F ) )
+            {
+                this.graphics.ToggleFullScreen( );
             }
 
             base.Update( gameTime );

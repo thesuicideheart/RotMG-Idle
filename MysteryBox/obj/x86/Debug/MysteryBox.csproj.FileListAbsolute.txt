@@ -1438,3 +1438,4 @@ C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\Mys
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Classes\trickster.xnb
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Classes\warrior.xnb
 C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\Classes\wizard.xnb
+C:\Users\IT_1337\Desktop\something-with-cases\something-with-lootboxes\RotMG\MysteryBox\bin\Windows\x86\Debug\Content\GUI\big_slot.xnb
