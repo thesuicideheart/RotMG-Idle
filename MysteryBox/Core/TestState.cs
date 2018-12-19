@@ -16,18 +16,24 @@ namespace MysteryBox.Core
 
         int iStuff = 0;
 
+        private Texture2D charSlot;
+
+        private Rectangle charSlotRect;
+
         public TestState ( Player player ) : base( GameData.TestState )
         {
 
             Player = player;
+            charSlot = Sprites.GetTexture( "big_slot" );
+            charSlotRect = new Rectangle( Option.Width / 2 - charSlot.Width / 2, Option.Height / 2 - charSlot.Height / 2 - 150, charSlot.Width, charSlot.Height );
         }
 
         public override void Draw ( SpriteBatch batch )
         {
-
+            Game1.Instance.draw( charSlot, charSlotRect );
             if ( Player.ActiveCharacter != null )
             {
-                Utils.DrawClassIcon( Player.ActiveCharacter.Class, 100, 100 , 40,40);
+                Utils.DrawClassIcon( Player.ActiveCharacter.Class, charSlotRect.X + 8, charSlotRect.Y + 8, charSlotRect.Width - 16, charSlotRect.Height - 16 );
             }
 
             base.Draw( batch );
@@ -37,7 +43,7 @@ namespace MysteryBox.Core
         {
 
             if ( iStuff < 0 ) iStuff = Player.Characters.Count( ) - 1;
-            else if ( iStuff >= Player.Characters.Count( ) ) iStuff = 0;
+            else if ( iStuff >= Player.Characters.Count ) iStuff = 0;
 
             Player.SetActiveCharacter( Player.Characters [ iStuff ] );
             //Todo: Do GUI for character select.

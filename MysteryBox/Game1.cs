@@ -107,7 +107,7 @@ namespace MysteryBox
             AddState( StoreState );
             AddState( CharSelectState );
 
-            SwitchState( GameData.MainState);
+            SwitchState( GameData.TestState);
 
         }
 
