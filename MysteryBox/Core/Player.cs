@@ -21,6 +21,8 @@ namespace MysteryBox.Core
 
         public Character ActiveCharacter = null;
 
+
+
         public Player ( )
         {
 
@@ -201,7 +203,9 @@ namespace MysteryBox.Core
                 chrElem.Add( levelElem );
 
                 chrElem.Add( new XElement( "Weapon", chr.weapon ) );
+                chrElem.Add( new XElement( "ability", chr.ability ) );
                 chrElem.Add( new XElement( "Armor", chr.armor ) );
+                chrElem.Add( new XElement( "Ring", chr.ring ) );
 
                 var statElem = new XElement( "Stats" );
                 statElem.Add( new XElement( "Health", chr.Stats.HP ) );
@@ -244,7 +248,7 @@ namespace MysteryBox.Core
             if ( xDoc.Element( "Save" ) != null )
             {
                 var saveElem = xDoc.Element( "Save" );
-                
+
                 if ( saveElem.Element( "Fame" ) != null )
                     if ( !int.TryParse( saveElem.Element( "Fame" ).Value, out player.Fame ) )
                         player.Fame = 0;
@@ -388,7 +392,7 @@ namespace MysteryBox.Core
                         XElement statsElem;
                         if ( ( statsElem = chr.Element( "Stats" ) ) != null )
                         {
-                            Character.LoadStats( statsElem , Character.Class);
+                            Character.LoadStats( statsElem, Character.Class );
                         }
                         player.AddCharacter( Character );
 

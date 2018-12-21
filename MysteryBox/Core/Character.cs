@@ -24,6 +24,68 @@ namespace MysteryBox.Core
 
         public string weapon;
         public string armor;
+        public string ring;
+        public string ability;
+
+        #region is stat maxed
+
+        public bool IsHealthMaxed {
+            get
+            {
+                return Stats.HP == Stats.MaxHP;
+            }
+        }
+
+        public bool IsManaMaxed {
+            get
+            {
+                return Stats.MP == Stats.MaxMP;
+            }
+        }
+
+        public bool IsAttackMaxed {
+            get
+            {
+                return Stats.Atk == Stats.MaxAtk;
+            }
+        }
+
+        public bool IsDefenceMaxed {
+            get
+            {
+                return Stats.Def == Stats.MaxDef;
+            }
+        }
+
+        public bool IsSpeedMaxed {
+            get
+            {
+                return Stats.Spd == Stats.MaxSpd;
+            }
+        }
+
+        public bool IsDexterityMaxed {
+            get
+            {
+                return Stats.Dex == Stats.MaxDex;
+            }
+        }
+
+        public bool IsVitalityMaxed {
+            get
+            {
+                return Stats.Vit == Stats.MaxVit;
+            }
+        }
+
+        public bool IsWisdomMaxed {
+            get
+            {
+                return Stats.Wis == Stats.MaxWis;
+            }
+        }
+        #endregion
+
 
         public Character ( string name, Class cl )
         {
@@ -45,35 +107,35 @@ namespace MysteryBox.Core
             Stats = new Stats( );
             if ( element.Element( "Health" ) != null )
             {
-                int.TryParse( element.Element( "Health" ).Value, out Stats.HP );
+                float.TryParse( element.Element( "Health" ).Value, out Stats.HP );
             }
             if ( element.Element( "Mana" ) != null )
             {
-                int.TryParse( element.Element( "Mana" ).Value, out Stats.MP );
+                float.TryParse( element.Element( "Mana" ).Value, out Stats.MP );
             }
             if ( element.Element( "Attack" ) != null )
             {
-                int.TryParse( element.Element( "Attack" ).Value, out Stats.Atk );
+                float.TryParse( element.Element( "Attack" ).Value, out Stats.Atk );
             }
             if ( element.Element( "Defence" ) != null )
             {
-                int.TryParse( element.Element( "Defence" ).Value, out Stats.Def );
+                float.TryParse( element.Element( "Defence" ).Value, out Stats.Def );
             }
             if ( element.Element( "Speed" ) != null )
             {
-                int.TryParse( element.Element( "Speed" ).Value, out Stats.Spd );
+                float.TryParse( element.Element( "Speed" ).Value, out Stats.Spd );
             }
             if ( element.Element( "Dexterity" ) != null )
             {
-                int.TryParse( element.Element( "Dexterity" ).Value, out Stats.Dex );
+                float.TryParse( element.Element( "Dexterity" ).Value, out Stats.Dex );
             }
             if ( element.Element( "Vitality" ) != null )
             {
-                int.TryParse( element.Element( "Vitality" ).Value, out Stats.Vit );
+                float.TryParse( element.Element( "Vitality" ).Value, out Stats.Vit );
             }
             if ( element.Element( "Wisdom" ) != null )
             {
-                int.TryParse( element.Element( "Wisdom" ).Value, out Stats.Wis );
+                float.TryParse( element.Element( "Wisdom" ).Value, out Stats.Wis );
             }
             else
             {
@@ -105,23 +167,23 @@ namespace MysteryBox.Core
 
     public class Stats
     {
-        public int MaxHP;
-        public int MaxMP;
-        public int MaxDef;
-        public int MaxDex;
-        public int MaxAtk;
-        public int MaxSpd;
-        public int Maxvit;
-        public int MaxWis;
+        public float MaxHP;
+        public float MaxMP;
+        public float MaxDef;
+        public float MaxDex;
+        public float MaxAtk;
+        public float MaxSpd;
+        public float MaxVit;
+        public float MaxWis;
 
-        public int HP;
-        public int MP;
-        public int Def;
-        public int Dex;
-        public int Atk;
-        public int Spd;
-        public int Vit;
-        public int Wis;
+        public float HP;
+        public float MP;
+        public float Def;
+        public float Dex;
+        public float Atk;
+        public float Spd;
+        public float Vit;
+        public float Wis;
 
         public void LevelUp ( Class cl )
         {
@@ -330,7 +392,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 75;
                     MaxDex = 75;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 50;
 
                     HP = 150;
@@ -354,7 +416,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 50;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 50;
 
                     HP = 130;
@@ -378,7 +440,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 75;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 60;
 
                     HP = 100;
@@ -402,7 +464,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 55;
                     MaxDex = 55;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 75;
 
                     HP = 150;
@@ -426,7 +488,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 50;
-                    Maxvit = 75;
+                    MaxVit = 75;
                     MaxWis = 50;
 
                     HP = 150;
@@ -450,7 +512,7 @@ namespace MysteryBox.Core
                     MaxDef = 40;
                     MaxSpd = 50;
                     MaxDex = 50;
-                    Maxvit = 75;
+                    MaxVit = 75;
                     MaxWis = 50;
 
                     HP = 150;
@@ -473,7 +535,7 @@ namespace MysteryBox.Core
                     MaxDef = 30;
                     MaxSpd = 55;
                     MaxDex = 50;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 75;
 
                     HP = 150;
@@ -496,7 +558,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 75;
                     MaxDex = 75;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 60;
 
                     HP = 150;
@@ -520,7 +582,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 60;
-                    Maxvit = 30;
+                    MaxVit = 30;
                     MaxWis = 75;
 
                     HP = 150;
@@ -544,7 +606,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 50;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 50;
 
                     HP = 150;
@@ -568,7 +630,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 60;
                     MaxDex = 55;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 75;
 
                     HP = 150;
@@ -592,7 +654,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 75;
                     MaxDex = 75;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 60;
 
                     HP = 150;
@@ -616,7 +678,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 60;
                     MaxDex = 60;
-                    Maxvit = 75;
+                    MaxVit = 75;
                     MaxWis = 60;
 
                     HP = 150;
@@ -640,7 +702,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 60;
                     MaxDex = 70;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 70;
 
                     HP = 150;
@@ -664,7 +726,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 50;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 60;
 
                     HP = 150;
@@ -700,7 +762,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 75;
                     MaxDex = 75;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 50;
 
                     break;
@@ -715,7 +777,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 50;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 50;
 
 
@@ -731,7 +793,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 75;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 60;
 
 
@@ -747,7 +809,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 55;
                     MaxDex = 55;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 75;
 
                     break;
@@ -762,7 +824,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 50;
-                    Maxvit = 75;
+                    MaxVit = 75;
                     MaxWis = 50;
 
                     break;
@@ -777,7 +839,7 @@ namespace MysteryBox.Core
                     MaxDef = 40;
                     MaxSpd = 50;
                     MaxDex = 50;
-                    Maxvit = 75;
+                    MaxVit = 75;
                     MaxWis = 50;
 
                     break;
@@ -791,7 +853,7 @@ namespace MysteryBox.Core
                     MaxDef = 30;
                     MaxSpd = 55;
                     MaxDex = 50;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 75;
 
                     break;
@@ -805,7 +867,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 75;
                     MaxDex = 75;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 60;
 
                     break;
@@ -820,7 +882,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 60;
-                    Maxvit = 30;
+                    MaxVit = 30;
                     MaxWis = 75;
 
                     break;
@@ -835,7 +897,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 50;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 50;
 
                     break;
@@ -850,7 +912,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 60;
                     MaxDex = 55;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 75;
 
                     break;
@@ -865,7 +927,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 75;
                     MaxDex = 75;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 60;
 
                     break;
@@ -880,7 +942,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 60;
                     MaxDex = 60;
-                    Maxvit = 75;
+                    MaxVit = 75;
                     MaxWis = 60;
 
                     break;
@@ -895,7 +957,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 60;
                     MaxDex = 70;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 70;
 
                     break;
@@ -910,7 +972,7 @@ namespace MysteryBox.Core
                     MaxDef = 25;
                     MaxSpd = 50;
                     MaxDex = 50;
-                    Maxvit = 40;
+                    MaxVit = 40;
                     MaxWis = 60;
 
                     break;
