@@ -388,7 +388,7 @@ namespace MysteryBox.Core
                         XElement statsElem;
                         if ( ( statsElem = chr.Element( "Stats" ) ) != null )
                         {
-                            Character.LoadStats( statsElem );
+                            Character.LoadStats( statsElem , Character.Class);
                         }
                         player.AddCharacter( Character );
 
