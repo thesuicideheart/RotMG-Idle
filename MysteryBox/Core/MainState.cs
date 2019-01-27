@@ -115,8 +115,8 @@ namespace MysteryBox.Core
                 //increment
                 //Player.Fame += 10;
                 var chr = new Character( "Test", Class.Warrior );
-                chr.weapon = "t13_sword";
-                chr.armor = "t14_armor";
+                chr.weapon = GameData.GetWeapon( "t12_staff" );
+                chr.armor = GameData.GetArmor( "t14_armor" );
                 chr.Level = 10;
                 chr.Exp = 0;
                 chr.ExpRemaining = 50 + ( chr.Level - 1 ) * 150;

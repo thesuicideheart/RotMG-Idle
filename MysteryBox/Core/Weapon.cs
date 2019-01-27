@@ -8,15 +8,15 @@ namespace MysteryBox.Core
 {
     public class Weapon
     {
-        public string ItemID;
+        public Item Parent;
         public int MinDmg;
         public int MaxDmg;
         public int FameBonus;
         public WeaponType WeaponType;
 
-        public Weapon(string id, int mindmg, int maxdmg, int famebonus , WeaponType type)
+        public Weapon(Item parent, int mindmg, int maxdmg, int famebonus , WeaponType type)
         {
-            ItemID = id;
+            Parent = parent;
             MinDmg = mindmg;
             MaxDmg = maxdmg;
             FameBonus = famebonus;

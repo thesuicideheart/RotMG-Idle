@@ -71,8 +71,7 @@ namespace MysteryBox.Core
             batch.DrawRectangle(Utils.RectToRectF(middleRect), GameData.LightBorderColor, 5);
             batch.DrawRectangle(Utils.RectToRectF(leftRect), GameData.LightBorderColor, 5);
             batch.DrawRectangle(Utils.RectToRectF(rightRect), GameData.LightBorderColor, 5);
-
-            //TODO: Implement case rendering method
+            
 
             for (int i = -1; i < 2; i++)
             {

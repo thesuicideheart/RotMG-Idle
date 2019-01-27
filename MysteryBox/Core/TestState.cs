@@ -79,7 +79,7 @@ namespace MysteryBox.Core
 
                 //Speed
                 batch.FillRectangle( Utils.RectToRectF( SpdRect ), GameData.BorderColor );
-                batch.FillRectangle( new RectangleF( SpdRect.X, SpdRect.Y, Player.ActiveCharacter.Stats.Spd / Player.ActiveCharacter.Stats.MaxSpd * SpdRect.Width, SpdRect.Height ), GameData.SpeedColor);
+                batch.FillRectangle( new RectangleF( SpdRect.X, SpdRect.Y, Player.ActiveCharacter.Stats.Spd / Player.ActiveCharacter.Stats.MaxSpd * SpdRect.Width, SpdRect.Height ), GameData.SpeedColor );
 
                 //Dexterity
                 batch.FillRectangle( Utils.RectToRectF( DexRect ), GameData.BorderColor );
@@ -161,44 +161,51 @@ namespace MysteryBox.Core
             if ( iStuff < 0 ) iStuff = Player.Characters.Count( ) - 1;
             else if ( iStuff >= Player.Characters.Count ) iStuff = 0;
 
-            Player.SetActiveCharacter( Player.Characters [ iStuff ] );
+            if ( Player.Characters.Count( ) > 0 )
+                Player.SetActiveCharacter( Player.Characters [ iStuff ] );
 
             if ( Game1.Instance.input.JustPressed( Keys.F ) )
             {
-                //Max Health
-                Player.ActiveCharacter.Stats.HP = Player.ActiveCharacter.Stats.MaxHP;
-                Player.ActiveCharacter.Stats.MP = Player.ActiveCharacter.Stats.MaxMP;
-                Player.ActiveCharacter.Stats.Atk = Player.ActiveCharacter.Stats.MaxAtk;
-                Player.ActiveCharacter.Stats.Def = Player.ActiveCharacter.Stats.MaxDef;
-                Player.ActiveCharacter.Stats.Spd = Player.ActiveCharacter.Stats.MaxSpd;
-                Player.ActiveCharacter.Stats.Dex = Player.ActiveCharacter.Stats.MaxDex;
-                Player.ActiveCharacter.Stats.Vit = Player.ActiveCharacter.Stats.MaxVit;
-                Player.ActiveCharacter.Stats.Wis = Player.ActiveCharacter.Stats.MaxWis;
+                if ( Player.ActiveCharacter != null )
+                {
+                    //Max Health
+                    Player.ActiveCharacter.Stats.HP = Player.ActiveCharacter.Stats.MaxHP;
+                    Player.ActiveCharacter.Stats.MP = Player.ActiveCharacter.Stats.MaxMP;
+                    Player.ActiveCharacter.Stats.Atk = Player.ActiveCharacter.Stats.MaxAtk;
+                    Player.ActiveCharacter.Stats.Def = Player.ActiveCharacter.Stats.MaxDef;
+                    Player.ActiveCharacter.Stats.Spd = Player.ActiveCharacter.Stats.MaxSpd;
+                    Player.ActiveCharacter.Stats.Dex = Player.ActiveCharacter.Stats.MaxDex;
+                    Player.ActiveCharacter.Stats.Vit = Player.ActiveCharacter.Stats.MaxVit;
+                    Player.ActiveCharacter.Stats.Wis = Player.ActiveCharacter.Stats.MaxWis;
+                }
             }
 
             if ( Game1.Instance.input.JustPressed( Keys.H ) )
             {
-                Player.ActiveCharacter.Stats.Def -= 1;
+                if ( Player.ActiveCharacter != null )
+                    Player.ActiveCharacter.Stats.Def -= 1;
             }
 
             if ( Game1.Instance.input.JustPressed( Keys.G ) )
             {
-                //Unmax health
-                Player.ActiveCharacter.Stats.HP = 150;
-                Player.ActiveCharacter.Stats.MP = 100;
-                Player.ActiveCharacter.Stats.Atk = 10;
-                Player.ActiveCharacter.Stats.Def = 0;
-                Player.ActiveCharacter.Stats.Spd = 15;
-                Player.ActiveCharacter.Stats.Dex = 15;
-                Player.ActiveCharacter.Stats.Vit = 10;
-                Player.ActiveCharacter.Stats.Wis = 12;
+                if ( Player.ActiveCharacter != null )
+                {
+                    //Unmax health
+                    Player.ActiveCharacter.Stats.HP = 150;
+                    Player.ActiveCharacter.Stats.MP = 100;
+                    Player.ActiveCharacter.Stats.Atk = 10;
+                    Player.ActiveCharacter.Stats.Def = 0;
+                    Player.ActiveCharacter.Stats.Spd = 15;
+                    Player.ActiveCharacter.Stats.Dex = 15;
+                    Player.ActiveCharacter.Stats.Vit = 10;
+                    Player.ActiveCharacter.Stats.Wis = 12;
+                }
             }
 
             //Todo: Do GUI for character select.
             //Figure out how to do GUI elements like textbox, scrollbar
             if ( Game1.Instance.input.JustPressed( Keys.A ) )
             {
-                //TODO: Select char
                 iStuff--;
             }
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/UTs/Ring of the Covetous Heart.png</SourceFile>
-  <SourceTime>2018-11-22T11:06:29.5622272+01:00</SourceTime>
-  <DestFile>C:/Users/IT_1337/Desktop/something-with-cases/something-with-lootboxes/RotMG/MysteryBox/Content/bin/Windows/UTs/Ring of the Covetous Heart.xnb</DestFile>
-  <DestTime>2018-12-10T08:31:41.4185976+01:00</DestTime>
+  <SourceFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/UTs/Ring of the Covetous Heart.png</SourceFile>
+  <SourceTime>2018-12-21T17:50:15.0097123+01:00</SourceTime>
+  <DestFile>C:/Users/Bruger/Desktop/game/something-with-lootboxes/MysteryBox/Content/bin/Windows/UTs/Ring of the Covetous Heart.xnb</DestFile>
+  <DestTime>2018-12-24T13:03:43.4069137+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -22,8 +22,8 @@ namespace MysteryBox.Core
 
         public string Name;
 
-        public string weapon;
-        public string armor;
+        public Weapon weapon;
+        public Armor armor;
         public string ring;
         public string ability;
 

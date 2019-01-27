@@ -106,7 +106,6 @@ namespace MysteryBox.Core
                     Fame += item.Price;
                     if ( iItem.Count <= 0 )
                     {
-                        //Todo: Remove item from inventroy
                         Inventory.RemoveAt( index );
                     }
                 }
@@ -202,9 +201,9 @@ namespace MysteryBox.Core
 
                 chrElem.Add( levelElem );
 
-                chrElem.Add( new XElement( "Weapon", chr.weapon ) );
+                chrElem.Add( new XElement( "Weapon", chr.weapon.Parent.ID ) );
                 chrElem.Add( new XElement( "ability", chr.ability ) );
-                chrElem.Add( new XElement( "Armor", chr.armor ) );
+                chrElem.Add( new XElement( "Armor", chr.armor.Parent.ID ) );
                 chrElem.Add( new XElement( "Ring", chr.ring ) );
 
                 var statElem = new XElement( "Stats" );
@@ -380,12 +379,12 @@ namespace MysteryBox.Core
 
                         if ( chr.Element( "Weapon" ) != null )
                         {
-                            Character.weapon = chr.Element( "Weapon" ).Value;
+                            Character.weapon = GameData.GetWeapon( chr.Element( "Weapon" ).Value );
                         }
 
                         if ( chr.Element( "Armor" ) != null )
                         {
-                            Character.armor = chr.Element( "Armor" ).Value;
+                            Character.armor = GameData.GetArmor( chr.Element( "Armor" ).Value );
 
                         }
 

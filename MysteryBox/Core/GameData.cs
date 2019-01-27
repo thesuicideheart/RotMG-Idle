@@ -21,6 +21,9 @@ namespace MysteryBox.Core
         public static List<LootBox> LootBoxesInGame = new List<LootBox>( );
         public static List<Unit> UnitsInGame = new List<Unit>( );
 
+        public static List<Weapon> Weapons = new List<Weapon>( );
+        public static List<Armor> Armors = new List<Armor>( );
+
         #region loot boxes
 
         public static LootBox BasicBox, IntermediateBox, AdvancedBox;
@@ -56,19 +59,46 @@ namespace MysteryBox.Core
             #region swords
 
             AddItem( new Item( "t0_sword", "Short Sword", 5, Rarity.Common ) );
+            AddWeapon( new Weapon( GetItemFromId( "t0_sword" ), 45, 90, 0, WeaponType.Sword ) );
+
             AddItem( new Item( "t1_sword", "Broad Sword", 7, Rarity.Common ) );
+            AddWeapon( new Weapon( GetItemFromId( "t1_sword" ), 60, 105, 0, WeaponType.Sword ) );
+
             AddItem( new Item( "t2_sword", "Saber", 10, Rarity.Common ) );
+            AddWeapon( new Weapon( GetItemFromId( "t2_sword" ), 75, 105, 0, WeaponType.Sword ) );
+
             AddItem( new Item( "t3_sword", "Long Sword", 15, Rarity.Common ) );
+            AddWeapon( new Weapon( GetItemFromId( "t3_sword" ), 75, 125, 0, WeaponType.Sword ) );
+
             AddItem( new Item( "t4_sword", "Falchion", 22, Rarity.Common ) );
+            AddWeapon( new Weapon( GetItemFromId( "t4_sword" ), 75, 135, 0, WeaponType.Sword ) );
+
             AddItem( new Item( "t5_sword", "Fire Sword", 32, Rarity.Common ) );
+            AddWeapon( new Weapon( GetItemFromId( "t5_sword" ), 90, 135, 0, WeaponType.Sword ) );
+
             AddItem( new Item( "t6_sword", "Glass Sword", 47, Rarity.Common ) );
+            AddWeapon( new Weapon( GetItemFromId( "t6_sword" ), 30, 210, 0, WeaponType.Sword ) );
+
             AddItem( new Item( "t7_sword", "Golden Sword", 70, Rarity.Common ) );
+            AddWeapon( new Weapon( GetItemFromId( "t7_sword" ), 150, 180, 0, WeaponType.Sword ) );
+
             AddItem( new Item( "t8_sword", "Ravenheart Sword", 100, Rarity.Common ) );
+            AddWeapon( new Weapon( GetItemFromId( "t8_sword" ), 180, 255, 1, WeaponType.Sword ) );
+
             AddItem( new Item( "t9_sword", "Dragonsoul Sword", 145, Rarity.Common ) );
+            AddWeapon( new Weapon( GetItemFromId( "t9_sword" ), 195, 255, 1, WeaponType.Sword ) );
+
             AddItem( new Item( "t10_sword", "Archon Sword", 212, Rarity.Uncommon ) );
+            AddWeapon( new Weapon( GetItemFromId( "t10_sword" ), 195, 255, 1, WeaponType.Sword ) );
+
             AddItem( new Item( "t11_sword", "Skysplitter Sword", 310, Rarity.Uncommon ) );
+            AddWeapon( new Weapon( GetItemFromId( "t11_sword" ), 195, 255, 1, WeaponType.Sword ) );
+
             AddItem( new Item( "t12_sword", "Sword of Acclaim", 450, Rarity.Rare ) );
+            AddWeapon( new Weapon( GetItemFromId( "t12_sword" ), 195, 255, 1, WeaponType.Sword ) );
+
             AddItem( new Item( "t13_sword", "Sword of Splendor", 900, Rarity.Legendary ) );
+            AddWeapon( new Weapon( GetItemFromId( "t13_sword" ), 195, 255, 1, WeaponType.Sword ) );
 
             #endregion
 
@@ -263,9 +293,30 @@ namespace MysteryBox.Core
 
         }
 
+        /**
+         
+          TODO: Implement this. Add all items to the game via hand. Shouldnt be too hard.
+            
+          */
+
+        public static Weapon GetWeapon ( string id )
+        {
+            return null;
+        }
+
+        public static Armor GetArmor ( string id )
+        {
+            return null;
+        }
+
         public static void AddItem ( Item item )
         {
             ItemsInGame.Add( item );
+        }
+
+        public static void AddWeapon ( Weapon weapon )
+        {
+            Weapons.Add( weapon );
         }
 
         public static Unit GetUnit ( string id )

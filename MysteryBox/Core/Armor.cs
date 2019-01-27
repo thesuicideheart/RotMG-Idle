@@ -8,14 +8,14 @@ namespace MysteryBox.Core
 {
     public class Armor
     {
-        public string ItemID;
+        public Item Parent;
         public int Defence;
         public int FameBonus;
         public ArmorType ArmorType;
 
-        public Armor(string id, int def, int bonus , ArmorType type)
+        public Armor(Item parent, int def, int bonus , ArmorType type)
         {
-            ItemID = id;
+            Parent = parent;
             Defence = def;
             FameBonus = bonus;
             ArmorType = type;

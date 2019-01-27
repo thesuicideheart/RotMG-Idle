@@ -69,7 +69,6 @@ namespace MysteryBox
             {
                 Directory.CreateDirectory( Environment.GetFolderPath( Environment.SpecialFolder.ApplicationData ) + $"\\{Option.SaveFolderName}\\" );
             }
-            // TODO: Add your initialization logic here
             RPC.Initialize( );
             Sprites.Load( Content );
             graphics.PreferredBackBufferWidth = Option.Width;
@@ -133,8 +132,7 @@ namespace MysteryBox
 
             font = Content.Load<SpriteFont>( "font" );
             TimerFont = Content.Load<SpriteFont>( "TimerFont" );
-
-            // TODO: use this.Content to load your game content here
+            
         }
 
         /// <summary>
@@ -143,7 +141,6 @@ namespace MysteryBox
         /// </summary>
         protected override void UnloadContent ( )
         {
-            // TODO: Unload any non ContentManager content here
         }
 
         int timer;
@@ -175,8 +172,7 @@ namespace MysteryBox
         protected override void Draw ( GameTime gameTime )
         {
             GraphicsDevice.Clear( Color.Black );
-
-            // TODO: Add your drawing code here
+            
 
             spriteBatch.Begin( samplerState: SamplerState.PointClamp );
 
