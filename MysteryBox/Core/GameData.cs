@@ -56,49 +56,39 @@ namespace MysteryBox.Core
 
             #endregion
 
+            #region weapons
+
             #region swords
 
             AddItem( new Item( "t0_sword", "Short Sword", 5, Rarity.Common ) );
-            AddWeapon( new Weapon( GetItemFromId( "t0_sword" ), 45, 90, 0, WeaponType.Sword ) );
-
             AddItem( new Item( "t1_sword", "Broad Sword", 7, Rarity.Common ) );
-            AddWeapon( new Weapon( GetItemFromId( "t1_sword" ), 60, 105, 0, WeaponType.Sword ) );
-
             AddItem( new Item( "t2_sword", "Saber", 10, Rarity.Common ) );
-            AddWeapon( new Weapon( GetItemFromId( "t2_sword" ), 75, 105, 0, WeaponType.Sword ) );
-
             AddItem( new Item( "t3_sword", "Long Sword", 15, Rarity.Common ) );
-            AddWeapon( new Weapon( GetItemFromId( "t3_sword" ), 75, 125, 0, WeaponType.Sword ) );
-
             AddItem( new Item( "t4_sword", "Falchion", 22, Rarity.Common ) );
-            AddWeapon( new Weapon( GetItemFromId( "t4_sword" ), 75, 135, 0, WeaponType.Sword ) );
-
             AddItem( new Item( "t5_sword", "Fire Sword", 32, Rarity.Common ) );
-            AddWeapon( new Weapon( GetItemFromId( "t5_sword" ), 90, 135, 0, WeaponType.Sword ) );
-
             AddItem( new Item( "t6_sword", "Glass Sword", 47, Rarity.Common ) );
-            AddWeapon( new Weapon( GetItemFromId( "t6_sword" ), 30, 210, 0, WeaponType.Sword ) );
-
             AddItem( new Item( "t7_sword", "Golden Sword", 70, Rarity.Common ) );
-            AddWeapon( new Weapon( GetItemFromId( "t7_sword" ), 150, 180, 0, WeaponType.Sword ) );
-
             AddItem( new Item( "t8_sword", "Ravenheart Sword", 100, Rarity.Common ) );
-            AddWeapon( new Weapon( GetItemFromId( "t8_sword" ), 180, 255, 1, WeaponType.Sword ) );
-
             AddItem( new Item( "t9_sword", "Dragonsoul Sword", 145, Rarity.Common ) );
-            AddWeapon( new Weapon( GetItemFromId( "t9_sword" ), 195, 255, 1, WeaponType.Sword ) );
-
             AddItem( new Item( "t10_sword", "Archon Sword", 212, Rarity.Uncommon ) );
-            AddWeapon( new Weapon( GetItemFromId( "t10_sword" ), 195, 255, 1, WeaponType.Sword ) );
-
             AddItem( new Item( "t11_sword", "Skysplitter Sword", 310, Rarity.Uncommon ) );
-            AddWeapon( new Weapon( GetItemFromId( "t11_sword" ), 195, 255, 1, WeaponType.Sword ) );
-
             AddItem( new Item( "t12_sword", "Sword of Acclaim", 450, Rarity.Rare ) );
-            AddWeapon( new Weapon( GetItemFromId( "t12_sword" ), 195, 255, 1, WeaponType.Sword ) );
-
             AddItem( new Item( "t13_sword", "Sword of Splendor", 900, Rarity.Legendary ) );
-            AddWeapon( new Weapon( GetItemFromId( "t13_sword" ), 195, 255, 1, WeaponType.Sword ) );
+
+            AddWeapon( new Weapon( GetItemFromId( "t0_sword" ), 45, 90, 0, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t1_sword" ), 60, 105, 0, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t2_sword" ), 75, 105, 0, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t3_sword" ), 75, 125, 0, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t4_sword" ), 75, 135, 0, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t5_sword" ), 90, 135, 0, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t6_sword" ), 30, 210, 0, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t7_sword" ), 150, 180, 0, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t8_sword" ), 180, 255, 1, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t9_sword" ), 195, 255, 1, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t10_sword" ), 210, 255, 1, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t11_sword" ), 210, 270, 1, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t12_sword" ), 220, 275, 1, WeaponType.Sword ) );
+            AddWeapon( new Weapon( GetItemFromId( "t13_sword" ), 225, 280, 1, WeaponType.Sword ) );
 
             #endregion
 
@@ -119,6 +109,22 @@ namespace MysteryBox.Core
             AddItem( new Item( "t12_dagger", "Dagger of Foul Malevolence", 450, Rarity.Rare ) );
             AddItem( new Item( "t13_dagger", "Dagger of Sinister Deeds", 550, Rarity.Legendary ) );
 
+            AddWeapon( new Weapon( GetItemFromId( "t0_dagger" ), 20, 60, 0, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t1_dagger" ), 20, 70, 0, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t2_dagger" ), 20, 75, 0, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t3_dagger" ), 25, 80, 0, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t4_dagger" ), 30, 80, 0, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t5_dagger" ), 30, 90, 0, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t6_dagger" ), 35, 65, 0, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t7_dagger" ), 60, 140, 0, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t8_dagger" ), 80, 160, 1, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t9_dagger" ), 85, 165, 1, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t10_dagger" ), 90, 170, 2, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t11_dagger" ), 90, 175, 3, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t12_dagger" ), 95, 175, 4, WeaponType.Dagger ) );
+            AddWeapon( new Weapon( GetItemFromId( "t13_dagger" ), 95, 180, 5, WeaponType.Dagger ) );
+
+
             #endregion
 
             #region katanas
@@ -137,6 +143,21 @@ namespace MysteryBox.Core
             AddItem( new Item( "t11_katana", "Muramasa", 310, Rarity.Uncommon ) );
             AddItem( new Item( "t12_katana", "Masamune", 450, Rarity.Rare ) );
             AddItem( new Item( "t13_katana", "Sadamune", 550, Rarity.Legendary ) );
+
+            AddWeapon( new Weapon( GetItemFromId( "t0_katana" ), 25, 70, 0, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t1_katana" ), 30, 75, 0, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t2_katana" ), 35, 80, 0, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t3_katana" ), 45, 85, 0, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t4_katana" ), 55, 90, 0, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t5_katana" ), 55, 105, 0, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t6_katana" ), 75, 110, 0, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t7_katana" ), 90, 120, 0, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t8_katana" ), 90, 150, 1, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t9_katana" ), 100, 160, 1, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t10_katana" ), 110, 165, 2, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t11_katana" ), 120, 175, 3, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t12_katana" ), 135, 180, 4, WeaponType.Katana ) );
+            AddWeapon( new Weapon( GetItemFromId( "t13_katana" ), 145, 185, 5, WeaponType.Katana ) );
 
             #endregion
 
@@ -157,6 +178,21 @@ namespace MysteryBox.Core
             AddItem( new Item( "t12_wand", "Wand of Recompense", 450, Rarity.Rare ) );
             AddItem( new Item( "t13_wand", "Wand of Evocation", 900, Rarity.Legendary ) );
 
+            AddWeapon( new Weapon( GetItemFromId( "t0_wand" ), 25, 40, 0, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t1_wand" ), 35, 50, 0, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t2_wand" ), 40, 55, 0, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t3_wand" ), 45, 60, 0, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t4_wand" ), 55, 70, 0, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t5_wand" ), 60, 85, 0, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t6_wand" ), 70, 100, 0, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t7_wand" ), 75, 115, 0, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t8_wand" ), 80, 125, 1, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t9_wand" ), 85, 130, 1, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t10_wand" ), 90, 135, 2, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t11_wand" ), 90, 135, 3, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t12_wand" ), 95, 140, 4, WeaponType.Wand ) );
+            AddWeapon( new Weapon( GetItemFromId( "t13_wand" ), 100, 140, 5, WeaponType.Wand ) );
+
             #endregion
 
             #region bow
@@ -176,6 +212,20 @@ namespace MysteryBox.Core
             AddItem( new Item( "t12_bow", "Bow of Covert Havens", 450, Rarity.Rare ) );
             AddItem( new Item( "t13_bow", "Bow of Mystical Energy", 550, Rarity.Legendary ) );
 
+            AddWeapon( new Weapon( GetItemFromId( "t0_bow" ), 15, 45, 0, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t1_bow" ), 20, 50, 0, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t2_bow" ), 25, 60, 0, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t3_bow" ), 30, 65, 0, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t4_bow" ), 40, 70, 0, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t5_bow" ), 50, 75, 0, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t6_bow" ), 30, 55, 0, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t7_bow" ), 55, 80, 0, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t8_bow" ), 40, 61, 1, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t9_bow" ), 40, 67, 1, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t10_bow" ), 48, 65, 2, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t11_bow" ), 49, 70, 3, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t12_bow" ), 50, 75, 4, WeaponType.Bow ) );
+            AddWeapon( new Weapon( GetItemFromId( "t13_bow" ), 55, 75, 5, WeaponType.Bow ) );
 
             #endregion
 
@@ -196,7 +246,29 @@ namespace MysteryBox.Core
             AddItem( new Item( "t12_staff", "Staff of the Cosmic Whole", 450, Rarity.Rare ) );
             AddItem( new Item( "t13_staff", "Staff of the Vital Unity", 900, Rarity.Legendary ) );
 
+            AddWeapon( new Weapon( GetItemFromId( "t0_staff" ), 10, 25, 0, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t1_staff" ), 20, 30, 0, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t2_staff" ), 25, 35, 0, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t3_staff" ), 30, 40, 0, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t4_staff" ), 40, 45, 0, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t5_staff" ), 50, 55, 0, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t6_staff" ), 30, 70, 0, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t7_staff" ), 55, 85, 0, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t8_staff" ), 40, 90, 1, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t9_staff" ), 40, 95, 1, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t10_staff" ), 48, 95, 2, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t11_staff" ), 49, 100, 3, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t12_staff" ), 50, 100, 4, WeaponType.Staff ) );
+            AddWeapon( new Weapon( GetItemFromId( "t13_staff" ), 55, 105, 5, WeaponType.Staff ) );
+
             #endregion
+
+            #endregion
+
+            #region Armors
+
+            #endregion
+
             #endregion
 
             #region loot boxes
