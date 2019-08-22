@@ -22,8 +22,7 @@ namespace MysteryBox.Core
 
         public Texture2D getFameSprite, backgroundSprite, fameLabel, invIcon, mysteryBoxIcon, shopIcon;
 
-
-
+        
 
         public MainState ( Player player ) : base( GameData.MainState )
         {
@@ -55,6 +54,9 @@ namespace MysteryBox.Core
             rectShopText = new Rectangle( ( int ) ( shopIconPos.X + shopIcon.Width ), ( int ) ( shopIconPos.Y + 4 ), 60, 24 );
 
             #endregion
+
+            
+
         }
 
         public override void Draw ( SpriteBatch batch )
@@ -115,8 +117,8 @@ namespace MysteryBox.Core
                 //increment
                 //Player.Fame += 10;
                 var chr = new Character( "Test", Class.Warrior );
-                chr.weapon = GameData.GetWeapon( "t12_staff" );
-                chr.armor = GameData.GetArmor( "t14_armor" );
+                chr.Weapon = GameData.GetWeapon( "t12_staff" );
+                chr.Armor = GameData.GetArmor( "t14_armor" );
                 chr.Level = 10;
                 chr.Exp = 0;
                 chr.ExpRemaining = 50 + ( chr.Level - 1 ) * 150;

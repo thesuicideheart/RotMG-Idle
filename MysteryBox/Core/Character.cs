@@ -16,16 +16,22 @@ namespace MysteryBox.Core
         public int Level;
         public int Exp;
         public int ExpRemaining;
-        public Class Class;
 
-        public Stats Stats;
+        public Class Class { get; set; }
 
-        public string Name;
+        public Stats Stats { get; set; }
 
-        public Weapon weapon;
-        public Armor armor;
-        public string ring;
-        public string ability;
+        public string Name { get; set; }
+
+        public Weapon Weapon { get; set; }
+
+        public Armor Armor { get; set; }
+
+        public string Ring { get; set; }
+
+        public string Ability { get; set; }
+
+        public int[] Inventory { get; set; } = new int[8];
 
         #region is stat maxed
 
@@ -87,55 +93,55 @@ namespace MysteryBox.Core
         #endregion
 
 
-        public Character ( string name, Class cl )
+        public Character(string name, Class cl)
         {
             Name = name;
             Class = cl;
             Level = 1;
             Exp = 0;
-            Stats = new Stats( );
-            Stats.LoadInitialStats( cl );
+            Stats = new Stats();
+            Stats.LoadInitialStats(cl);
         }
 
-        public Character ( )
+        public Character()
         {
 
         }
 
-        public void LoadStats ( XElement element, Class cls )
+        public void LoadStats(XElement element, Class cls)
         {
-            Stats = new Stats( );
-            if ( element.Element( "Health" ) != null )
+            Stats = new Stats();
+            if (element.Element("Health") != null)
             {
-                float.TryParse( element.Element( "Health" ).Value, out Stats.HP );
+                float.TryParse(element.Element("Health").Value, out Stats.HP);
             }
-            if ( element.Element( "Mana" ) != null )
+            if (element.Element("Mana") != null)
             {
-                float.TryParse( element.Element( "Mana" ).Value, out Stats.MP );
+                float.TryParse(element.Element("Mana").Value, out Stats.MP);
             }
-            if ( element.Element( "Attack" ) != null )
+            if (element.Element("Attack") != null)
             {
-                float.TryParse( element.Element( "Attack" ).Value, out Stats.Atk );
+                float.TryParse(element.Element("Attack").Value, out Stats.Atk);
             }
-            if ( element.Element( "Defence" ) != null )
+            if (element.Element("Defence") != null)
             {
-                float.TryParse( element.Element( "Defence" ).Value, out Stats.Def );
+                float.TryParse(element.Element("Defence").Value, out Stats.Def);
             }
-            if ( element.Element( "Speed" ) != null )
+            if (element.Element("Speed") != null)
             {
-                float.TryParse( element.Element( "Speed" ).Value, out Stats.Spd );
+                float.TryParse(element.Element("Speed").Value, out Stats.Spd);
             }
-            if ( element.Element( "Dexterity" ) != null )
+            if (element.Element("Dexterity") != null)
             {
-                float.TryParse( element.Element( "Dexterity" ).Value, out Stats.Dex );
+                float.TryParse(element.Element("Dexterity").Value, out Stats.Dex);
             }
-            if ( element.Element( "Vitality" ) != null )
+            if (element.Element("Vitality") != null)
             {
-                float.TryParse( element.Element( "Vitality" ).Value, out Stats.Vit );
+                float.TryParse(element.Element("Vitality").Value, out Stats.Vit);
             }
-            if ( element.Element( "Wisdom" ) != null )
+            if (element.Element("Wisdom") != null)
             {
-                float.TryParse( element.Element( "Wisdom" ).Value, out Stats.Wis );
+                float.TryParse(element.Element("Wisdom").Value, out Stats.Wis);
             }
             else
             {
@@ -143,23 +149,23 @@ namespace MysteryBox.Core
                 //Stats.LoadWisFromClass(cl);
             }
 
-            Stats.LoadMaxStats( cls );
+            Stats.LoadMaxStats(cls);
         }
 
-        public bool HandleLevelUp ( )
+        public bool HandleLevelUp()
         {
-            if ( Exp >= ExpRemaining )
+            if (Exp >= ExpRemaining)
             {
                 Exp = 0;
-                ExpRemaining = ( int ) ( Level * 137.5f );
+                ExpRemaining = (int)(Level * 137.5f);
             }
             return true;
         }
 
-        public void LevelUp ( )
+        public void LevelUp()
         {
             Level++;
-            Stats.LevelUp( Class );
+            Stats.LevelUp(Class);
             Level = 0;
         }
 
@@ -185,190 +191,190 @@ namespace MysteryBox.Core
         public float Vit;
         public float Wis;
 
-        public void LevelUp ( Class cl )
+        public void LevelUp(Class cl)
         {
-            switch ( cl )
+            switch (cl)
             {
                 #region rogue
                 case Class.Rogue:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 2, 8 );
-                    Atk += Utils.GenerateRandomNumber( 0, 2 );
-                    Spd += Utils.GenerateRandomNumber( 1, 2 );
-                    Dex += Utils.GenerateRandomNumber( 1, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 0, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(2, 8);
+                    Atk += Utils.GenerateRandomNumber(0, 2);
+                    Spd += Utils.GenerateRandomNumber(1, 2);
+                    Dex += Utils.GenerateRandomNumber(1, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(0, 2);
                     break;
 
                 #endregion
 
                 #region archer
                 case Class.Archer:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 5, 15 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 0, 2 );
-                    Dex += Utils.GenerateRandomNumber( 1, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 0, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(5, 15);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(0, 2);
+                    Dex += Utils.GenerateRandomNumber(1, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(0, 2);
                     break;
 
                 #endregion
 
                 #region wizard
                 case Class.Wizard:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 2, 8 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 0, 2 );
-                    Dex += Utils.GenerateRandomNumber( 0, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 0, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(2, 8);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(0, 2);
+                    Dex += Utils.GenerateRandomNumber(0, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(0, 2);
                     break;
 
                 #endregion
 
                 #region priest
                 case Class.Priest:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 5, 15 );
-                    Atk += Utils.GenerateRandomNumber( 0, 2 );
-                    Spd += Utils.GenerateRandomNumber( 1, 2 );
-                    Dex += Utils.GenerateRandomNumber( 0, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 1, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(5, 15);
+                    Atk += Utils.GenerateRandomNumber(0, 2);
+                    Spd += Utils.GenerateRandomNumber(1, 2);
+                    Dex += Utils.GenerateRandomNumber(0, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(1, 2);
                     break;
                 #endregion
 
                 #region Warrior
                 case Class.Warrior:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 2, 8 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 1, 2 );
-                    Dex += Utils.GenerateRandomNumber( 0, 2 );
-                    Vit += Utils.GenerateRandomNumber( 1, 1 );
-                    Wis += Utils.GenerateRandomNumber( 0, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(2, 8);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(1, 2);
+                    Dex += Utils.GenerateRandomNumber(0, 2);
+                    Vit += Utils.GenerateRandomNumber(1, 1);
+                    Wis += Utils.GenerateRandomNumber(0, 2);
                     break;
                 #endregion
 
                 #region Knight
                 case Class.Knight:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 2, 8 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 0, 2 );
-                    Dex += Utils.GenerateRandomNumber( 0, 2 );
-                    Vit += Utils.GenerateRandomNumber( 1, 1 );
-                    Wis += Utils.GenerateRandomNumber( 0, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(2, 8);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(0, 2);
+                    Dex += Utils.GenerateRandomNumber(0, 2);
+                    Vit += Utils.GenerateRandomNumber(1, 1);
+                    Wis += Utils.GenerateRandomNumber(0, 2);
                     break;
                 #endregion
 
                 #region Paladin
                 case Class.Paladin:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 2, 18 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 0, 2 );
-                    Dex += Utils.GenerateRandomNumber( 0, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 1, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(2, 18);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(0, 2);
+                    Dex += Utils.GenerateRandomNumber(0, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(1, 2);
                     break;
                 #endregion
 
                 #region Assassin
                 case Class.Assassin:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 2, 8 );
-                    Atk += Utils.GenerateRandomNumber( 0, 2 );
-                    Spd += Utils.GenerateRandomNumber( 1, 2 );
-                    Dex += Utils.GenerateRandomNumber( 1, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 1, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(2, 8);
+                    Atk += Utils.GenerateRandomNumber(0, 2);
+                    Spd += Utils.GenerateRandomNumber(1, 2);
+                    Dex += Utils.GenerateRandomNumber(1, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(1, 2);
                     break;
                 #endregion
 
                 #region Necromancer
                 case Class.Necromancer:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 5, 15 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 0, 2 );
-                    Dex += Utils.GenerateRandomNumber( 1, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 1, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(5, 15);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(0, 2);
+                    Dex += Utils.GenerateRandomNumber(1, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(1, 2);
                     break;
                 #endregion
 
                 #region Huntress
                 case Class.Huntress:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 2, 8 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 0, 2 );
-                    Dex += Utils.GenerateRandomNumber( 0, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 0, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(2, 8);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(0, 2);
+                    Dex += Utils.GenerateRandomNumber(0, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(0, 2);
                     break;
                 #endregion
 
                 #region Mystic
                 case Class.Mystic:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 5, 15 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 0, 2 );
-                    Dex += Utils.GenerateRandomNumber( 0, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 1, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(5, 15);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(0, 2);
+                    Dex += Utils.GenerateRandomNumber(0, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(1, 2);
                     break;
                 #endregion
 
                 #region Trickster
                 case Class.Trickster:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 2, 8 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 1, 2 );
-                    Dex += Utils.GenerateRandomNumber( 1, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 0, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(2, 8);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(1, 2);
+                    Dex += Utils.GenerateRandomNumber(1, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(0, 2);
                     break;
                 #endregion
 
                 #region Sorcerer
                 case Class.Sorcerer:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 5, 15 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 1, 2 );
-                    Dex += Utils.GenerateRandomNumber( 0, 2 );
-                    Vit += Utils.GenerateRandomNumber( 1, 2 );
-                    Wis += Utils.GenerateRandomNumber( 1, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(5, 15);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(1, 2);
+                    Dex += Utils.GenerateRandomNumber(0, 2);
+                    Vit += Utils.GenerateRandomNumber(1, 2);
+                    Wis += Utils.GenerateRandomNumber(1, 2);
                     break;
                 #endregion
 
                 #region Ninja
                 case Class.Ninja:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 2, 8 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 0, 2 );
-                    Dex += Utils.GenerateRandomNumber( 1, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 1, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(2, 8);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(0, 2);
+                    Dex += Utils.GenerateRandomNumber(1, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(1, 2);
                     break;
                 #endregion
 
                 #region Samurai
                 case Class.Samurai:
-                    HP += Utils.GenerateRandomNumber( 20, 30 );
-                    MP += Utils.GenerateRandomNumber( 2, 8 );
-                    Atk += Utils.GenerateRandomNumber( 1, 2 );
-                    Spd += Utils.GenerateRandomNumber( 0, 2 );
-                    Dex += Utils.GenerateRandomNumber( 0, 2 );
-                    Vit += Utils.GenerateRandomNumber( 0, 1 );
-                    Wis += Utils.GenerateRandomNumber( 1, 2 );
+                    HP += Utils.GenerateRandomNumber(20, 30);
+                    MP += Utils.GenerateRandomNumber(2, 8);
+                    Atk += Utils.GenerateRandomNumber(1, 2);
+                    Spd += Utils.GenerateRandomNumber(0, 2);
+                    Dex += Utils.GenerateRandomNumber(0, 2);
+                    Vit += Utils.GenerateRandomNumber(0, 1);
+                    Wis += Utils.GenerateRandomNumber(1, 2);
                     break;
                 #endregion
 
@@ -377,9 +383,9 @@ namespace MysteryBox.Core
             }
         }
 
-        public void LoadInitialStats ( Class cl )
+        public void LoadInitialStats(Class cl)
         {
-            switch ( cl )
+            switch (cl)
             {
 
                 //TODO: Assignt all stats with the official start stats from realmeye
@@ -747,9 +753,9 @@ namespace MysteryBox.Core
             }
         }
 
-        public void LoadMaxStats ( Class cl )
+        public void LoadMaxStats(Class cl)
         {
-            switch ( cl )
+            switch (cl)
             {
 
                 //TODO: Assignt all stats with the official start stats from realmeye

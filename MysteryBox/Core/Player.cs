@@ -13,32 +13,32 @@ namespace MysteryBox.Core
         public int Fame;
         public int Gold;
 
-        public List<InventoryItem> Inventory = new List<InventoryItem>( );
-        public List<PlayerUnit> Units = new List<PlayerUnit>( );
-        public List<Character> Characters = new List<Character>( );
+        public List<InventoryItem> Inventory = new List<InventoryItem>();
+        public List<PlayerUnit> Units = new List<PlayerUnit>();
+        public List<Character> Characters = new List<Character>();
 
-        public PotionStorage PotionStorage = new PotionStorage( );
+        public PotionStorage PotionStorage = new PotionStorage();
 
         public Character ActiveCharacter = null;
 
 
 
-        public Player ( )
+        public Player()
         {
 
         }
 
-        public void SetActiveCharacter ( Character chr )
+        public void SetActiveCharacter(Character chr)
         {
             ActiveCharacter = chr;
         }
 
-        public bool BuyUnit ( PlayerUnit unit )
+        public bool BuyUnit(PlayerUnit unit)
         {
-            if ( Fame >= GameData.UnitsInGame.Find( r => r.ID == unit.UnitID ).Price )
+            if (Fame >= GameData.UnitsInGame.Find(r => r.ID == unit.UnitID).Price)
             {
-                AddUnit( unit );
-                Fame -= GameData.UnitsInGame.Find( r => r.ID == unit.UnitID ).Price;
+                AddUnit(unit);
+                Fame -= GameData.UnitsInGame.Find(r => r.ID == unit.UnitID).Price;
                 return true;
             }
             else
@@ -48,65 +48,65 @@ namespace MysteryBox.Core
             }
         }
 
-        public void AddCharacter ( Character character )
+        public void AddCharacter(Character character)
         {
-            Characters.Add( character );
+            Characters.Add(character);
         }
 
-        public void GiveFameFromUnits ( )
+        public void GiveFameFromUnits()
         {
             var amtToGive = 0;
-            foreach ( var unit in Units )
+            foreach (var unit in Units)
             {
                 var units = unit.Count;
-                var aUnit = GameData.GetUnit( unit.UnitID );
-                amtToGive += ( units * aUnit.IncomePerTick );
+                var aUnit = GameData.GetUnit(unit.UnitID);
+                amtToGive += (units * aUnit.IncomePerTick);
             }
 
             Fame += amtToGive;
         }
 
-        public void AddUnit ( PlayerUnit unit )
+        public void AddUnit(PlayerUnit unit)
         {
-            if ( Units.Exists( u => u.UnitID == unit.UnitID ) )
+            if (Units.Exists(u => u.UnitID == unit.UnitID))
             {
-                Units.Find( u => u.UnitID == unit.UnitID ).Count += unit.Count;
+                Units.Find(u => u.UnitID == unit.UnitID).Count += unit.Count;
             }
             else
             {
-                Units.Add( unit );
+                Units.Add(unit);
             }
         }
 
-        public void AddItem ( InventoryItem item )
+        public void AddItem(InventoryItem item)
         {
-            if ( Inventory.Exists( i => i.ItemID == item.ItemID ) )
+            if (Inventory.Exists(i => i.ItemID == item.ItemID))
             {
-                Inventory.Find( i => i.ItemID == item.ItemID ).Count += item.Count;
+                Inventory.Find(i => i.ItemID == item.ItemID).Count += item.Count;
             }
             else
             {
-                Inventory.Add( item );
+                Inventory.Add(item);
             }
         }
 
-        public void SellItem ( int index )
+        public void SellItem(int index)
         {
-            if ( index < 0 ) index = 0;
-            if ( index >= Inventory.Count( ) ) index = Inventory.Count - 1;
-            var iItem = Inventory [ index ];
+            if (index < 0) index = 0;
+            if (index >= Inventory.Count()) index = Inventory.Count - 1;
+            var iItem = Inventory[index];
 
-            if ( iItem.Count > 0 )
+            if (iItem.Count > 0)
             {
-                var item = GameData.GetItemFromId( iItem.ItemID );
+                var item = GameData.GetItemFromId(iItem.ItemID);
 
-                if ( item != null )
+                if (item != null)
                 {
                     iItem.Count--;
                     Fame += item.Price;
-                    if ( iItem.Count <= 0 )
+                    if (iItem.Count <= 0)
                     {
-                        Inventory.RemoveAt( index );
+                        Inventory.RemoveAt(index);
                     }
                 }
             }
@@ -115,229 +115,236 @@ namespace MysteryBox.Core
 
         }
 
-        public void Save ( )
+        public void Save()
         {
-            var xDoc = new XDocument( );
+            var xDoc = new XDocument();
 
-            var saveElem = new XElement( "Save" );
-
-
-            var fameElem = new XElement( "Fame" );
-            var goldElem = new XElement( "Gold" );
-            var invElem = new XElement( "Inventory" );
-            var UnitInv = new XElement( "Units" );
-            var potionStorage = new XElement( "PotionStorage" );
-            var charsElem = new XElement( "Characters" );
-
-            fameElem.Value = Fame.ToString( );
-            goldElem.Value = Gold.ToString( );
+            var saveElem = new XElement("Save");
 
 
-            foreach ( var item in Inventory )
+            var fameElem = new XElement("Fame");
+            var goldElem = new XElement("Gold");
+            var invElem = new XElement("Inventory");
+            var UnitInv = new XElement("Units");
+            var potionStorage = new XElement("PotionStorage");
+            var charsElem = new XElement("Characters");
+
+            fameElem.Value = Fame.ToString();
+            goldElem.Value = Gold.ToString();
+
+
+            foreach (var item in Inventory)
             {
-                var itemElem = new XElement( "Item" );
-                itemElem.SetAttributeValue( "id", $"{item.ItemID}" );
-                itemElem.Value = item.Count.ToString( );
-                invElem.Add( itemElem );
+                var itemElem = new XElement("Item");
+                itemElem.SetAttributeValue("id", $"{item.ItemID}");
+                itemElem.Value = item.Count.ToString();
+                invElem.Add(itemElem);
             }
 
-            foreach ( var unit in Units )
+            foreach (var unit in Units)
             {
-                var unitElem = new XElement( "Unit" );
-                unitElem.SetAttributeValue( "id", $"{unit.UnitID}" );
-                unitElem.Value = unit.Count.ToString( );
-                UnitInv.Add( unitElem );
+                var unitElem = new XElement("Unit");
+                unitElem.SetAttributeValue("id", $"{unit.UnitID}");
+                unitElem.Value = unit.Count.ToString();
+                UnitInv.Add(unitElem);
             }
 
             #region potion storage
-            var hpElem = new XElement( "Health" );
-            hpElem.Value = PotionStorage.HealthPotions.ToString( );
+            var hpElem = new XElement("Health");
+            hpElem.Value = PotionStorage.HealthPotions.ToString();
 
-            var mpElem = new XElement( "Mana" );
-            mpElem.Value = PotionStorage.ManaPotions.ToString( );
+            var mpElem = new XElement("Mana");
+            mpElem.Value = PotionStorage.ManaPotions.ToString();
 
-            var defElem = new XElement( "Defense" );
-            defElem.Value = PotionStorage.DefensePotions.ToString( );
+            var defElem = new XElement("Defense");
+            defElem.Value = PotionStorage.DefensePotions.ToString();
 
-            var atkElem = new XElement( "Attack" );
-            atkElem.Value = PotionStorage.AttackPotions.ToString( );
+            var atkElem = new XElement("Attack");
+            atkElem.Value = PotionStorage.AttackPotions.ToString();
 
-            var dexElem = new XElement( "Dexterity" );
-            dexElem.Value = PotionStorage.DexterityPotions.ToString( );
+            var dexElem = new XElement("Dexterity");
+            dexElem.Value = PotionStorage.DexterityPotions.ToString();
 
-            var spdElem = new XElement( "Speed" );
-            spdElem.Value = PotionStorage.SpeedPotions.ToString( );
+            var spdElem = new XElement("Speed");
+            spdElem.Value = PotionStorage.SpeedPotions.ToString();
 
-            var vitElem = new XElement( "Vitality" );
-            vitElem.Value = PotionStorage.VitalityPotions.ToString( );
+            var vitElem = new XElement("Vitality");
+            vitElem.Value = PotionStorage.VitalityPotions.ToString();
 
-            var wisElem = new XElement( "Wisdom" );
-            wisElem.Value = PotionStorage.WisdomPotions.ToString( );
+            var wisElem = new XElement("Wisdom");
+            wisElem.Value = PotionStorage.WisdomPotions.ToString();
 
-            potionStorage.Add( hpElem );
-            potionStorage.Add( mpElem );
-            potionStorage.Add( defElem );
-            potionStorage.Add( atkElem );
-            potionStorage.Add( dexElem );
-            potionStorage.Add( spdElem );
-            potionStorage.Add( vitElem );
-            potionStorage.Add( wisElem );
+            potionStorage.Add(hpElem);
+            potionStorage.Add(mpElem);
+            potionStorage.Add(defElem);
+            potionStorage.Add(atkElem);
+            potionStorage.Add(dexElem);
+            potionStorage.Add(spdElem);
+            potionStorage.Add(vitElem);
+            potionStorage.Add(wisElem);
 
             #endregion
 
             #region characters
 
-            foreach ( var chr in Characters )
+            foreach (var chr in Characters)
             {
-                var chrElem = new XElement( "Character" );
+                var chrElem = new XElement("Character");
 
-                chrElem.Add( new XElement( "Name", chr.Name ) );
-                chrElem.Add( new XElement( "Class", chr.Class.ToString( ) ) );
+                chrElem.Add(new XElement("Name", chr.Name));
+                chrElem.Add(new XElement("Class", chr.Class.ToString()));
 
-                var levelElem = new XElement( "Leveling" );
-                levelElem.Add( new XElement( "Level", chr.Level ) );
-                levelElem.Add( new XElement( "Exp", chr.Exp ) );
-                levelElem.Add( new XElement( "ExpRemaining", chr.ExpRemaining ) );
+                var levelElem = new XElement("Leveling");
+                levelElem.Add(new XElement("Level", chr.Level));
+                levelElem.Add(new XElement("Exp", chr.Exp));
+                levelElem.Add(new XElement("ExpRemaining", chr.ExpRemaining));
 
-                chrElem.Add( levelElem );
+                chrElem.Add(levelElem);
 
-                chrElem.Add( new XElement( "Weapon", chr.weapon.Parent.ID ) );
-                chrElem.Add( new XElement( "ability", chr.ability ) );
-                chrElem.Add( new XElement( "Armor", chr.armor.Parent.ID ) );
-                chrElem.Add( new XElement( "Ring", chr.ring ) );
+                if (chr.Weapon != null)
+                    chrElem.Add(new XElement("Weapon", chr.Weapon.Parent.ID));
 
-                var statElem = new XElement( "Stats" );
-                statElem.Add( new XElement( "Health", chr.Stats.HP ) );
-                statElem.Add( new XElement( "Mana", chr.Stats.MP ) );
-                statElem.Add( new XElement( "Attack", chr.Stats.Atk ) );
-                statElem.Add( new XElement( "Defence", chr.Stats.Def ) );
-                statElem.Add( new XElement( "Speed", chr.Stats.Spd ) );
-                statElem.Add( new XElement( "Dexterity", chr.Stats.Dex ) );
-                statElem.Add( new XElement( "Vitality", chr.Stats.Vit ) );
-                statElem.Add( new XElement( "Wisdom", chr.Stats.Wis ) );
+                if (chr.Ability != null)
+                    chrElem.Add(new XElement("ability", chr.Ability));
 
-                chrElem.Add( statElem );
+                if (chr.Armor != null)
+                    chrElem.Add(new XElement("Armor", chr.Armor.Parent.ID));
 
-                charsElem.Add( chrElem );
+                if (chr.Ring != null)
+                    chrElem.Add(new XElement("Ring", chr.Ring));
+
+                var statElem = new XElement("Stats");
+                statElem.Add(new XElement("Health", chr.Stats.HP));
+                statElem.Add(new XElement("Mana", chr.Stats.MP));
+                statElem.Add(new XElement("Attack", chr.Stats.Atk));
+                statElem.Add(new XElement("Defence", chr.Stats.Def));
+                statElem.Add(new XElement("Speed", chr.Stats.Spd));
+                statElem.Add(new XElement("Dexterity", chr.Stats.Dex));
+                statElem.Add(new XElement("Vitality", chr.Stats.Vit));
+                statElem.Add(new XElement("Wisdom", chr.Stats.Wis));
+
+                chrElem.Add(statElem);
+
+                charsElem.Add(chrElem);
             }
 
             #endregion
 
-            saveElem.Add( fameElem );
-            saveElem.Add( goldElem );
-            saveElem.Add( invElem );
-            saveElem.Add( UnitInv );
-            saveElem.Add( potionStorage );
-            saveElem.Add( charsElem );
+            saveElem.Add(fameElem);
+            saveElem.Add(goldElem);
+            saveElem.Add(invElem);
+            saveElem.Add(UnitInv);
+            saveElem.Add(potionStorage);
+            saveElem.Add(charsElem);
 
-            xDoc.Add( saveElem );
+            xDoc.Add(saveElem);
 
-            using ( var writer = new StreamWriter( Environment.GetFolderPath( Environment.SpecialFolder.ApplicationData ) + $"\\{Option.SaveFolderName}\\{Option.SaveFileName}" ) )
+            using (var writer = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + $"\\{Option.SaveFolderName}\\{Option.SaveFileName}"))
             {
-                writer.WriteLine( xDoc.ToString( SaveOptions.None ) );
+                writer.WriteLine(xDoc.ToString(SaveOptions.None));
             }
 
         }
 
-        public static Player Load ( string file )
+        public static Player Load(string file)
         {
-            var player = new Player( );
-            var xDoc = XDocument.Load( file );
+            var player = new Player();
+            var xDoc = XDocument.Load(file);
 
-            if ( xDoc.Element( "Save" ) != null )
+            if (xDoc.Element("Save") != null)
             {
-                var saveElem = xDoc.Element( "Save" );
+                var saveElem = xDoc.Element("Save");
 
-                if ( saveElem.Element( "Fame" ) != null )
-                    if ( !int.TryParse( saveElem.Element( "Fame" ).Value, out player.Fame ) )
+                if (saveElem.Element("Fame") != null)
+                    if (!int.TryParse(saveElem.Element("Fame").Value, out player.Fame))
                         player.Fame = 0;
 
-                if ( saveElem.Element( "Gold" ) != null )
-                    if ( !int.TryParse( saveElem.Element( "Gold" ).Value, out player.Gold ) )
+                if (saveElem.Element("Gold") != null)
+                    if (!int.TryParse(saveElem.Element("Gold").Value, out player.Gold))
                         player.Gold = 0;
 
-                var invElem = saveElem.Element( "Inventory" );
+                var invElem = saveElem.Element("Inventory");
 
-                if ( invElem != null )
+                if (invElem != null)
                 {
-                    var itemsInInv = invElem.Elements( "Item" );
+                    var itemsInInv = invElem.Elements("Item");
 
-                    foreach ( var itemElem in itemsInInv )
+                    foreach (var itemElem in itemsInInv)
                     {
                         int count = 0;
-                        if ( !int.TryParse( itemElem.Value, out count ) )
+                        if (!int.TryParse(itemElem.Value, out count))
                         {
-                            Console.WriteLine( "Error in loading item. Item Count Error" );
+                            Console.WriteLine("Error in loading item. Item Count Error");
                             continue;
                         }
 
-                        var item = new InventoryItem( itemElem.Attribute( "id" ).Value, count );
-                        player.AddItem( item );
+                        var item = new InventoryItem(itemElem.Attribute("id").Value, count);
+                        player.AddItem(item);
                     }
                 }
 
-                var unitsElem = saveElem.Element( "Units" );
-                if ( unitsElem != null )
+                var unitsElem = saveElem.Element("Units");
+                if (unitsElem != null)
                 {
-                    var unitsInInv = unitsElem.Elements( "Unit" );
+                    var unitsInInv = unitsElem.Elements("Unit");
 
-                    foreach ( var unitElem in unitsInInv )
+                    foreach (var unitElem in unitsInInv)
                     {
                         int count = 0;
-                        if ( !int.TryParse( unitElem.Value, out count ) )
+                        if (!int.TryParse(unitElem.Value, out count))
                         {
-                            Console.WriteLine( "Error loading unit count" );
+                            Console.WriteLine("Error loading unit count");
                             continue;
                         }
 
-                        var unit = new PlayerUnit( unitElem.Attribute( "id" ).Value, count );
-                        player.AddUnit( unit );
+                        var unit = new PlayerUnit(unitElem.Attribute("id").Value, count);
+                        player.AddUnit(unit);
                     }
                 }
 
-                var potionStorageElem = saveElem.Element( "PotionStorage" );
+                var potionStorageElem = saveElem.Element("PotionStorage");
 
-                if ( potionStorageElem != null )
+                if (potionStorageElem != null)
                 {
 
                     #region Potion Storage
 
-                    if ( !int.TryParse( potionStorageElem.Element( "Health" ).Value, out player.PotionStorage.HealthPotions ) )
+                    if (!int.TryParse(potionStorageElem.Element("Health").Value, out player.PotionStorage.HealthPotions))
                     {
 
                     }
 
-                    if ( !int.TryParse( potionStorageElem.Element( "Mana" ).Value, out player.PotionStorage.ManaPotions ) )
+                    if (!int.TryParse(potionStorageElem.Element("Mana").Value, out player.PotionStorage.ManaPotions))
                     {
 
                     }
 
-                    if ( !int.TryParse( potionStorageElem.Element( "Defense" ).Value, out player.PotionStorage.DefensePotions ) )
+                    if (!int.TryParse(potionStorageElem.Element("Defense").Value, out player.PotionStorage.DefensePotions))
                     {
 
                     }
 
-                    if ( !int.TryParse( potionStorageElem.Element( "Attack" ).Value, out player.PotionStorage.AttackPotions ) )
+                    if (!int.TryParse(potionStorageElem.Element("Attack").Value, out player.PotionStorage.AttackPotions))
                     {
 
                     }
 
-                    if ( !int.TryParse( potionStorageElem.Element( "Dexterity" ).Value, out player.PotionStorage.DexterityPotions ) )
+                    if (!int.TryParse(potionStorageElem.Element("Dexterity").Value, out player.PotionStorage.DexterityPotions))
                     {
 
                     }
 
-                    if ( !int.TryParse( potionStorageElem.Element( "Speed" ).Value, out player.PotionStorage.SpeedPotions ) )
+                    if (!int.TryParse(potionStorageElem.Element("Speed").Value, out player.PotionStorage.SpeedPotions))
                     {
 
                     }
 
-                    if ( !int.TryParse( potionStorageElem.Element( "Wisdom" ).Value, out player.PotionStorage.WisdomPotions ) )
+                    if (!int.TryParse(potionStorageElem.Element("Wisdom").Value, out player.PotionStorage.WisdomPotions))
                     {
 
                     }
 
-                    if ( !int.TryParse( potionStorageElem.Element( "Vitality" ).Value, out player.PotionStorage.VitalityPotions ) )
+                    if (!int.TryParse(potionStorageElem.Element("Vitality").Value, out player.PotionStorage.VitalityPotions))
                     {
 
                     }
@@ -345,55 +352,55 @@ namespace MysteryBox.Core
 
                 }
 
-                var charsElem = saveElem.Element( "Characters" );
-                if ( charsElem != null )
+                var charsElem = saveElem.Element("Characters");
+                if (charsElem != null)
                 {
-                    var chars = charsElem.Elements( "Character" );
-                    foreach ( var chr in chars )
+                    var chars = charsElem.Elements("Character");
+                    foreach (var chr in chars)
                     {
-                        Console.WriteLine( chr );
-                        var Character = new Character( );
+                        Console.WriteLine(chr);
+                        var Character = new Character();
 
-                        if ( chr.Element( "Name" ) != null )
-                            Character.Name = chr.Element( "Name" ).Value;
+                        if (chr.Element("Name") != null)
+                            Character.Name = chr.Element("Name").Value;
 
-                        if ( chr.Element( "Class" ) != null )
-                            Character.Class = Utils.ParseClass( chr.Element( "Class" ).Value );
+                        if (chr.Element("Class") != null)
+                            Character.Class = Utils.ParseClass(chr.Element("Class").Value);
 
                         XElement levelElem;
-                        if ( ( levelElem = chr.Element( "Leveling" ) ) != null )
+                        if ((levelElem = chr.Element("Leveling")) != null)
                         {
-                            if ( levelElem.Element( "Level" ) != null )
+                            if (levelElem.Element("Level") != null)
                             {
-                                int.TryParse( levelElem.Element( "Level" ).Value, out Character.Level );
+                                int.TryParse(levelElem.Element("Level").Value, out Character.Level);
                             }
-                            if ( levelElem.Element( "Exp" ) != null )
+                            if (levelElem.Element("Exp") != null)
                             {
-                                int.TryParse( levelElem.Element( "Exp" ).Value, out Character.Exp );
+                                int.TryParse(levelElem.Element("Exp").Value, out Character.Exp);
                             }
-                            if ( levelElem.Element( "ExpRemaining" ) != null )
+                            if (levelElem.Element("ExpRemaining") != null)
                             {
-                                int.TryParse( levelElem.Element( "ExpRemaining" ).Value, out Character.ExpRemaining );
+                                int.TryParse(levelElem.Element("ExpRemaining").Value, out Character.ExpRemaining);
                             }
                         }
 
-                        if ( chr.Element( "Weapon" ) != null )
+                        if (chr.Element("Weapon") != null)
                         {
-                            Character.weapon = GameData.GetWeapon( chr.Element( "Weapon" ).Value );
+                            Character.Weapon = GameData.GetWeapon(chr.Element("Weapon").Value);
                         }
 
-                        if ( chr.Element( "Armor" ) != null )
+                        if (chr.Element("Armor") != null)
                         {
-                            Character.armor = GameData.GetArmor( chr.Element( "Armor" ).Value );
+                            Character.Armor = GameData.GetArmor(chr.Element("Armor").Value);
 
                         }
 
                         XElement statsElem;
-                        if ( ( statsElem = chr.Element( "Stats" ) ) != null )
+                        if ((statsElem = chr.Element("Stats")) != null)
                         {
-                            Character.LoadStats( statsElem, Character.Class );
+                            Character.LoadStats(statsElem, Character.Class);
                         }
-                        player.AddCharacter( Character );
+                        player.AddCharacter(Character);
 
                     }
                 }
